@@ -1,0 +1,7171 @@
+[
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Cozy House in Rishon LeZion #1",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Rishon LeZion. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/0a/800/600",
+      "https://picsum.photos/seed/0b/800/600"
+    ],
+    "price": {
+      "base": 712,
+      "currency": "ILS",
+      "cleaningFee": 138,
+      "serviceFeePct": 0.13894176366505778
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 1",
+      "lat": 32.176937229612264,
+      "lng": 35.19994618636277
+    },
+    "reviews": [
+      {
+        "_id": "r1",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-04T12:50:07.029Z",
+        "byUser": {
+          "_id": "uR738",
+          "fullname": "Guest 38",
+          "imgUrl": "https://picsum.photos/id/54/50/50"
+        }
+      },
+      {
+        "_id": "r2",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-20T12:50:07.031Z",
+        "byUser": {
+          "_id": "uR889",
+          "fullname": "Guest 100",
+          "imgUrl": "https://picsum.photos/id/30/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Modern Loft in Eilat #2",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Eilat. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/1a/800/600",
+      "https://picsum.photos/seed/1b/800/600"
+    ],
+    "price": {
+      "base": 722,
+      "currency": "ILS",
+      "cleaningFee": 193,
+      "serviceFeePct": 0.14991285889383194
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 2",
+      "lat": 32.15454258084492,
+      "lng": 34.78413894086444
+    },
+    "reviews": [
+      {
+        "_id": "r3",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-16T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR752",
+          "fullname": "Guest 34",
+          "imgUrl": "https://picsum.photos/id/37/50/50"
+        }
+      },
+      {
+        "_id": "r4",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-30T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR557",
+          "fullname": "Guest 66",
+          "imgUrl": "https://picsum.photos/id/89/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Cozy House in Haifa #3",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Haifa. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/2a/800/600",
+      "https://picsum.photos/seed/2b/800/600"
+    ],
+    "price": {
+      "base": 1333,
+      "currency": "ILS",
+      "cleaningFee": 137,
+      "serviceFeePct": 0.13714953423774753
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 3",
+      "lat": 32.49809195197481,
+      "lng": 34.92912215432191
+    },
+    "reviews": [
+      {
+        "_id": "r5",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR555",
+          "fullname": "Guest 20",
+          "imgUrl": "https://picsum.photos/id/24/50/50"
+        }
+      },
+      {
+        "_id": "r6",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR611",
+          "fullname": "Guest 96",
+          "imgUrl": "https://picsum.photos/id/36/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Modern Villa in Rishon LeZion #4",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Rishon LeZion. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/3a/800/600",
+      "https://picsum.photos/seed/3b/800/600"
+    ],
+    "price": {
+      "base": 802,
+      "currency": "ILS",
+      "cleaningFee": 191,
+      "serviceFeePct": 0.058147262651019695
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 4",
+      "lat": 32.02820316228047,
+      "lng": 34.72543929998562
+    },
+    "reviews": [
+      {
+        "_id": "r7",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-30T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR643",
+          "fullname": "Guest 18",
+          "imgUrl": "https://picsum.photos/id/72/50/50"
+        }
+      },
+      {
+        "_id": "r8",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-22T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR988",
+          "fullname": "Guest 99",
+          "imgUrl": "https://picsum.photos/id/74/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Cozy Villa in Tel Aviv-Yafo #5",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Tel Aviv-Yafo. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/4a/800/600",
+      "https://picsum.photos/seed/4b/800/600"
+    ],
+    "price": {
+      "base": 818,
+      "currency": "ILS",
+      "cleaningFee": 143,
+      "serviceFeePct": 0.10782383142008553
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 5",
+      "lat": 32.08020292751928,
+      "lng": 34.969701325409055
+    },
+    "reviews": [
+      {
+        "_id": "r9",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-02T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR722",
+          "fullname": "Guest 31",
+          "imgUrl": "https://picsum.photos/id/51/50/50"
+        }
+      },
+      {
+        "_id": "r10",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR623",
+          "fullname": "Guest 97",
+          "imgUrl": "https://picsum.photos/id/57/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Modern House in Rishon LeZion #6",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Rishon LeZion. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/5a/800/600",
+      "https://picsum.photos/seed/5b/800/600"
+    ],
+    "price": {
+      "base": 1211,
+      "currency": "ILS",
+      "cleaningFee": 184,
+      "serviceFeePct": 0.1154582449947373
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 6",
+      "lat": 32.304139486776364,
+      "lng": 35.17070785892959
+    },
+    "reviews": [
+      {
+        "_id": "r11",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR542",
+          "fullname": "Guest 17",
+          "imgUrl": "https://picsum.photos/id/96/50/50"
+        }
+      },
+      {
+        "_id": "r12",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-24T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR542",
+          "fullname": "Guest 79",
+          "imgUrl": "https://picsum.photos/id/26/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Spacious Apartment in Haifa #7",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Haifa. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/6a/800/600",
+      "https://picsum.photos/seed/6b/800/600"
+    ],
+    "price": {
+      "base": 707,
+      "currency": "ILS",
+      "cleaningFee": 173,
+      "serviceFeePct": 0.1456159186644007
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 7",
+      "lat": 32.024440477760216,
+      "lng": 35.1852738898409
+    },
+    "reviews": [
+      {
+        "_id": "r13",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-20T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR933",
+          "fullname": "Guest 33",
+          "imgUrl": "https://picsum.photos/id/44/50/50"
+        }
+      },
+      {
+        "_id": "r14",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-04T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR979",
+          "fullname": "Guest 96",
+          "imgUrl": "https://picsum.photos/id/93/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Cozy Apartment in Jerusalem #8",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Jerusalem. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/7a/800/600",
+      "https://picsum.photos/seed/7b/800/600"
+    ],
+    "price": {
+      "base": 751,
+      "currency": "ILS",
+      "cleaningFee": 168,
+      "serviceFeePct": 0.11550091448678342
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 8",
+      "lat": 32.46208745352579,
+      "lng": 34.72114407181018
+    },
+    "reviews": [
+      {
+        "_id": "r15",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-27T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR547",
+          "fullname": "Guest 30",
+          "imgUrl": "https://picsum.photos/id/86/50/50"
+        }
+      },
+      {
+        "_id": "r16",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR771",
+          "fullname": "Guest 52",
+          "imgUrl": "https://picsum.photos/id/47/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Luxury Villa in Eilat #9",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Eilat. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/8a/800/600",
+      "https://picsum.photos/seed/8b/800/600"
+    ],
+    "price": {
+      "base": 1384,
+      "currency": "ILS",
+      "cleaningFee": 115,
+      "serviceFeePct": 0.06040287050328263
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 9",
+      "lat": 32.03578299976695,
+      "lng": 34.92270129752103
+    },
+    "reviews": [
+      {
+        "_id": "r17",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-08-30T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR603",
+          "fullname": "Guest 48",
+          "imgUrl": "https://picsum.photos/id/34/50/50"
+        }
+      },
+      {
+        "_id": "r18",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-29T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR592",
+          "fullname": "Guest 91",
+          "imgUrl": "https://picsum.photos/id/61/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Spacious Loft in Tel Aviv-Yafo #10",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Tel Aviv-Yafo. Perfect for up to 4 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/9a/800/600",
+      "https://picsum.photos/seed/9b/800/600"
+    ],
+    "price": {
+      "base": 1415,
+      "currency": "ILS",
+      "cleaningFee": 118,
+      "serviceFeePct": 0.09260425403944643
+    },
+    "capacity": {
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 10",
+      "lat": 32.491983137595675,
+      "lng": 35.16832266681244
+    },
+    "reviews": [
+      {
+        "_id": "r19",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-27T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR752",
+          "fullname": "Guest 3",
+          "imgUrl": "https://picsum.photos/id/55/50/50"
+        }
+      },
+      {
+        "_id": "r20",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR660",
+          "fullname": "Guest 64",
+          "imgUrl": "https://picsum.photos/id/27/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Charming Loft in Haifa #11",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Haifa. Perfect for up to 4 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/10a/800/600",
+      "https://picsum.photos/seed/10b/800/600"
+    ],
+    "price": {
+      "base": 795,
+      "currency": "ILS",
+      "cleaningFee": 192,
+      "serviceFeePct": 0.12242183073295503
+    },
+    "capacity": {
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 11",
+      "lat": 32.1877859846827,
+      "lng": 35.086524687036345
+    },
+    "reviews": [
+      {
+        "_id": "r21",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-14T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR507",
+          "fullname": "Guest 44",
+          "imgUrl": "https://picsum.photos/id/83/50/50"
+        }
+      },
+      {
+        "_id": "r22",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-25T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR669",
+          "fullname": "Guest 93",
+          "imgUrl": "https://picsum.photos/id/20/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Luxury Apartment in Jerusalem #12",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Jerusalem. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/11a/800/600",
+      "https://picsum.photos/seed/11b/800/600"
+    ],
+    "price": {
+      "base": 435,
+      "currency": "ILS",
+      "cleaningFee": 115,
+      "serviceFeePct": 0.0684695731895351
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 12",
+      "lat": 32.05079884305736,
+      "lng": 35.166380434425314
+    },
+    "reviews": [
+      {
+        "_id": "r23",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-30T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR650",
+          "fullname": "Guest 25",
+          "imgUrl": "https://picsum.photos/id/26/50/50"
+        }
+      },
+      {
+        "_id": "r24",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR541",
+          "fullname": "Guest 65",
+          "imgUrl": "https://picsum.photos/id/64/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Charming Apartment in Haifa #13",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Haifa. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/12a/800/600",
+      "https://picsum.photos/seed/12b/800/600"
+    ],
+    "price": {
+      "base": 682,
+      "currency": "ILS",
+      "cleaningFee": 189,
+      "serviceFeePct": 0.133248818886047
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 13",
+      "lat": 32.27238081660044,
+      "lng": 34.95639547038871
+    },
+    "reviews": [
+      {
+        "_id": "r25",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-19T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR693",
+          "fullname": "Guest 6",
+          "imgUrl": "https://picsum.photos/id/39/50/50"
+        }
+      },
+      {
+        "_id": "r26",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR684",
+          "fullname": "Guest 66",
+          "imgUrl": "https://picsum.photos/id/36/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Modern Villa in Eilat #14",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Eilat. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/13a/800/600",
+      "https://picsum.photos/seed/13b/800/600"
+    ],
+    "price": {
+      "base": 1087,
+      "currency": "ILS",
+      "cleaningFee": 132,
+      "serviceFeePct": 0.08952868263189766
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 14",
+      "lat": 32.43652306527231,
+      "lng": 35.02123591742832
+    },
+    "reviews": [
+      {
+        "_id": "r27",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-12T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR997",
+          "fullname": "Guest 5",
+          "imgUrl": "https://picsum.photos/id/52/50/50"
+        }
+      },
+      {
+        "_id": "r28",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR844",
+          "fullname": "Guest 53",
+          "imgUrl": "https://picsum.photos/id/91/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Charming Loft in Jerusalem #15",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Jerusalem. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/14a/800/600",
+      "https://picsum.photos/seed/14b/800/600"
+    ],
+    "price": {
+      "base": 1468,
+      "currency": "ILS",
+      "cleaningFee": 57,
+      "serviceFeePct": 0.10081970395695804
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 15",
+      "lat": 32.47993695209449,
+      "lng": 34.77315937245345
+    },
+    "reviews": [
+      {
+        "_id": "r29",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-14T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR559",
+          "fullname": "Guest 40",
+          "imgUrl": "https://picsum.photos/id/97/50/50"
+        }
+      },
+      {
+        "_id": "r30",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-06T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR662",
+          "fullname": "Guest 90",
+          "imgUrl": "https://picsum.photos/id/65/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Charming Apartment in Jerusalem #16",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Jerusalem. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/15a/800/600",
+      "https://picsum.photos/seed/15b/800/600"
+    ],
+    "price": {
+      "base": 342,
+      "currency": "ILS",
+      "cleaningFee": 101,
+      "serviceFeePct": 0.14789050718257069
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 16",
+      "lat": 32.4036967674136,
+      "lng": 34.94273841170244
+    },
+    "reviews": [
+      {
+        "_id": "r31",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-25T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR662",
+          "fullname": "Guest 44",
+          "imgUrl": "https://picsum.photos/id/39/50/50"
+        }
+      },
+      {
+        "_id": "r32",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-19T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR933",
+          "fullname": "Guest 74",
+          "imgUrl": "https://picsum.photos/id/78/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Charming Villa in Eilat #17",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Eilat. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/16a/800/600",
+      "https://picsum.photos/seed/16b/800/600"
+    ],
+    "price": {
+      "base": 317,
+      "currency": "ILS",
+      "cleaningFee": 82,
+      "serviceFeePct": 0.13231993490333654
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Villa",
+      "Desert View",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 17",
+      "lat": 32.34616116885404,
+      "lng": 35.11888148686455
+    },
+    "reviews": [
+      {
+        "_id": "r33",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR890",
+          "fullname": "Guest 26",
+          "imgUrl": "https://picsum.photos/id/40/50/50"
+        }
+      },
+      {
+        "_id": "r34",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR653",
+          "fullname": "Guest 95",
+          "imgUrl": "https://picsum.photos/id/43/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Central Villa in Rishon LeZion #18",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Rishon LeZion. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/17a/800/600",
+      "https://picsum.photos/seed/17b/800/600"
+    ],
+    "price": {
+      "base": 991,
+      "currency": "ILS",
+      "cleaningFee": 72,
+      "serviceFeePct": 0.09476632667485858
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 18",
+      "lat": 32.45596656257386,
+      "lng": 35.06714631119736
+    },
+    "reviews": [
+      {
+        "_id": "r35",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-04T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR568",
+          "fullname": "Guest 5",
+          "imgUrl": "https://picsum.photos/id/63/50/50"
+        }
+      },
+      {
+        "_id": "r36",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-01T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR928",
+          "fullname": "Guest 54",
+          "imgUrl": "https://picsum.photos/id/22/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Charming Loft in Rishon LeZion #19",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Rishon LeZion. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/18a/800/600",
+      "https://picsum.photos/seed/18b/800/600"
+    ],
+    "price": {
+      "base": 779,
+      "currency": "ILS",
+      "cleaningFee": 77,
+      "serviceFeePct": 0.14817856063885002
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 19",
+      "lat": 32.15791142819302,
+      "lng": 35.001162994260845
+    },
+    "reviews": [
+      {
+        "_id": "r37",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-19T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR656",
+          "fullname": "Guest 13",
+          "imgUrl": "https://picsum.photos/id/86/50/50"
+        }
+      },
+      {
+        "_id": "r38",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-13T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR889",
+          "fullname": "Guest 68",
+          "imgUrl": "https://picsum.photos/id/74/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Charming Loft in Tel Aviv-Yafo #20",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Tel Aviv-Yafo. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/19a/800/600",
+      "https://picsum.photos/seed/19b/800/600"
+    ],
+    "price": {
+      "base": 1119,
+      "currency": "ILS",
+      "cleaningFee": 103,
+      "serviceFeePct": 0.14007346565315573
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 20",
+      "lat": 32.47314913947604,
+      "lng": 35.09069924673921
+    },
+    "reviews": [
+      {
+        "_id": "r39",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR717",
+          "fullname": "Guest 13",
+          "imgUrl": "https://picsum.photos/id/41/50/50"
+        }
+      },
+      {
+        "_id": "r40",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR533",
+          "fullname": "Guest 73",
+          "imgUrl": "https://picsum.photos/id/69/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Luxury Cabin in Rishon LeZion #21",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Rishon LeZion. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/20a/800/600",
+      "https://picsum.photos/seed/20b/800/600"
+    ],
+    "price": {
+      "base": 713,
+      "currency": "ILS",
+      "cleaningFee": 113,
+      "serviceFeePct": 0.10802039653870159
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 21",
+      "lat": 32.42088560009865,
+      "lng": 34.83487066381749
+    },
+    "reviews": [
+      {
+        "_id": "r41",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR586",
+          "fullname": "Guest 5",
+          "imgUrl": "https://picsum.photos/id/87/50/50"
+        }
+      },
+      {
+        "_id": "r42",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-15T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR502",
+          "fullname": "Guest 73",
+          "imgUrl": "https://picsum.photos/id/69/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Spacious Cabin in Jerusalem #22",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Jerusalem. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/21a/800/600",
+      "https://picsum.photos/seed/21b/800/600"
+    ],
+    "price": {
+      "base": 676,
+      "currency": "ILS",
+      "cleaningFee": 103,
+      "serviceFeePct": 0.14372709227421504
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 22",
+      "lat": 32.31018352487137,
+      "lng": 34.8484614796241
+    },
+    "reviews": [
+      {
+        "_id": "r43",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR630",
+          "fullname": "Guest 42",
+          "imgUrl": "https://picsum.photos/id/93/50/50"
+        }
+      },
+      {
+        "_id": "r44",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-27T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR685",
+          "fullname": "Guest 93",
+          "imgUrl": "https://picsum.photos/id/93/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Charming Villa in Haifa #23",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Haifa. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/22a/800/600",
+      "https://picsum.photos/seed/22b/800/600"
+    ],
+    "price": {
+      "base": 1212,
+      "currency": "ILS",
+      "cleaningFee": 185,
+      "serviceFeePct": 0.10592471558926868
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 23",
+      "lat": 32.351709109666395,
+      "lng": 35.144720572189186
+    },
+    "reviews": [
+      {
+        "_id": "r45",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-12T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR799",
+          "fullname": "Guest 16",
+          "imgUrl": "https://picsum.photos/id/73/50/50"
+        }
+      },
+      {
+        "_id": "r46",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR722",
+          "fullname": "Guest 98",
+          "imgUrl": "https://picsum.photos/id/80/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Spacious Cabin in Tel Aviv-Yafo #24",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Tel Aviv-Yafo. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/23a/800/600",
+      "https://picsum.photos/seed/23b/800/600"
+    ],
+    "price": {
+      "base": 1197,
+      "currency": "ILS",
+      "cleaningFee": 116,
+      "serviceFeePct": 0.11698698326659976
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 24",
+      "lat": 32.24571024722667,
+      "lng": 34.73961862895503
+    },
+    "reviews": [
+      {
+        "_id": "r47",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR667",
+          "fullname": "Guest 29",
+          "imgUrl": "https://picsum.photos/id/61/50/50"
+        }
+      },
+      {
+        "_id": "r48",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-12T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR906",
+          "fullname": "Guest 64",
+          "imgUrl": "https://picsum.photos/id/51/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Charming Apartment in Eilat #25",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Eilat. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/24a/800/600",
+      "https://picsum.photos/seed/24b/800/600"
+    ],
+    "price": {
+      "base": 1258,
+      "currency": "ILS",
+      "cleaningFee": 164,
+      "serviceFeePct": 0.08269855600220741
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 25",
+      "lat": 32.01561487993911,
+      "lng": 34.78864247432983
+    },
+    "reviews": [
+      {
+        "_id": "r49",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-08-29T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR593",
+          "fullname": "Guest 28",
+          "imgUrl": "https://picsum.photos/id/73/50/50"
+        }
+      },
+      {
+        "_id": "r50",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-05T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR562",
+          "fullname": "Guest 72",
+          "imgUrl": "https://picsum.photos/id/73/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Charming Villa in Tel Aviv-Yafo #26",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Tel Aviv-Yafo. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/25a/800/600",
+      "https://picsum.photos/seed/25b/800/600"
+    ],
+    "price": {
+      "base": 755,
+      "currency": "ILS",
+      "cleaningFee": 159,
+      "serviceFeePct": 0.12729187247433288
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 26",
+      "lat": 32.133962701869564,
+      "lng": 35.0350007330725
+    },
+    "reviews": [
+      {
+        "_id": "r51",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-17T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR622",
+          "fullname": "Guest 42",
+          "imgUrl": "https://picsum.photos/id/44/50/50"
+        }
+      },
+      {
+        "_id": "r52",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR852",
+          "fullname": "Guest 91",
+          "imgUrl": "https://picsum.photos/id/85/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Modern Apartment in Eilat #27",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Eilat. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/26a/800/600",
+      "https://picsum.photos/seed/26b/800/600"
+    ],
+    "price": {
+      "base": 1274,
+      "currency": "ILS",
+      "cleaningFee": 176,
+      "serviceFeePct": 0.07846109393144665
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 27",
+      "lat": 32.01031190475668,
+      "lng": 34.84035654036239
+    },
+    "reviews": [
+      {
+        "_id": "r53",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-10T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR927",
+          "fullname": "Guest 18",
+          "imgUrl": "https://picsum.photos/id/49/50/50"
+        }
+      },
+      {
+        "_id": "r54",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR672",
+          "fullname": "Guest 59",
+          "imgUrl": "https://picsum.photos/id/91/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Central House in Eilat #28",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Eilat. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/27a/800/600",
+      "https://picsum.photos/seed/27b/800/600"
+    ],
+    "price": {
+      "base": 588,
+      "currency": "ILS",
+      "cleaningFee": 79,
+      "serviceFeePct": 0.09847120920873004
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 28",
+      "lat": 32.495359815645834,
+      "lng": 35.111586922171945
+    },
+    "reviews": [
+      {
+        "_id": "r55",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-02T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR574",
+          "fullname": "Guest 39",
+          "imgUrl": "https://picsum.photos/id/38/50/50"
+        }
+      },
+      {
+        "_id": "r56",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR517",
+          "fullname": "Guest 82",
+          "imgUrl": "https://picsum.photos/id/51/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Charming Loft in Tel Aviv-Yafo #29",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Tel Aviv-Yafo. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/28a/800/600",
+      "https://picsum.photos/seed/28b/800/600"
+    ],
+    "price": {
+      "base": 820,
+      "currency": "ILS",
+      "cleaningFee": 155,
+      "serviceFeePct": 0.09418408859950173
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 29",
+      "lat": 32.0320970955543,
+      "lng": 35.08054816444337
+    },
+    "reviews": [
+      {
+        "_id": "r57",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-22T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR965",
+          "fullname": "Guest 41",
+          "imgUrl": "https://picsum.photos/id/62/50/50"
+        }
+      },
+      {
+        "_id": "r58",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-17T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR738",
+          "fullname": "Guest 62",
+          "imgUrl": "https://picsum.photos/id/57/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Central Villa in Eilat #30",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Eilat. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/29a/800/600",
+      "https://picsum.photos/seed/29b/800/600"
+    ],
+    "price": {
+      "base": 720,
+      "currency": "ILS",
+      "cleaningFee": 102,
+      "serviceFeePct": 0.053413248344613945
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 30",
+      "lat": 32.470789461344346,
+      "lng": 35.009812702005526
+    },
+    "reviews": [
+      {
+        "_id": "r59",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-16T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR581",
+          "fullname": "Guest 49",
+          "imgUrl": "https://picsum.photos/id/88/50/50"
+        }
+      },
+      {
+        "_id": "r60",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-15T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR849",
+          "fullname": "Guest 96",
+          "imgUrl": "https://picsum.photos/id/95/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Modern Cabin in Rishon LeZion #31",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Rishon LeZion. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/30a/800/600",
+      "https://picsum.photos/seed/30b/800/600"
+    ],
+    "price": {
+      "base": 1376,
+      "currency": "ILS",
+      "cleaningFee": 78,
+      "serviceFeePct": 0.11430702913745615
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 31",
+      "lat": 32.43233517189541,
+      "lng": 34.853975506774745
+    },
+    "reviews": [
+      {
+        "_id": "r61",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR923",
+          "fullname": "Guest 26",
+          "imgUrl": "https://picsum.photos/id/46/50/50"
+        }
+      },
+      {
+        "_id": "r62",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR608",
+          "fullname": "Guest 82",
+          "imgUrl": "https://picsum.photos/id/91/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Central Villa in Eilat #32",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Eilat. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/31a/800/600",
+      "https://picsum.photos/seed/31b/800/600"
+    ],
+    "price": {
+      "base": 1430,
+      "currency": "ILS",
+      "cleaningFee": 77,
+      "serviceFeePct": 0.10767537679319168
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Villa",
+      "Desert View",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 32",
+      "lat": 32.47363906232666,
+      "lng": 34.897575593933034
+    },
+    "reviews": [
+      {
+        "_id": "r63",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR989",
+          "fullname": "Guest 32",
+          "imgUrl": "https://picsum.photos/id/30/50/50"
+        }
+      },
+      {
+        "_id": "r64",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-15T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR954",
+          "fullname": "Guest 97",
+          "imgUrl": "https://picsum.photos/id/37/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Spacious Apartment in Tel Aviv-Yafo #33",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Tel Aviv-Yafo. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/32a/800/600",
+      "https://picsum.photos/seed/32b/800/600"
+    ],
+    "price": {
+      "base": 1471,
+      "currency": "ILS",
+      "cleaningFee": 120,
+      "serviceFeePct": 0.061498173884455276
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 33",
+      "lat": 32.36759561676612,
+      "lng": 35.02931726996297
+    },
+    "reviews": [
+      {
+        "_id": "r65",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR974",
+          "fullname": "Guest 14",
+          "imgUrl": "https://picsum.photos/id/25/50/50"
+        }
+      },
+      {
+        "_id": "r66",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-21T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR767",
+          "fullname": "Guest 85",
+          "imgUrl": "https://picsum.photos/id/35/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Spacious Villa in Rishon LeZion #34",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Rishon LeZion. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/33a/800/600",
+      "https://picsum.photos/seed/33b/800/600"
+    ],
+    "price": {
+      "base": 1303,
+      "currency": "ILS",
+      "cleaningFee": 108,
+      "serviceFeePct": 0.05868454801129075
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 34",
+      "lat": 32.23450538553116,
+      "lng": 34.82794872731892
+    },
+    "reviews": [
+      {
+        "_id": "r67",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-20T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR802",
+          "fullname": "Guest 17",
+          "imgUrl": "https://picsum.photos/id/64/50/50"
+        }
+      },
+      {
+        "_id": "r68",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-05T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR833",
+          "fullname": "Guest 80",
+          "imgUrl": "https://picsum.photos/id/42/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Central House in Jerusalem #35",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Jerusalem. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/34a/800/600",
+      "https://picsum.photos/seed/34b/800/600"
+    ],
+    "price": {
+      "base": 1500,
+      "currency": "ILS",
+      "cleaningFee": 82,
+      "serviceFeePct": 0.14059578208654905
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 35",
+      "lat": 32.29466274164577,
+      "lng": 34.81458572891104
+    },
+    "reviews": [
+      {
+        "_id": "r69",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-05T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR767",
+          "fullname": "Guest 27",
+          "imgUrl": "https://picsum.photos/id/58/50/50"
+        }
+      },
+      {
+        "_id": "r70",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-17T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR923",
+          "fullname": "Guest 52",
+          "imgUrl": "https://picsum.photos/id/56/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Charming Loft in Rishon LeZion #36",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Rishon LeZion. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/35a/800/600",
+      "https://picsum.photos/seed/35b/800/600"
+    ],
+    "price": {
+      "base": 415,
+      "currency": "ILS",
+      "cleaningFee": 174,
+      "serviceFeePct": 0.05243708632762187
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 36",
+      "lat": 32.05308506150872,
+      "lng": 34.98227466994588
+    },
+    "reviews": [
+      {
+        "_id": "r71",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-06T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR779",
+          "fullname": "Guest 7",
+          "imgUrl": "https://picsum.photos/id/35/50/50"
+        }
+      },
+      {
+        "_id": "r72",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-01T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR899",
+          "fullname": "Guest 57",
+          "imgUrl": "https://picsum.photos/id/69/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Modern Villa in Eilat #37",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Eilat. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/36a/800/600",
+      "https://picsum.photos/seed/36b/800/600"
+    ],
+    "price": {
+      "base": 1015,
+      "currency": "ILS",
+      "cleaningFee": 190,
+      "serviceFeePct": 0.08507215544260235
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 37",
+      "lat": 32.09408377370668,
+      "lng": 35.07317554221311
+    },
+    "reviews": [
+      {
+        "_id": "r73",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-03T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR843",
+          "fullname": "Guest 8",
+          "imgUrl": "https://picsum.photos/id/82/50/50"
+        }
+      },
+      {
+        "_id": "r74",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-10T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR820",
+          "fullname": "Guest 81",
+          "imgUrl": "https://picsum.photos/id/50/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Charming Apartment in Tel Aviv-Yafo #38",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Tel Aviv-Yafo. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/37a/800/600",
+      "https://picsum.photos/seed/37b/800/600"
+    ],
+    "price": {
+      "base": 647,
+      "currency": "ILS",
+      "cleaningFee": 168,
+      "serviceFeePct": 0.11812527175861397
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 38",
+      "lat": 32.48322780612074,
+      "lng": 34.885710861407574
+    },
+    "reviews": [
+      {
+        "_id": "r75",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-05T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR808",
+          "fullname": "Guest 50",
+          "imgUrl": "https://picsum.photos/id/29/50/50"
+        }
+      },
+      {
+        "_id": "r76",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR541",
+          "fullname": "Guest 72",
+          "imgUrl": "https://picsum.photos/id/95/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Charming Villa in Haifa #39",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Haifa. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/38a/800/600",
+      "https://picsum.photos/seed/38b/800/600"
+    ],
+    "price": {
+      "base": 895,
+      "currency": "ILS",
+      "cleaningFee": 60,
+      "serviceFeePct": 0.14726408328518886
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 39",
+      "lat": 32.340048045838984,
+      "lng": 34.923413107059105
+    },
+    "reviews": [
+      {
+        "_id": "r77",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-03T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR998",
+          "fullname": "Guest 16",
+          "imgUrl": "https://picsum.photos/id/74/50/50"
+        }
+      },
+      {
+        "_id": "r78",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-23T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR541",
+          "fullname": "Guest 67",
+          "imgUrl": "https://picsum.photos/id/93/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Spacious Villa in Jerusalem #40",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Jerusalem. Perfect for up to 4 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/39a/800/600",
+      "https://picsum.photos/seed/39b/800/600"
+    ],
+    "price": {
+      "base": 446,
+      "currency": "ILS",
+      "cleaningFee": 136,
+      "serviceFeePct": 0.1289751122808623
+    },
+    "capacity": {
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 40",
+      "lat": 32.124538676424486,
+      "lng": 34.73869225748281
+    },
+    "reviews": [
+      {
+        "_id": "r79",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-08-30T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR770",
+          "fullname": "Guest 16",
+          "imgUrl": "https://picsum.photos/id/82/50/50"
+        }
+      },
+      {
+        "_id": "r80",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-05T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR777",
+          "fullname": "Guest 83",
+          "imgUrl": "https://picsum.photos/id/69/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Cozy Loft in Tel Aviv-Yafo #41",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Tel Aviv-Yafo. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/40a/800/600",
+      "https://picsum.photos/seed/40b/800/600"
+    ],
+    "price": {
+      "base": 1105,
+      "currency": "ILS",
+      "cleaningFee": 129,
+      "serviceFeePct": 0.13422497353799517
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 41",
+      "lat": 32.36934645690255,
+      "lng": 34.92884130814464
+    },
+    "reviews": [
+      {
+        "_id": "r81",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-18T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR943",
+          "fullname": "Guest 16",
+          "imgUrl": "https://picsum.photos/id/57/50/50"
+        }
+      },
+      {
+        "_id": "r82",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-23T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR590",
+          "fullname": "Guest 97",
+          "imgUrl": "https://picsum.photos/id/79/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Central Apartment in Rishon LeZion #42",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Rishon LeZion. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/41a/800/600",
+      "https://picsum.photos/seed/41b/800/600"
+    ],
+    "price": {
+      "base": 1343,
+      "currency": "ILS",
+      "cleaningFee": 100,
+      "serviceFeePct": 0.07765612571859326
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 42",
+      "lat": 32.39274916839142,
+      "lng": 34.99413678270562
+    },
+    "reviews": [
+      {
+        "_id": "r83",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR538",
+          "fullname": "Guest 1",
+          "imgUrl": "https://picsum.photos/id/38/50/50"
+        }
+      },
+      {
+        "_id": "r84",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-10T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR892",
+          "fullname": "Guest 75",
+          "imgUrl": "https://picsum.photos/id/23/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Spacious Cabin in Jerusalem #43",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Jerusalem. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/42a/800/600",
+      "https://picsum.photos/seed/42b/800/600"
+    ],
+    "price": {
+      "base": 935,
+      "currency": "ILS",
+      "cleaningFee": 140,
+      "serviceFeePct": 0.1243028834256959
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 43",
+      "lat": 32.09865729942097,
+      "lng": 34.97504231365273
+    },
+    "reviews": [
+      {
+        "_id": "r85",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-03T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR957",
+          "fullname": "Guest 30",
+          "imgUrl": "https://picsum.photos/id/70/50/50"
+        }
+      },
+      {
+        "_id": "r86",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-14T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR555",
+          "fullname": "Guest 51",
+          "imgUrl": "https://picsum.photos/id/43/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Modern House in Tel Aviv-Yafo #44",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Tel Aviv-Yafo. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/43a/800/600",
+      "https://picsum.photos/seed/43b/800/600"
+    ],
+    "price": {
+      "base": 1495,
+      "currency": "ILS",
+      "cleaningFee": 78,
+      "serviceFeePct": 0.06098573231675082
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 44",
+      "lat": 32.45462126416626,
+      "lng": 34.737450328713784
+    },
+    "reviews": [
+      {
+        "_id": "r87",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-04T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR806",
+          "fullname": "Guest 23",
+          "imgUrl": "https://picsum.photos/id/77/50/50"
+        }
+      },
+      {
+        "_id": "r88",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR602",
+          "fullname": "Guest 95",
+          "imgUrl": "https://picsum.photos/id/58/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Spacious House in Haifa #45",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Haifa. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/44a/800/600",
+      "https://picsum.photos/seed/44b/800/600"
+    ],
+    "price": {
+      "base": 1134,
+      "currency": "ILS",
+      "cleaningFee": 75,
+      "serviceFeePct": 0.11552174348836038
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 45",
+      "lat": 32.1782108311591,
+      "lng": 34.71364560748612
+    },
+    "reviews": [
+      {
+        "_id": "r89",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-20T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR960",
+          "fullname": "Guest 40",
+          "imgUrl": "https://picsum.photos/id/65/50/50"
+        }
+      },
+      {
+        "_id": "r90",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR806",
+          "fullname": "Guest 55",
+          "imgUrl": "https://picsum.photos/id/33/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Spacious Cabin in Eilat #46",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Eilat. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/45a/800/600",
+      "https://picsum.photos/seed/45b/800/600"
+    ],
+    "price": {
+      "base": 512,
+      "currency": "ILS",
+      "cleaningFee": 74,
+      "serviceFeePct": 0.11177642538147121
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Cabin",
+      "Desert View",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 46",
+      "lat": 32.10763593143343,
+      "lng": 34.875926122668304
+    },
+    "reviews": [
+      {
+        "_id": "r91",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-22T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR540",
+          "fullname": "Guest 6",
+          "imgUrl": "https://picsum.photos/id/42/50/50"
+        }
+      },
+      {
+        "_id": "r92",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-21T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR617",
+          "fullname": "Guest 99",
+          "imgUrl": "https://picsum.photos/id/75/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Charming Cabin in Eilat #47",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Eilat. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/46a/800/600",
+      "https://picsum.photos/seed/46b/800/600"
+    ],
+    "price": {
+      "base": 565,
+      "currency": "ILS",
+      "cleaningFee": 120,
+      "serviceFeePct": 0.05302192336613613
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Cabin",
+      "Desert View",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 47",
+      "lat": 32.395501870136115,
+      "lng": 34.791743724318074
+    },
+    "reviews": [
+      {
+        "_id": "r93",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-18T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR683",
+          "fullname": "Guest 8",
+          "imgUrl": "https://picsum.photos/id/50/50/50"
+        }
+      },
+      {
+        "_id": "r94",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR800",
+          "fullname": "Guest 57",
+          "imgUrl": "https://picsum.photos/id/53/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Modern Loft in Haifa #48",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Haifa. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/47a/800/600",
+      "https://picsum.photos/seed/47b/800/600"
+    ],
+    "price": {
+      "base": 1307,
+      "currency": "ILS",
+      "cleaningFee": 121,
+      "serviceFeePct": 0.09464631159719711
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 48",
+      "lat": 32.07811283593363,
+      "lng": 34.76895461274095
+    },
+    "reviews": [
+      {
+        "_id": "r95",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR522",
+          "fullname": "Guest 1",
+          "imgUrl": "https://picsum.photos/id/47/50/50"
+        }
+      },
+      {
+        "_id": "r96",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR842",
+          "fullname": "Guest 51",
+          "imgUrl": "https://picsum.photos/id/49/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Spacious Apartment in Tel Aviv-Yafo #49",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Tel Aviv-Yafo. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/48a/800/600",
+      "https://picsum.photos/seed/48b/800/600"
+    ],
+    "price": {
+      "base": 1135,
+      "currency": "ILS",
+      "cleaningFee": 179,
+      "serviceFeePct": 0.08734949008125117
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 49",
+      "lat": 32.42089774962863,
+      "lng": 34.7209736301596
+    },
+    "reviews": [
+      {
+        "_id": "r97",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-25T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR546",
+          "fullname": "Guest 33",
+          "imgUrl": "https://picsum.photos/id/58/50/50"
+        }
+      },
+      {
+        "_id": "r98",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR890",
+          "fullname": "Guest 66",
+          "imgUrl": "https://picsum.photos/id/50/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Luxury Apartment in Rishon LeZion #50",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Rishon LeZion. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/49a/800/600",
+      "https://picsum.photos/seed/49b/800/600"
+    ],
+    "price": {
+      "base": 1229,
+      "currency": "ILS",
+      "cleaningFee": 117,
+      "serviceFeePct": 0.06015609736285174
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 50",
+      "lat": 32.074656419839194,
+      "lng": 35.046221508536995
+    },
+    "reviews": [
+      {
+        "_id": "r99",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR873",
+          "fullname": "Guest 47",
+          "imgUrl": "https://picsum.photos/id/57/50/50"
+        }
+      },
+      {
+        "_id": "r100",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-06T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR668",
+          "fullname": "Guest 57",
+          "imgUrl": "https://picsum.photos/id/87/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Luxury Cabin in Eilat #51",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Eilat. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/50a/800/600",
+      "https://picsum.photos/seed/50b/800/600"
+    ],
+    "price": {
+      "base": 1352,
+      "currency": "ILS",
+      "cleaningFee": 131,
+      "serviceFeePct": 0.0538294177468019
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Cabin",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 51",
+      "lat": 32.492797842236165,
+      "lng": 34.71727165620254
+    },
+    "reviews": [
+      {
+        "_id": "r101",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR997",
+          "fullname": "Guest 16",
+          "imgUrl": "https://picsum.photos/id/28/50/50"
+        }
+      },
+      {
+        "_id": "r102",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-03T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR565",
+          "fullname": "Guest 83",
+          "imgUrl": "https://picsum.photos/id/90/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Cozy Villa in Jerusalem #52",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Jerusalem. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/51a/800/600",
+      "https://picsum.photos/seed/51b/800/600"
+    ],
+    "price": {
+      "base": 412,
+      "currency": "ILS",
+      "cleaningFee": 147,
+      "serviceFeePct": 0.14939867058760847
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 52",
+      "lat": 32.49839942601957,
+      "lng": 35.18140421839936
+    },
+    "reviews": [
+      {
+        "_id": "r103",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-22T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR560",
+          "fullname": "Guest 19",
+          "imgUrl": "https://picsum.photos/id/59/50/50"
+        }
+      },
+      {
+        "_id": "r104",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-15T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR558",
+          "fullname": "Guest 76",
+          "imgUrl": "https://picsum.photos/id/29/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Spacious Villa in Eilat #53",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Eilat. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/52a/800/600",
+      "https://picsum.photos/seed/52b/800/600"
+    ],
+    "price": {
+      "base": 838,
+      "currency": "ILS",
+      "cleaningFee": 158,
+      "serviceFeePct": 0.09015046446784453
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 53",
+      "lat": 32.07530953985743,
+      "lng": 34.90238450183062
+    },
+    "reviews": [
+      {
+        "_id": "r105",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-05T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR772",
+          "fullname": "Guest 13",
+          "imgUrl": "https://picsum.photos/id/70/50/50"
+        }
+      },
+      {
+        "_id": "r106",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-13T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR663",
+          "fullname": "Guest 95",
+          "imgUrl": "https://picsum.photos/id/65/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Central Apartment in Haifa #54",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Haifa. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/53a/800/600",
+      "https://picsum.photos/seed/53b/800/600"
+    ],
+    "price": {
+      "base": 904,
+      "currency": "ILS",
+      "cleaningFee": 53,
+      "serviceFeePct": 0.05429613348486648
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 54",
+      "lat": 32.02195754106175,
+      "lng": 34.907280739005
+    },
+    "reviews": [
+      {
+        "_id": "r107",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-06T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR785",
+          "fullname": "Guest 5",
+          "imgUrl": "https://picsum.photos/id/80/50/50"
+        }
+      },
+      {
+        "_id": "r108",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-12T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR946",
+          "fullname": "Guest 76",
+          "imgUrl": "https://picsum.photos/id/94/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Modern Loft in Jerusalem #55",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Jerusalem. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/54a/800/600",
+      "https://picsum.photos/seed/54b/800/600"
+    ],
+    "price": {
+      "base": 1046,
+      "currency": "ILS",
+      "cleaningFee": 74,
+      "serviceFeePct": 0.13029449881286043
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 55",
+      "lat": 32.20823934866676,
+      "lng": 35.0921889645702
+    },
+    "reviews": [
+      {
+        "_id": "r109",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-14T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR912",
+          "fullname": "Guest 17",
+          "imgUrl": "https://picsum.photos/id/73/50/50"
+        }
+      },
+      {
+        "_id": "r110",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-06T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR836",
+          "fullname": "Guest 97",
+          "imgUrl": "https://picsum.photos/id/96/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Luxury Cabin in Eilat #56",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Eilat. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/55a/800/600",
+      "https://picsum.photos/seed/55b/800/600"
+    ],
+    "price": {
+      "base": 507,
+      "currency": "ILS",
+      "cleaningFee": 90,
+      "serviceFeePct": 0.13121633443810007
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Cabin",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 56",
+      "lat": 32.07874318714339,
+      "lng": 34.98080504517553
+    },
+    "reviews": [
+      {
+        "_id": "r111",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-06T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR579",
+          "fullname": "Guest 1",
+          "imgUrl": "https://picsum.photos/id/21/50/50"
+        }
+      },
+      {
+        "_id": "r112",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR858",
+          "fullname": "Guest 63",
+          "imgUrl": "https://picsum.photos/id/68/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Charming Loft in Jerusalem #57",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Jerusalem. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/56a/800/600",
+      "https://picsum.photos/seed/56b/800/600"
+    ],
+    "price": {
+      "base": 738,
+      "currency": "ILS",
+      "cleaningFee": 140,
+      "serviceFeePct": 0.10092125370863304
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 57",
+      "lat": 32.195011867763085,
+      "lng": 35.05876751338646
+    },
+    "reviews": [
+      {
+        "_id": "r113",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR543",
+          "fullname": "Guest 2",
+          "imgUrl": "https://picsum.photos/id/84/50/50"
+        }
+      },
+      {
+        "_id": "r114",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-15T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR975",
+          "fullname": "Guest 88",
+          "imgUrl": "https://picsum.photos/id/26/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Charming Loft in Rishon LeZion #58",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Rishon LeZion. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/57a/800/600",
+      "https://picsum.photos/seed/57b/800/600"
+    ],
+    "price": {
+      "base": 1142,
+      "currency": "ILS",
+      "cleaningFee": 51,
+      "serviceFeePct": 0.0600587268801049
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 58",
+      "lat": 32.0443841710884,
+      "lng": 34.732685159240916
+    },
+    "reviews": [
+      {
+        "_id": "r115",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-15T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR913",
+          "fullname": "Guest 25",
+          "imgUrl": "https://picsum.photos/id/37/50/50"
+        }
+      },
+      {
+        "_id": "r116",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR597",
+          "fullname": "Guest 80",
+          "imgUrl": "https://picsum.photos/id/77/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Charming House in Tel Aviv-Yafo #59",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Tel Aviv-Yafo. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/58a/800/600",
+      "https://picsum.photos/seed/58b/800/600"
+    ],
+    "price": {
+      "base": 768,
+      "currency": "ILS",
+      "cleaningFee": 92,
+      "serviceFeePct": 0.057402770630602784
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 59",
+      "lat": 32.39977290744261,
+      "lng": 35.08473220201464
+    },
+    "reviews": [
+      {
+        "_id": "r117",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-16T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR540",
+          "fullname": "Guest 49",
+          "imgUrl": "https://picsum.photos/id/20/50/50"
+        }
+      },
+      {
+        "_id": "r118",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-01T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR627",
+          "fullname": "Guest 83",
+          "imgUrl": "https://picsum.photos/id/45/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Luxury Loft in Rishon LeZion #60",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Rishon LeZion. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/59a/800/600",
+      "https://picsum.photos/seed/59b/800/600"
+    ],
+    "price": {
+      "base": 340,
+      "currency": "ILS",
+      "cleaningFee": 196,
+      "serviceFeePct": 0.14495560510887268
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 60",
+      "lat": 32.35667260791891,
+      "lng": 34.77364494865317
+    },
+    "reviews": [
+      {
+        "_id": "r119",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-17T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR692",
+          "fullname": "Guest 43",
+          "imgUrl": "https://picsum.photos/id/82/50/50"
+        }
+      },
+      {
+        "_id": "r120",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-03T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR866",
+          "fullname": "Guest 56",
+          "imgUrl": "https://picsum.photos/id/65/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Cozy Apartment in Jerusalem #61",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Jerusalem. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/60a/800/600",
+      "https://picsum.photos/seed/60b/800/600"
+    ],
+    "price": {
+      "base": 569,
+      "currency": "ILS",
+      "cleaningFee": 164,
+      "serviceFeePct": 0.07587280301397338
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 61",
+      "lat": 32.18257976192122,
+      "lng": 34.94659522413101
+    },
+    "reviews": [
+      {
+        "_id": "r121",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-29T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR832",
+          "fullname": "Guest 40",
+          "imgUrl": "https://picsum.photos/id/29/50/50"
+        }
+      },
+      {
+        "_id": "r122",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR574",
+          "fullname": "Guest 76",
+          "imgUrl": "https://picsum.photos/id/21/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Charming Villa in Haifa #62",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Haifa. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/61a/800/600",
+      "https://picsum.photos/seed/61b/800/600"
+    ],
+    "price": {
+      "base": 1009,
+      "currency": "ILS",
+      "cleaningFee": 179,
+      "serviceFeePct": 0.0820021906961286
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 62",
+      "lat": 32.165417586107466,
+      "lng": 34.977078271545295
+    },
+    "reviews": [
+      {
+        "_id": "r123",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-10T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR527",
+          "fullname": "Guest 19",
+          "imgUrl": "https://picsum.photos/id/35/50/50"
+        }
+      },
+      {
+        "_id": "r124",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-17T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR914",
+          "fullname": "Guest 88",
+          "imgUrl": "https://picsum.photos/id/52/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Charming Apartment in Rishon LeZion #63",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Rishon LeZion. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/62a/800/600",
+      "https://picsum.photos/seed/62b/800/600"
+    ],
+    "price": {
+      "base": 1485,
+      "currency": "ILS",
+      "cleaningFee": 82,
+      "serviceFeePct": 0.1399087427752755
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 63",
+      "lat": 32.202737297365736,
+      "lng": 35.070480586253396
+    },
+    "reviews": [
+      {
+        "_id": "r125",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-17T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR557",
+          "fullname": "Guest 39",
+          "imgUrl": "https://picsum.photos/id/60/50/50"
+        }
+      },
+      {
+        "_id": "r126",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-23T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR615",
+          "fullname": "Guest 90",
+          "imgUrl": "https://picsum.photos/id/65/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Central Apartment in Haifa #64",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Haifa. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/63a/800/600",
+      "https://picsum.photos/seed/63b/800/600"
+    ],
+    "price": {
+      "base": 1128,
+      "currency": "ILS",
+      "cleaningFee": 97,
+      "serviceFeePct": 0.057283074822793045
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 64",
+      "lat": 32.04175710179649,
+      "lng": 35.14881450886461
+    },
+    "reviews": [
+      {
+        "_id": "r127",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-05T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR971",
+          "fullname": "Guest 50",
+          "imgUrl": "https://picsum.photos/id/71/50/50"
+        }
+      },
+      {
+        "_id": "r128",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-01T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR679",
+          "fullname": "Guest 78",
+          "imgUrl": "https://picsum.photos/id/94/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Cozy Loft in Eilat #65",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Eilat. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/64a/800/600",
+      "https://picsum.photos/seed/64b/800/600"
+    ],
+    "price": {
+      "base": 1243,
+      "currency": "ILS",
+      "cleaningFee": 70,
+      "serviceFeePct": 0.10735906464623557
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 65",
+      "lat": 32.17409856166121,
+      "lng": 34.74642780275372
+    },
+    "reviews": [
+      {
+        "_id": "r129",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR589",
+          "fullname": "Guest 17",
+          "imgUrl": "https://picsum.photos/id/48/50/50"
+        }
+      },
+      {
+        "_id": "r130",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-25T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR928",
+          "fullname": "Guest 77",
+          "imgUrl": "https://picsum.photos/id/92/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Luxury Villa in Jerusalem #66",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Jerusalem. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/65a/800/600",
+      "https://picsum.photos/seed/65b/800/600"
+    ],
+    "price": {
+      "base": 933,
+      "currency": "ILS",
+      "cleaningFee": 105,
+      "serviceFeePct": 0.13554786329248314
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 66",
+      "lat": 32.06830365371592,
+      "lng": 35.06966730553642
+    },
+    "reviews": [
+      {
+        "_id": "r131",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-19T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR648",
+          "fullname": "Guest 45",
+          "imgUrl": "https://picsum.photos/id/50/50/50"
+        }
+      },
+      {
+        "_id": "r132",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-04T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR972",
+          "fullname": "Guest 83",
+          "imgUrl": "https://picsum.photos/id/38/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Modern Villa in Tel Aviv-Yafo #67",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Tel Aviv-Yafo. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/66a/800/600",
+      "https://picsum.photos/seed/66b/800/600"
+    ],
+    "price": {
+      "base": 781,
+      "currency": "ILS",
+      "cleaningFee": 166,
+      "serviceFeePct": 0.0863631069798968
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 67",
+      "lat": 32.23451453920715,
+      "lng": 34.905669915330336
+    },
+    "reviews": [
+      {
+        "_id": "r133",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-01T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR595",
+          "fullname": "Guest 16",
+          "imgUrl": "https://picsum.photos/id/53/50/50"
+        }
+      },
+      {
+        "_id": "r134",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-27T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR757",
+          "fullname": "Guest 91",
+          "imgUrl": "https://picsum.photos/id/69/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Spacious Cabin in Haifa #68",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Haifa. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/67a/800/600",
+      "https://picsum.photos/seed/67b/800/600"
+    ],
+    "price": {
+      "base": 1356,
+      "currency": "ILS",
+      "cleaningFee": 167,
+      "serviceFeePct": 0.06093012194419507
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 68",
+      "lat": 32.36550312414278,
+      "lng": 35.13942542707971
+    },
+    "reviews": [
+      {
+        "_id": "r135",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-29T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR866",
+          "fullname": "Guest 31",
+          "imgUrl": "https://picsum.photos/id/58/50/50"
+        }
+      },
+      {
+        "_id": "r136",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-27T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR770",
+          "fullname": "Guest 87",
+          "imgUrl": "https://picsum.photos/id/86/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Spacious House in Haifa #69",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Haifa. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/68a/800/600",
+      "https://picsum.photos/seed/68b/800/600"
+    ],
+    "price": {
+      "base": 946,
+      "currency": "ILS",
+      "cleaningFee": 133,
+      "serviceFeePct": 0.09023478188379319
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 69",
+      "lat": 32.457451451325504,
+      "lng": 34.945536308160754
+    },
+    "reviews": [
+      {
+        "_id": "r137",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-29T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR828",
+          "fullname": "Guest 15",
+          "imgUrl": "https://picsum.photos/id/65/50/50"
+        }
+      },
+      {
+        "_id": "r138",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-12T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR705",
+          "fullname": "Guest 53",
+          "imgUrl": "https://picsum.photos/id/57/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Spacious Cabin in Rishon LeZion #70",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Rishon LeZion. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/69a/800/600",
+      "https://picsum.photos/seed/69b/800/600"
+    ],
+    "price": {
+      "base": 856,
+      "currency": "ILS",
+      "cleaningFee": 113,
+      "serviceFeePct": 0.10312630406678137
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 70",
+      "lat": 32.225225512122805,
+      "lng": 34.71684494217983
+    },
+    "reviews": [
+      {
+        "_id": "r139",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR599",
+          "fullname": "Guest 45",
+          "imgUrl": "https://picsum.photos/id/76/50/50"
+        }
+      },
+      {
+        "_id": "r140",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-21T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR966",
+          "fullname": "Guest 85",
+          "imgUrl": "https://picsum.photos/id/38/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Central Villa in Tel Aviv-Yafo #71",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Tel Aviv-Yafo. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/70a/800/600",
+      "https://picsum.photos/seed/70b/800/600"
+    ],
+    "price": {
+      "base": 351,
+      "currency": "ILS",
+      "cleaningFee": 197,
+      "serviceFeePct": 0.07236760984333557
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 71",
+      "lat": 32.33939706641194,
+      "lng": 34.90172542254569
+    },
+    "reviews": [
+      {
+        "_id": "r141",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-20T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR752",
+          "fullname": "Guest 19",
+          "imgUrl": "https://picsum.photos/id/40/50/50"
+        }
+      },
+      {
+        "_id": "r142",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR514",
+          "fullname": "Guest 86",
+          "imgUrl": "https://picsum.photos/id/87/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Luxury Villa in Eilat #72",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Eilat. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/71a/800/600",
+      "https://picsum.photos/seed/71b/800/600"
+    ],
+    "price": {
+      "base": 1136,
+      "currency": "ILS",
+      "cleaningFee": 182,
+      "serviceFeePct": 0.07010838432701724
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 72",
+      "lat": 32.32380503406814,
+      "lng": 34.99176702731194
+    },
+    "reviews": [
+      {
+        "_id": "r143",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-03T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR893",
+          "fullname": "Guest 43",
+          "imgUrl": "https://picsum.photos/id/95/50/50"
+        }
+      },
+      {
+        "_id": "r144",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-13T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR755",
+          "fullname": "Guest 72",
+          "imgUrl": "https://picsum.photos/id/41/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Spacious House in Eilat #73",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Eilat. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/72a/800/600",
+      "https://picsum.photos/seed/72b/800/600"
+    ],
+    "price": {
+      "base": 470,
+      "currency": "ILS",
+      "cleaningFee": 70,
+      "serviceFeePct": 0.06807341306106406
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 73",
+      "lat": 32.09323488926088,
+      "lng": 35.04404433401392
+    },
+    "reviews": [
+      {
+        "_id": "r145",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-24T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR689",
+          "fullname": "Guest 4",
+          "imgUrl": "https://picsum.photos/id/93/50/50"
+        }
+      },
+      {
+        "_id": "r146",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-22T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR845",
+          "fullname": "Guest 58",
+          "imgUrl": "https://picsum.photos/id/28/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Luxury House in Rishon LeZion #74",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Rishon LeZion. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/73a/800/600",
+      "https://picsum.photos/seed/73b/800/600"
+    ],
+    "price": {
+      "base": 827,
+      "currency": "ILS",
+      "cleaningFee": 83,
+      "serviceFeePct": 0.1056152929322413
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 74",
+      "lat": 32.485981945917196,
+      "lng": 35.03470417886882
+    },
+    "reviews": [
+      {
+        "_id": "r147",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-02T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR728",
+          "fullname": "Guest 45",
+          "imgUrl": "https://picsum.photos/id/47/50/50"
+        }
+      },
+      {
+        "_id": "r148",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-04T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR619",
+          "fullname": "Guest 57",
+          "imgUrl": "https://picsum.photos/id/67/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Luxury Cabin in Eilat #75",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Eilat. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/74a/800/600",
+      "https://picsum.photos/seed/74b/800/600"
+    ],
+    "price": {
+      "base": 1033,
+      "currency": "ILS",
+      "cleaningFee": 51,
+      "serviceFeePct": 0.14501001326402296
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Cabin",
+      "Desert View",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 75",
+      "lat": 32.35780157068954,
+      "lng": 34.87431827535404
+    },
+    "reviews": [
+      {
+        "_id": "r149",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR869",
+          "fullname": "Guest 13",
+          "imgUrl": "https://picsum.photos/id/26/50/50"
+        }
+      },
+      {
+        "_id": "r150",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-29T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR577",
+          "fullname": "Guest 73",
+          "imgUrl": "https://picsum.photos/id/55/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Central Cabin in Jerusalem #76",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Jerusalem. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/75a/800/600",
+      "https://picsum.photos/seed/75b/800/600"
+    ],
+    "price": {
+      "base": 385,
+      "currency": "ILS",
+      "cleaningFee": 117,
+      "serviceFeePct": 0.11469533683328073
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 76",
+      "lat": 32.01737953455559,
+      "lng": 34.961108116604535
+    },
+    "reviews": [
+      {
+        "_id": "r151",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-10T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR960",
+          "fullname": "Guest 27",
+          "imgUrl": "https://picsum.photos/id/57/50/50"
+        }
+      },
+      {
+        "_id": "r152",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR763",
+          "fullname": "Guest 80",
+          "imgUrl": "https://picsum.photos/id/66/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Cozy Villa in Haifa #77",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Haifa. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/76a/800/600",
+      "https://picsum.photos/seed/76b/800/600"
+    ],
+    "price": {
+      "base": 1342,
+      "currency": "ILS",
+      "cleaningFee": 68,
+      "serviceFeePct": 0.1238418842280441
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 77",
+      "lat": 32.39003913423487,
+      "lng": 34.98558751670289
+    },
+    "reviews": [
+      {
+        "_id": "r153",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-20T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR855",
+          "fullname": "Guest 37",
+          "imgUrl": "https://picsum.photos/id/38/50/50"
+        }
+      },
+      {
+        "_id": "r154",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR799",
+          "fullname": "Guest 72",
+          "imgUrl": "https://picsum.photos/id/31/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Spacious Loft in Rishon LeZion #78",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Rishon LeZion. Perfect for up to 4 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/77a/800/600",
+      "https://picsum.photos/seed/77b/800/600"
+    ],
+    "price": {
+      "base": 1059,
+      "currency": "ILS",
+      "cleaningFee": 132,
+      "serviceFeePct": 0.06286255182203188
+    },
+    "capacity": {
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 78",
+      "lat": 32.10385047905968,
+      "lng": 34.875527436273146
+    },
+    "reviews": [
+      {
+        "_id": "r155",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-06T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR635",
+          "fullname": "Guest 48",
+          "imgUrl": "https://picsum.photos/id/95/50/50"
+        }
+      },
+      {
+        "_id": "r156",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-27T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR718",
+          "fullname": "Guest 58",
+          "imgUrl": "https://picsum.photos/id/57/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Cozy Villa in Haifa #79",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Haifa. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/78a/800/600",
+      "https://picsum.photos/seed/78b/800/600"
+    ],
+    "price": {
+      "base": 411,
+      "currency": "ILS",
+      "cleaningFee": 75,
+      "serviceFeePct": 0.13254348607866256
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 79",
+      "lat": 32.338486763453616,
+      "lng": 35.05225674318358
+    },
+    "reviews": [
+      {
+        "_id": "r157",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-19T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR897",
+          "fullname": "Guest 19",
+          "imgUrl": "https://picsum.photos/id/34/50/50"
+        }
+      },
+      {
+        "_id": "r158",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR740",
+          "fullname": "Guest 87",
+          "imgUrl": "https://picsum.photos/id/36/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Charming Apartment in Jerusalem #80",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Jerusalem. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/79a/800/600",
+      "https://picsum.photos/seed/79b/800/600"
+    ],
+    "price": {
+      "base": 1012,
+      "currency": "ILS",
+      "cleaningFee": 76,
+      "serviceFeePct": 0.09620553332911615
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 80",
+      "lat": 32.13146936666567,
+      "lng": 34.8307631879297
+    },
+    "reviews": [
+      {
+        "_id": "r159",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR708",
+          "fullname": "Guest 26",
+          "imgUrl": "https://picsum.photos/id/87/50/50"
+        }
+      },
+      {
+        "_id": "r160",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-24T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR964",
+          "fullname": "Guest 68",
+          "imgUrl": "https://picsum.photos/id/59/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Central Loft in Eilat #81",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Eilat. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/80a/800/600",
+      "https://picsum.photos/seed/80b/800/600"
+    ],
+    "price": {
+      "base": 907,
+      "currency": "ILS",
+      "cleaningFee": 57,
+      "serviceFeePct": 0.12137099932857631
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Loft",
+      "Desert View",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 81",
+      "lat": 32.46727067775504,
+      "lng": 34.97389172126569
+    },
+    "reviews": [
+      {
+        "_id": "r161",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-21T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR507",
+          "fullname": "Guest 18",
+          "imgUrl": "https://picsum.photos/id/91/50/50"
+        }
+      },
+      {
+        "_id": "r162",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-11T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR627",
+          "fullname": "Guest 70",
+          "imgUrl": "https://picsum.photos/id/30/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Charming Apartment in Rishon LeZion #82",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Rishon LeZion. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/81a/800/600",
+      "https://picsum.photos/seed/81b/800/600"
+    ],
+    "price": {
+      "base": 427,
+      "currency": "ILS",
+      "cleaningFee": 192,
+      "serviceFeePct": 0.11987346476652888
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 82",
+      "lat": 32.4679959046834,
+      "lng": 34.909977069720014
+    },
+    "reviews": [
+      {
+        "_id": "r163",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-31T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR595",
+          "fullname": "Guest 1",
+          "imgUrl": "https://picsum.photos/id/40/50/50"
+        }
+      },
+      {
+        "_id": "r164",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR942",
+          "fullname": "Guest 52",
+          "imgUrl": "https://picsum.photos/id/79/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Central Loft in Eilat #83",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Eilat. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/82a/800/600",
+      "https://picsum.photos/seed/82b/800/600"
+    ],
+    "price": {
+      "base": 688,
+      "currency": "ILS",
+      "cleaningFee": 145,
+      "serviceFeePct": 0.05526658729033586
+    },
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 83",
+      "lat": 32.430620438183475,
+      "lng": 35.19300960121241
+    },
+    "reviews": [
+      {
+        "_id": "r165",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-27T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR757",
+          "fullname": "Guest 29",
+          "imgUrl": "https://picsum.photos/id/34/50/50"
+        }
+      },
+      {
+        "_id": "r166",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-15T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR621",
+          "fullname": "Guest 80",
+          "imgUrl": "https://picsum.photos/id/95/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Modern Loft in Haifa #84",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Haifa. Perfect for up to 4 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/83a/800/600",
+      "https://picsum.photos/seed/83b/800/600"
+    ],
+    "price": {
+      "base": 1476,
+      "currency": "ILS",
+      "cleaningFee": 175,
+      "serviceFeePct": 0.0612372742377266
+    },
+    "capacity": {
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 84",
+      "lat": 32.28403851955495,
+      "lng": 34.74611473153092
+    },
+    "reviews": [
+      {
+        "_id": "r167",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-22T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR966",
+          "fullname": "Guest 6",
+          "imgUrl": "https://picsum.photos/id/99/50/50"
+        }
+      },
+      {
+        "_id": "r168",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-20T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR582",
+          "fullname": "Guest 65",
+          "imgUrl": "https://picsum.photos/id/91/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Cozy Loft in Eilat #85",
+    "type": "Loft",
+    "summary": "A beautiful and loft located in the heart of Eilat. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/84a/800/600",
+      "https://picsum.photos/seed/84b/800/600"
+    ],
+    "price": {
+      "base": 1033,
+      "currency": "ILS",
+      "cleaningFee": 52,
+      "serviceFeePct": 0.09392055242142938
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Loft",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 85",
+      "lat": 32.092011635099965,
+      "lng": 34.793809941136466
+    },
+    "reviews": [
+      {
+        "_id": "r169",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-16T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR563",
+          "fullname": "Guest 16",
+          "imgUrl": "https://picsum.photos/id/51/50/50"
+        }
+      },
+      {
+        "_id": "r170",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR552",
+          "fullname": "Guest 89",
+          "imgUrl": "https://picsum.photos/id/78/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Modern Apartment in Tel Aviv-Yafo #86",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Tel Aviv-Yafo. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/85a/800/600",
+      "https://picsum.photos/seed/85b/800/600"
+    ],
+    "price": {
+      "base": 983,
+      "currency": "ILS",
+      "cleaningFee": 173,
+      "serviceFeePct": 0.10702282909581141
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 86",
+      "lat": 32.16608330561006,
+      "lng": 35.06836988052713
+    },
+    "reviews": [
+      {
+        "_id": "r171",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-01T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR572",
+          "fullname": "Guest 17",
+          "imgUrl": "https://picsum.photos/id/22/50/50"
+        }
+      },
+      {
+        "_id": "r172",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-01T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR695",
+          "fullname": "Guest 59",
+          "imgUrl": "https://picsum.photos/id/93/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Spacious House in Tel Aviv-Yafo #87",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Tel Aviv-Yafo. Perfect for up to 6 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/86a/800/600",
+      "https://picsum.photos/seed/86b/800/600"
+    ],
+    "price": {
+      "base": 899,
+      "currency": "ILS",
+      "cleaningFee": 77,
+      "serviceFeePct": 0.1070834450566696
+    },
+    "capacity": {
+      "guests": 6,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 87",
+      "lat": 32.25238192018134,
+      "lng": 35.06841907388041
+    },
+    "reviews": [
+      {
+        "_id": "r173",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR929",
+          "fullname": "Guest 31",
+          "imgUrl": "https://picsum.photos/id/30/50/50"
+        }
+      },
+      {
+        "_id": "r174",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-24T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR741",
+          "fullname": "Guest 80",
+          "imgUrl": "https://picsum.photos/id/38/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Charming House in Eilat #88",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Eilat. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/87a/800/600",
+      "https://picsum.photos/seed/87b/800/600"
+    ],
+    "price": {
+      "base": 1298,
+      "currency": "ILS",
+      "cleaningFee": 73,
+      "serviceFeePct": 0.075273384295447
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 88",
+      "lat": 32.01094804487994,
+      "lng": 34.86989672954802
+    },
+    "reviews": [
+      {
+        "_id": "r175",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-11-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR958",
+          "fullname": "Guest 36",
+          "imgUrl": "https://picsum.photos/id/28/50/50"
+        }
+      },
+      {
+        "_id": "r176",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-16T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR565",
+          "fullname": "Guest 53",
+          "imgUrl": "https://picsum.photos/id/47/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Spacious House in Jerusalem #89",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Jerusalem. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/88a/800/600",
+      "https://picsum.photos/seed/88b/800/600"
+    ],
+    "price": {
+      "base": 935,
+      "currency": "ILS",
+      "cleaningFee": 99,
+      "serviceFeePct": 0.07508929674395182
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 89",
+      "lat": 32.0796125008938,
+      "lng": 35.07822725958522
+    },
+    "reviews": [
+      {
+        "_id": "r177",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-11-08T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR889",
+          "fullname": "Guest 20",
+          "imgUrl": "https://picsum.photos/id/88/50/50"
+        }
+      },
+      {
+        "_id": "r178",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-09T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR653",
+          "fullname": "Guest 92",
+          "imgUrl": "https://picsum.photos/id/82/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Charming House in Eilat #90",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Eilat. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/89a/800/600",
+      "https://picsum.photos/seed/89b/800/600"
+    ],
+    "price": {
+      "base": 816,
+      "currency": "ILS",
+      "cleaningFee": 109,
+      "serviceFeePct": 0.1425363155750372
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "House",
+      "Desert View",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 90",
+      "lat": 32.17441934344393,
+      "lng": 34.881442186974546
+    },
+    "reviews": [
+      {
+        "_id": "r179",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-28T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR662",
+          "fullname": "Guest 18",
+          "imgUrl": "https://picsum.photos/id/79/50/50"
+        }
+      },
+      {
+        "_id": "r180",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-06-22T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR904",
+          "fullname": "Guest 66",
+          "imgUrl": "https://picsum.photos/id/47/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe573",
+    "name": "Luxury Villa in Jerusalem #91",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Jerusalem. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/90a/800/600",
+      "https://picsum.photos/seed/90b/800/600"
+    ],
+    "price": {
+      "base": 696,
+      "currency": "ILS",
+      "cleaningFee": 193,
+      "serviceFeePct": 0.05262195582736996
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 91",
+      "lat": 32.03176115702932,
+      "lng": 34.77638923095032
+    },
+    "reviews": [
+      {
+        "_id": "r181",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-18T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR927",
+          "fullname": "Guest 42",
+          "imgUrl": "https://picsum.photos/id/74/50/50"
+        }
+      },
+      {
+        "_id": "r182",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-10T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR568",
+          "fullname": "Guest 88",
+          "imgUrl": "https://picsum.photos/id/63/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe574",
+    "name": "Spacious Apartment in Rishon LeZion #92",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Rishon LeZion. Perfect for up to 8 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/91a/800/600",
+      "https://picsum.photos/seed/91b/800/600"
+    ],
+    "price": {
+      "base": 1385,
+      "currency": "ILS",
+      "cleaningFee": 172,
+      "serviceFeePct": 0.14445847184839344
+    },
+    "capacity": {
+      "guests": 8,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1014/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 92",
+      "lat": 32.34640010861377,
+      "lng": 34.95858893189915
+    },
+    "reviews": [
+      {
+        "_id": "r183",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-12T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR925",
+          "fullname": "Guest 36",
+          "imgUrl": "https://picsum.photos/id/74/50/50"
+        }
+      },
+      {
+        "_id": "r184",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-08-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR540",
+          "fullname": "Guest 93",
+          "imgUrl": "https://picsum.photos/id/61/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe575",
+    "name": "Spacious Apartment in Eilat #93",
+    "type": "Apartment",
+    "summary": "A beautiful and apartment located in the heart of Eilat. Perfect for up to 4 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/92a/800/600",
+      "https://picsum.photos/seed/92b/800/600"
+    ],
+    "price": {
+      "base": 1344,
+      "currency": "ILS",
+      "cleaningFee": 145,
+      "serviceFeePct": 0.09163659176795008
+    },
+    "capacity": {
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Apartment",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 93",
+      "lat": 32.03973017283953,
+      "lng": 35.14072756492925
+    },
+    "reviews": [
+      {
+        "_id": "r185",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-26T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR700",
+          "fullname": "Guest 8",
+          "imgUrl": "https://picsum.photos/id/100/50/50"
+        }
+      },
+      {
+        "_id": "r186",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-31T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR603",
+          "fullname": "Guest 77",
+          "imgUrl": "https://picsum.photos/id/35/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe576",
+    "name": "Cozy Cabin in Tel Aviv-Yafo #94",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Tel Aviv-Yafo. Perfect for up to 10 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/93a/800/600",
+      "https://picsum.photos/seed/93b/800/600"
+    ],
+    "price": {
+      "base": 849,
+      "currency": "ILS",
+      "cleaningFee": 56,
+      "serviceFeePct": 0.06878531929251634
+    },
+    "capacity": {
+      "guests": 10,
+      "bedrooms": 4,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Cabin",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u103",
+      "fullname": "Noa Peretz",
+      "picture": "https://picsum.photos/id/1012/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Tel Aviv-Yafo",
+      "address": "Tel Aviv-Yafo Street 94",
+      "lat": 32.14767627159796,
+      "lng": 35.016067876726645
+    },
+    "reviews": [
+      {
+        "_id": "r187",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-21T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR509",
+          "fullname": "Guest 41",
+          "imgUrl": "https://picsum.photos/id/23/50/50"
+        }
+      },
+      {
+        "_id": "r188",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR919",
+          "fullname": "Guest 64",
+          "imgUrl": "https://picsum.photos/id/71/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928382dbd5c05a58bfbe577",
+    "name": "Modern House in Haifa #95",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Haifa. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/94a/800/600",
+      "https://picsum.photos/seed/94b/800/600"
+    ],
+    "price": {
+      "base": 901,
+      "currency": "ILS",
+      "cleaningFee": 54,
+      "serviceFeePct": 0.08867731594391397
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1013/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 95",
+      "lat": 32.13203073803657,
+      "lng": 34.785629440515216
+    },
+    "reviews": [
+      {
+        "_id": "r189",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-12T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR881",
+          "fullname": "Guest 7",
+          "imgUrl": "https://picsum.photos/id/61/50/50"
+        }
+      },
+      {
+        "_id": "r190",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-10T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR560",
+          "fullname": "Guest 92",
+          "imgUrl": "https://picsum.photos/id/83/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe578",
+    "name": "Charming Villa in Rishon LeZion #96",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Rishon LeZion. Perfect for up to 3 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/95a/800/600",
+      "https://picsum.photos/seed/95b/800/600"
+    ],
+    "price": {
+      "base": 891,
+      "currency": "ILS",
+      "cleaningFee": 116,
+      "serviceFeePct": 0.06020550999241856
+    },
+    "capacity": {
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u102",
+      "fullname": "Yossi Gabai",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion Street 96",
+      "lat": 32.166594787202186,
+      "lng": 35.01501587009509
+    },
+    "reviews": [
+      {
+        "_id": "r191",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-19T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR776",
+          "fullname": "Guest 2",
+          "imgUrl": "https://picsum.photos/id/49/50/50"
+        }
+      },
+      {
+        "_id": "r192",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-08-10T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR526",
+          "fullname": "Guest 98",
+          "imgUrl": "https://picsum.photos/id/41/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe579",
+    "name": "Luxury Cabin in Eilat #97",
+    "type": "Cabin",
+    "summary": "A beautiful and cabin located in the heart of Eilat. Perfect for up to 9 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/96a/800/600",
+      "https://picsum.photos/seed/96b/800/600"
+    ],
+    "price": {
+      "base": 1219,
+      "currency": "ILS",
+      "cleaningFee": 146,
+      "serviceFeePct": 0.14226589326276057
+    },
+    "capacity": {
+      "guests": 9,
+      "bedrooms": 3,
+      "beds": 5,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "Cabin",
+      "Desert View",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Eilat",
+      "address": "Eilat Street 97",
+      "lat": 32.207164119873546,
+      "lng": 34.853619239901874
+    },
+    "reviews": [
+      {
+        "_id": "r193",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-10-12T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR848",
+          "fullname": "Guest 33",
+          "imgUrl": "https://picsum.photos/id/85/50/50"
+        }
+      },
+      {
+        "_id": "r194",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-06-15T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR694",
+          "fullname": "Guest 90",
+          "imgUrl": "https://picsum.photos/id/99/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57a",
+    "name": "Luxury House in Haifa #98",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Haifa. Perfect for up to 2 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/97a/800/600",
+      "https://picsum.photos/seed/97b/800/600"
+    ],
+    "price": {
+      "base": 1058,
+      "currency": "ILS",
+      "cleaningFee": 151,
+      "serviceFeePct": 0.05633505378220091
+    },
+    "capacity": {
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u100",
+      "fullname": "Amit Cohen",
+      "picture": "https://picsum.photos/id/1011/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Haifa",
+      "address": "Haifa Street 98",
+      "lat": 32.20074010371144,
+      "lng": 35.075437710543206
+    },
+    "reviews": [
+      {
+        "_id": "r195",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-09-20T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR557",
+          "fullname": "Guest 2",
+          "imgUrl": "https://picsum.photos/id/83/50/50"
+        }
+      },
+      {
+        "_id": "r196",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 4,
+        "createdAt": "2025-07-07T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR558",
+          "fullname": "Guest 66",
+          "imgUrl": "https://picsum.photos/id/50/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57b",
+    "name": "Modern Villa in Jerusalem #99",
+    "type": "Villa",
+    "summary": "A beautiful and villa located in the heart of Jerusalem. Perfect for up to 7 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/98a/800/600",
+      "https://picsum.photos/seed/98b/800/600"
+    ],
+    "price": {
+      "base": 728,
+      "currency": "ILS",
+      "cleaningFee": 125,
+      "serviceFeePct": 0.13515663815762297
+    },
+    "capacity": {
+      "guests": 7,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Pool",
+      "Elevator",
+      "Rooftop",
+      "Parking"
+    ],
+    "labels": [
+      "Villa",
+      "City Center",
+      "With Pool"
+    ],
+    "host": {
+      "_id": "u104",
+      "fullname": "Ran Shani",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": true
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 99",
+      "lat": 32.18863656749277,
+      "lng": 34.79534064553263
+    },
+    "reviews": [
+      {
+        "_id": "r197",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 4,
+        "createdAt": "2025-10-05T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR812",
+          "fullname": "Guest 8",
+          "imgUrl": "https://picsum.photos/id/52/50/50"
+        }
+      },
+      {
+        "_id": "r198",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-27T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR750",
+          "fullname": "Guest 86",
+          "imgUrl": "https://picsum.photos/id/94/50/50"
+        }
+      }
+    ]
+  },
+  {
+    "ownerId": "6928386dbd5c05a58bfbe57c",
+    "name": "Central House in Jerusalem #100",
+    "type": "House",
+    "summary": "A beautiful and house located in the heart of Jerusalem. Perfect for up to 5 guests.",
+    "imgUrls": [
+      "https://picsum.photos/seed/99a/800/600",
+      "https://picsum.photos/seed/99b/800/600"
+    ],
+    "price": {
+      "base": 1320,
+      "currency": "ILS",
+      "cleaningFee": 180,
+      "serviceFeePct": 0.13869130431512394
+    },
+    
+    "capacity": {
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 1
+    },
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Kitchen",
+      "Essentials"
+    ],
+    "labels": [
+      "House",
+      "City Center",
+      "No Pool"
+    ],
+    "host": {
+      "_id": "u101",
+      "fullname": "Dana Levy",
+      "picture": "https://picsum.photos/id/1015/50/50",
+      "isSuperhost": false
+    },
+    "loc": {
+      "country": "Israel",
+      "countryCode": "IL",
+      "city": "Jerusalem",
+      "address": "Jerusalem Street 100",
+      "lat": 32.401604598796105,
+      "lng": 34.89924601951597
+    },
+    "reviews": [
+      {
+        "_id": "r199",
+        "txt": "מקום מדהים ונוח! נהנינו מכל רגע.",
+        "rating": 5,
+        "createdAt": "2025-09-18T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR931",
+          "fullname": "Guest 23",
+          "imgUrl": "https://picsum.photos/id/27/50/50"
+        }
+      },
+      {
+        "_id": "r200",
+        "txt": "היה טוב, אבל היו חסרים כמה דברים במטבח.",
+        "rating": 3,
+        "createdAt": "2025-07-22T12:50:07.032Z",
+        "byUser": {
+          "_id": "uR515",
+          "fullname": "Guest 87",
+          "imgUrl": "https://picsum.photos/id/98/50/50"
+        }
+      }
+    ]
+  }
+]
