@@ -28,7 +28,7 @@ async function query(filterBy = {}) {
 }
 
 async function getById(userId) {
-  const criteria = { _id: ObjectId.createFromHexString(userId) }
+  const criteria = { _id: new ObjectId(userId) }
   try {
     const collection = await dbService.getCollection(COLLECTION);
     const user = await collection.findOne(criteria)
@@ -65,13 +65,15 @@ async function add(userToSave) {
     userToSave["_id"] = res.insertedId
 
     return userToSave;
-} catch (err) {
-  loggerService.error("Cannot save user ", err);
-  throw err;
-}
+  } catch (err) {
+    loggerService.error("Cannot save user ", err);
+    throw err;
+  }
 }
 
 async function update(user) {
+  const { loggedinUser } = asyncLocalStorage.getStore()
+  if (!(user._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update user');
   try {
     const collection = await dbService.getCollection(COLLECTION);
     const { _id, ...nonIdUser } = userToSave
@@ -89,12 +91,9 @@ async function update(user) {
 }
 
 async function remove(userId) {
-  const { loggedinUser } = asyncLocalStorage.getStore();
-  const { isAdmin } = loggedinUser;
+  const { loggedinUser } = asyncLocalStorage.getStore()
+  if (!(userId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to remove user');
   try {
-
-    if (!isAdmin) return 'Only admin can manage users!' //q: change to middleware?
-
     const criteria = { _id: ObjectId.createFromHexString(userId) }
     const collection = await dbService.getCollection(COLLECTION);
     const res = await collection.deleteOne(criteria)

@@ -5,8 +5,6 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import { loggerService } from "./services/logger.service.js";
-import { bugService } from "./api/bug/bug.service.js";
 import { setupAsyncLocalStorage } from "./middlewares/setupAls.middleware.js";
 import path from 'path';
 
@@ -24,13 +22,18 @@ app.use(express.static('public'));
 app.use(cors(corsOptions));
 app.use(cookieParser());
 app.use(express.json());
-app.use(express.urlencoded({extended:true}))
+app.use(express.urlencoded({ extended: true }))
 app.set('query parser', 'extended');
 app.use(setupAsyncLocalStorage)
 
 //api routing
+import { stayRoutes } from "./api/stay/stay.routes.js";
+import { authRoutes } from "./api/auth/auth.routes.js";
+import { userRoutes } from "./api/user/user.routes.js";
 
-
+app.use("/api/auth",authRoutes)
+app.use("/api/stay",stayRoutes)
+app.use("/api/user",userRoutes)
 
 
 
@@ -39,8 +42,8 @@ app.use(setupAsyncLocalStorage)
 //     res.sendFile(path.resolve('public/index.html'))
 // })
 
-const port = process.env.PORT || 3000
-app.listen(port, () => console.log(`Server ready at port ${port}` ));
+const port = process.env.PORT || 3030
+app.listen(port, () => console.log(`Server ready at port ${port}`));
 
 
 // for package.json -> script:  // "start": "set PORT=3030 & nodemon --ignore \"./data\" server.js"

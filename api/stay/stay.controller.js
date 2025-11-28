@@ -13,7 +13,7 @@ export async function getStays(req, res) {
     }
     try {
         const stays = await stayService.query(filterBy)
-        return stays
+        res.send(stays)
     } catch (err) {
         loggerService.error(err)
         res.status(400).send("Couldnt get stay")
@@ -23,7 +23,8 @@ export async function getStay(req, res) {
     const { stayId } = req.params
     try {
         const stay = await stayService.getById(stayId)
-        return stay
+        console.log("🚀 ~ getStay ~ stay:", stay)
+        res.send(stay)
     } catch (err) {
         loggerService.error(err)
         res.status(400).send("Couldnt get stay")
@@ -31,6 +32,8 @@ export async function getStay(req, res) {
 }
 export async function saveStay(req, res) {
     const stay = req.body
+        console.log("🚀 ~ saveStay ~ stay:", stay._id)
+        
     try {
         let stayRes;
         if (stay._id) {
@@ -38,7 +41,7 @@ export async function saveStay(req, res) {
         } else {
             stayRes = await stayService.add(stay)
         }
-        return stayRes
+        res.send(stayRes)
     } catch (err) {
         loggerService.error(err)
         res.status(400).send("Couldnt get stay")
@@ -48,7 +51,7 @@ export async function removeStay(req, res) {
     const { stayId } = req.params
     try {
         const removedId = await stayService.remove(stayId)
-        return removedId
+        res.send(removedId)
     } catch (err) {
         loggerService.error(err)
         res.status(400).send("Couldnt get stay")
