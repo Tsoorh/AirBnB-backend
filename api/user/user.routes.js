@@ -11,7 +11,7 @@ router.get("/:userId",getUser)
 router.get("/stay/:userId",getUser) // get user stays // not sure if it belongs to stay? 
 router.put("/:userId",requireAuth,saveUser)
 router.post("/",signup)
-router.delete("/:userId",removeUser)
+router.delete("/:userId",adminOnly,removeUser)
 
 export const userRoutes = router;
 
