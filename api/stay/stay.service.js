@@ -1,6 +1,7 @@
 import { ObjectId } from "mongodb";
 import { dbService } from "../../services/db.service.js";
 import { loggerService } from "../../services/logger.service.js";
+import { asyncLocalStorage } from "../../services/als.service.js";
 
 const COLLECTION = 'stay';
 
@@ -54,6 +55,8 @@ async function add(stay) {
 }
 
 async function update(stay) {
+    const {loggedinUser} = asyncLocalStorage.getStore()
+    if (!(stay._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update');
     try {
         const collection = await dbService.getCollection(COLLECTION)
         const { _id, ...nonIdStay } = stay;
@@ -92,22 +95,23 @@ async function remove(stayId) {
 
 }
 
-
-
 function _getCriteria(filterBy) {
     const criteria = {}
-
-    if (filterBy.city) {
-        criteria.city = filterBy.city
-    }
+    if (filterBy.ownerId) criteria.ownerId = filterBy.ownerId
+    if (filterBy.city) criteria.city = filterBy.city
     if (filterBy.who) {
         if (filterBy.who.pets) {
-            criteria.houseRules = "Pets allowed (with fee)"
+            criteria.$or = [
+                { houseRules: "Pets allowed (with fee)" },
+                { amenities: "pet friendly" }
+            ]
         }
-        if (filterBy.who.adults || filterBy.who.children) {
-            const guests = filterBy.who?.adults + filterBy.who?.children
-            criteria.capacity = { $gte: { guests } }
-        }
+    }
+    if (filterBy.who.adults || filterBy.who.children) {
+        const adults = filterBy.who.adults || 0
+        const children = filterBy.who.children || 0
+        const guests = adults + children
+        criteria.capacity = { $gte: { guests } }
     }
     if (filterBy.dates) {
         criteria.unavailable = {
@@ -120,4 +124,8 @@ function _getCriteria(filterBy) {
         }
     }
     return criteria
+}
+
+function _checkOwner(loggedinUser,stayOwner){
+
 }

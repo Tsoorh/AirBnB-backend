@@ -35,7 +35,6 @@ export async function signup(req, res) {
     const miniUser = {
       _id: user._id,
       fullname: user.fullname,
-      score: user.score,
       isAdmin: user.isAdmin
     };
 

@@ -50,7 +50,6 @@ async function login(username, password) {
 }
 
 async function signup(credentials) {
-  console.log("🚀 ~ signup ~ credentials:", credentials)
   const saltRounds = 10;
   const { username, password, fullname } = credentials
   if (!username || !password || !fullname) throw 'Missing required signup information'
