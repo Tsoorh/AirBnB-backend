@@ -5,6 +5,7 @@ import bcrypt from "bcrypt";
 import Cryptr from "cryptr";
 import { loggerService } from "../../services/logger.service.js";
 import { UserService } from "../user/user.service.js";
+import { randomInt } from "crypto";
 
 const cryptr = new Cryptr(process.env.SECRET1 || 'SecretBYtsoor');
 
@@ -58,9 +59,13 @@ async function signup(credentials) {
   if (userExist) throw "Username already exist !";
 
   const hash = await bcrypt.hash(credentials.password, saltRounds);
+  const random= randomInt(1,1000)
   const userToSave = {
     ...credentials,
     password: hash,
+    imgUrl:`https://picsum.photos/id/${random}/200/200`,
+    liked:[],
+    score:50
   };
-  return await UserService.save(userToSave);
+  return await UserService.add(userToSave);
 }

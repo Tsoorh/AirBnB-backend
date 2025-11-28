@@ -43,13 +43,13 @@ async function getById(stayId) {
 
 async function add(stay) {
     try {
-        console.log("inAdd");
-        
+
         const collection = await dbService.getCollection(COLLECTION)
         const res = await collection.insertOne(stay)
         if (!res.acknowledged) throw new Error("Couldn't add stay")
 
-        stay._id = res.insertedId
+        stay["_id"] = res.insertedId
+        return stay
     } catch (err) {
         loggerService.error("Couldn't add stay")
         throw err
@@ -57,7 +57,7 @@ async function add(stay) {
 }
 
 async function update(stay) {
-    const {loggedinUser} = asyncLocalStorage.getStore()
+    const { loggedinUser } = asyncLocalStorage.getStore()
     if (!(stay._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update');
     try {
         const collection = await dbService.getCollection(COLLECTION)
@@ -80,7 +80,7 @@ async function update(stay) {
 }
 
 async function remove(stayId) {
-    const {loggedinUser} = asyncLocalStorage.getStore()
+    const { loggedinUser } = asyncLocalStorage.getStore()
     if (!(stayId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to remove');
     try {
         const collection = await dbService.getCollection(COLLECTION);
@@ -110,12 +110,12 @@ function _getCriteria(filterBy) {
                 { amenities: "pet friendly" }
             ]
         }
-    }
-    if (filterBy.who.adults || filterBy.who.children) {
-        const adults = filterBy.who.adults || 0
-        const children = filterBy.who.children || 0
-        const guests = adults + children
-        criteria.capacity = { $gte: { guests } }
+        if (filterBy.who.adults || filterBy.who.children) {
+            const adults = filterBy.who.adults || 0
+            const children = filterBy.who.children || 0
+            const guests = adults + children
+            criteria.capacity = { $gte: { guests } }
+        }
     }
     if (filterBy.dates) {
         criteria.unavailable = {
@@ -130,6 +130,6 @@ function _getCriteria(filterBy) {
     return criteria
 }
 
-function _checkOwner(loggedinUser,stayOwner){
+function _checkOwner(loggedinUser, stayOwner) {
 
 }

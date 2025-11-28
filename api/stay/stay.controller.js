@@ -32,8 +32,7 @@ export async function getStay(req, res) {
 }
 export async function saveStay(req, res) {
     const stay = req.body
-        console.log("🚀 ~ saveStay ~ stay:", stay._id)
-        
+
     try {
         let stayRes;
         if (stay._id) {

@@ -16,6 +16,7 @@ export const UserService = {
 async function query(filterBy = {}) {
   try {
     const criteria = _createCriteria(filterBy)
+    console.log("🚀 ~ query ~ criteria:", criteria)
     const collection = await dbService.getCollection(COLLECTION);
     const userCurser = await collection.find(criteria);
 
@@ -74,9 +75,11 @@ async function add(userToSave) {
 async function update(user) {
   const { loggedinUser } = asyncLocalStorage.getStore()
   if (!(user._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update user');
+
   try {
+
     const collection = await dbService.getCollection(COLLECTION);
-    const { _id, ...nonIdUser } = userToSave
+    const { _id, ...nonIdUser } = user
     const criteria = { _id: new ObjectId(_id) };
     const userExist = await collection.findOne(criteria)
 
@@ -86,6 +89,7 @@ async function update(user) {
     const res = await collection.updateOne(criteria, setUser)
 
     if (res.modifiedCount === 0) throw new Error('Couldnt update user')
+
   } catch (err) {
   }
 }

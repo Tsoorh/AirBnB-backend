@@ -34,7 +34,11 @@ export async function signup(req, res) {
 
     const miniUser = {
       _id: user._id,
+      username: user.username,
       fullname: user.fullname,
+      score: user.score,
+      liked: user.liked,
+      imgUrl: user.imgUrl,
       isAdmin: user.isAdmin
     };
 

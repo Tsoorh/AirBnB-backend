@@ -5,3 +5,35 @@
 28.11.2025, 13:44:22 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
 28.11.2025, 13:45:17 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
 28.11.2025, 13:56:01 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:00:01 - ERROR - couldn't login  | TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+28.11.2025, 14:00:50 - ERROR - couldn't login  | Error: data and hash must be strings
+28.11.2025, 14:01:01 - ERROR - couldn't login  | Invalid username or password
+28.11.2025, 14:01:09 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+28.11.2025, 14:02:05 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:02:43 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:04:25 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:05:08 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:05:33 - ERROR - Couldn't add stay
+28.11.2025, 14:05:33 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:06:45 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:07:01 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:07:43 - ERROR - Couldn't add stay
+28.11.2025, 14:07:43 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:08:16 - ERROR - TypeError: Cannot read properties of undefined (reading '_id')
+28.11.2025, 14:17:06 - ERROR - ReferenceError: userId is not defined
+28.11.2025, 14:17:34 - ERROR - Error: Cannot find user by Id
+28.11.2025, 14:17:34 - ERROR - cannot find user id : undefined | Error: Cannot find user by Id
+28.11.2025, 14:18:02 - ERROR - ReferenceError: ownerId is not defined
+28.11.2025, 14:18:26 - ERROR - Couldn't get stays in query
+28.11.2025, 14:18:26 - ERROR - TypeError: Cannot read properties of undefined (reading 'adults')
+28.11.2025, 14:18:56 - ERROR - Couldn't get stays in query
+28.11.2025, 14:18:56 - ERROR - TypeError: Cannot read properties of undefined (reading 'adults')
+28.11.2025, 14:25:20 - ERROR - couldn't register  | TypeError: UserService.save is not a function
+28.11.2025, 14:26:15 - INFO - User signup -  | {"username":"tsoor","password":"$2b$10$BFLdwR4wXHMdB.tHfybjwOgRag7KrTOUkvh29SrpwdyTrXVvfjqB2","fullname":"Tsoor Hartov","isAdmin":false,"_id":"692994e7f07d345bdb548aea"}
+28.11.2025, 14:27:52 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+28.11.2025, 14:36:01 - ERROR - couldn't register  | TypeError: Cannot destructure property 'username' of 'credentials' as it is undefined.
+28.11.2025, 14:36:21 - INFO - User signup -  | {"username":"tsoor","password":"$2b$10$3ZnIlrF2cVR/wHBhqXjMuOGWktWEOW8AhQp3SjxlevYhEYFSv1KFq","fullname":"tsoor hartov","imgUrl":"https://picsum.photos/id/36/200/200","liked":[],"score":50,"isAdmin":false,"_id":"69299745979c23123bfedb72"}
+28.11.2025, 14:38:15 - INFO - User signup -  | {"username":"zoro","password":"$2b$10$OVkIng/FQb/YHNiHedqB0.ZuIN/OW8PCE7rGo4IicY/44s.3/l86K","fullname":"zoro toro","imgUrl":"https://picsum.photos/id/51/200/200","liked":[],"score":50,"isAdmin":false,"_id":"692997b7e7f430b72d4856cd"}
+28.11.2025, 14:39:18 - ERROR - couldn't login  | TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+28.11.2025, 14:39:54 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+28.11.2025, 14:40:05 - ERROR - couldn't login  | TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
