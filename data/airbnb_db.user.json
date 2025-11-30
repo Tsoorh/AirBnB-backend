@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "$oid": "6928382dbd5c05a58bfbe573"
+  },
+  "username": "admin",
+  "fullname": "adminos adminis",
+  "password": "$2a$10$61I8hV4dibFcPFMJGtZUHOInr4.XORn1LObUBkekY9hEtIGn6XzDy",
+  "imgUrl": "https://picsum.photos/id/1005/200/200",
+  "isAdmin": true,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928382dbd5c05a58bfbe574"
+  },
+  "username": "dana",
+  "fullname": "Dana Levi",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1011/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928382dbd5c05a58bfbe575"
+  },
+  "username": "yossi_israeli",
+  "fullname": "Yossi Israeli",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1025/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928382dbd5c05a58bfbe576"
+  },
+  "username": "maya_goren",
+  "fullname": "Maya Goren",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1027/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928382dbd5c05a58bfbe577"
+  },
+  "username": "shai_davidi",
+  "fullname": "Shai Davidi",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1063/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928386dbd5c05a58bfbe578"
+  },
+  "username": "noa_hadad",
+  "fullname": "Noa Hadad",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1074/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928386dbd5c05a58bfbe579"
+  },
+  "username": "idan_golan",
+  "fullname": "Idan Golan",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1077/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928386dbd5c05a58bfbe57a"
+  },
+  "username": "shira_bennett",
+  "fullname": "Shira Bennett",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1080/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928386dbd5c05a58bfbe57b"
+  },
+  "username": "ronen_perez",
+  "fullname": "Ronen Perez",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1084/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "6928386dbd5c05a58bfbe57c"
+  },
+  "username": "adi_katz",
+  "fullname": "Adi Katz",
+  "password": "$2a$10$zbR9sXttAGI9tVNDAbw8LeKZdeDwWjD06fcLaZOJRnKt33yoNCZKG",
+  "imgUrl": "https://picsum.photos/id/1085/200/200",
+  "isAdmin": false,
+  "liked": [],
+  "score": 50
+},
+{
+  "_id": {
+    "$oid": "69299745979c23123bfedb72"
+  },
+  "username": "tsoor",
+  "password": "$2b$10$3ZnIlrF2cVR/wHBhqXjMuOGWktWEOW8AhQp3SjxlevYhEYFSv1KFq",
+  "fullname": "tsoor hartov",
+  "imgUrl": "https://picsum.photos/id/36/200/200",
+  "liked": [],
+  "score": 50,
+  "isAdmin": false
+}]

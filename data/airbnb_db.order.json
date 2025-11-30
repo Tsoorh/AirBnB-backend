@@ -1,0 +1,3402 @@
+[
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz",
+      "imgUrl": "https://picsum.photos/id/1085/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 4151,
+    "checkIn": "2025-10-07T15:13:25.518Z",
+    "checkOut": "2025-10-11T15:13:25.518Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1293",
+      "name": "Artsy Loft in Jerusalem 48",
+      "imgUrl": "https://picsum.photos/seed/47a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 890,
+      "subtotal": 3560,
+      "serviceFee": 534,
+      "cleaningFee": 57,
+      "total": 4151
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 7866,
+    "checkIn": "2025-11-04T13:45:02.659Z",
+    "checkOut": "2025-11-11T13:45:02.659Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1289",
+      "name": "Artsy Loft in Haifa 38",
+      "imgUrl": "https://picsum.photos/seed/37a/800/600"
+    },
+    "nights": 7,
+    "priceBreakdown": {
+      "pricePerNight": 988,
+      "subtotal": 6916,
+      "serviceFee": 899,
+      "cleaningFee": 51,
+      "total": 7866
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 4708,
+    "checkIn": "2025-05-10T19:01:50.898Z",
+    "checkOut": "2025-05-23T19:01:50.898Z",
+    "guests": {
+      "adults": 7,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c2",
+      "name": "Village Cabin in Jerusalem 95",
+      "imgUrl": "https://picsum.photos/seed/94a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 317,
+      "subtotal": 4121,
+      "serviceFee": 536,
+      "cleaningFee": 51,
+      "total": 4708
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez",
+      "imgUrl": "https://picsum.photos/id/1084/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 5310,
+    "checkIn": "2025-08-06T20:16:00.904Z",
+    "checkOut": "2025-08-11T20:16:00.904Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b2",
+      "name": "City Center Cabin in Tel Aviv-Yafo 79",
+      "imgUrl": "https://picsum.photos/seed/78a/800/600"
+    },
+    "nights": 5,
+    "priceBreakdown": {
+      "pricePerNight": 934,
+      "subtotal": 4670,
+      "serviceFee": 560,
+      "cleaningFee": 80,
+      "total": 5310
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan",
+      "imgUrl": "https://picsum.photos/id/1077/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 10281,
+    "checkIn": "2025-07-26T06:40:17.070Z",
+    "checkOut": "2025-08-09T06:40:17.070Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1268",
+      "name": "Unique Cabin in Zichron Yaakov 5",
+      "imgUrl": "https://picsum.photos/seed/4a/800/600"
+    },
+    "nights": 14,
+    "priceBreakdown": {
+      "pricePerNight": 651,
+      "subtotal": 9114,
+      "serviceFee": 1003,
+      "cleaningFee": 164,
+      "total": 10281
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz",
+      "imgUrl": "https://picsum.photos/id/1085/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 11316,
+    "checkIn": "2025-10-14T06:14:41.078Z",
+    "checkOut": "2025-10-25T06:14:41.078Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1293",
+      "name": "Artsy Loft in Jerusalem 48",
+      "imgUrl": "https://picsum.photos/seed/47a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 890,
+      "subtotal": 9790,
+      "serviceFee": 1469,
+      "cleaningFee": 57,
+      "total": 11316
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez",
+      "imgUrl": "https://picsum.photos/id/1084/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren"
+    },
+    "totalPrice": 6013,
+    "checkIn": "2025-01-02T13:07:43.112Z",
+    "checkOut": "2025-01-06T13:07:43.112Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 1
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1296",
+      "name": "Desert View Cabin in Tel Aviv-Yafo 51",
+      "imgUrl": "https://picsum.photos/seed/50a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 1293,
+      "subtotal": 5172,
+      "serviceFee": 724,
+      "cleaningFee": 117,
+      "total": 6013
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett",
+      "imgUrl": "https://picsum.photos/id/1080/200/200"
+    },
+    "guest": {
+      "_id": "69299745979c23123bfedb72",
+      "fullname": "tsoor hartov"
+    },
+    "totalPrice": 10543,
+    "checkIn": "2025-12-21T09:13:48.310Z",
+    "checkOut": "2025-12-31T09:13:48.310Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b0",
+      "name": "Desert View Loft in Haifa 77",
+      "imgUrl": "https://picsum.photos/seed/76a/800/600"
+    },
+    "nights": 10,
+    "priceBreakdown": {
+      "pricePerNight": 933,
+      "subtotal": 9330,
+      "serviceFee": 1026,
+      "cleaningFee": 187,
+      "total": 10543
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett",
+      "imgUrl": "https://picsum.photos/id/1080/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 4330,
+    "checkIn": "2025-01-27T01:40:27.723Z",
+    "checkOut": "2025-01-31T01:40:27.723Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b0",
+      "name": "Desert View Loft in Haifa 77",
+      "imgUrl": "https://picsum.photos/seed/76a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 933,
+      "subtotal": 3732,
+      "serviceFee": 411,
+      "cleaningFee": 187,
+      "total": 4330
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 4415,
+    "checkIn": "2025-09-14T21:44:59.463Z",
+    "checkOut": "2025-09-25T21:44:59.463Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1292",
+      "name": "Beachfront Villa in Jerusalem 47",
+      "imgUrl": "https://picsum.photos/seed/46a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 341,
+      "subtotal": 3751,
+      "serviceFee": 563,
+      "cleaningFee": 101,
+      "total": 4415
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 11313,
+    "checkIn": "2025-06-19T21:07:20.704Z",
+    "checkOut": "2025-06-28T21:07:20.704Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1282",
+      "name": "Artsy Cabin in Mitzpe Ramon 31",
+      "imgUrl": "https://picsum.photos/seed/30a/800/600"
+    },
+    "nights": 9,
+    "priceBreakdown": {
+      "pricePerNight": 1115,
+      "subtotal": 10035,
+      "serviceFee": 1204,
+      "cleaningFee": 74,
+      "total": 11313
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "69299745979c23123bfedb72",
+      "fullname": "tsoor hartov"
+    },
+    "totalPrice": 3260,
+    "checkIn": "2025-06-06T11:49:43.638Z",
+    "checkOut": "2025-06-12T11:49:43.638Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 0,
+      "pets": 1
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1298",
+      "name": "Desert View Loft in Zichron Yaakov 53",
+      "imgUrl": "https://picsum.photos/seed/52a/800/600"
+    },
+    "nights": 6,
+    "priceBreakdown": {
+      "pricePerNight": 481,
+      "subtotal": 2886,
+      "serviceFee": 231,
+      "cleaningFee": 143,
+      "total": 3260
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren"
+    },
+    "totalPrice": 16094,
+    "checkIn": "2025-12-06T12:09:51.257Z",
+    "checkOut": "2025-12-20T12:09:51.257Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f129a",
+      "name": "Beachfront Villa in Eilat 55",
+      "imgUrl": "https://picsum.photos/seed/54a/800/600"
+    },
+    "nights": 14,
+    "priceBreakdown": {
+      "pricePerNight": 1026,
+      "subtotal": 14364,
+      "serviceFee": 1580,
+      "cleaningFee": 150,
+      "total": 16094
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis"
+    },
+    "totalPrice": 2917,
+    "checkIn": "2025-10-11T20:02:23.552Z",
+    "checkOut": "2025-10-19T20:02:23.552Z",
+    "guests": {
+      "adults": 7,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c2",
+      "name": "Village Cabin in Jerusalem 95",
+      "imgUrl": "https://picsum.photos/seed/94a/800/600"
+    },
+    "nights": 8,
+    "priceBreakdown": {
+      "pricePerNight": 317,
+      "subtotal": 2536,
+      "serviceFee": 330,
+      "cleaningFee": 51,
+      "total": 2917
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 1578,
+    "checkIn": "2025-10-09T05:54:25.232Z",
+    "checkOut": "2025-10-13T05:54:25.232Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1290",
+      "name": "Unique Loft in Jerusalem 45",
+      "imgUrl": "https://picsum.photos/seed/44a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 328,
+      "subtotal": 1312,
+      "serviceFee": 171,
+      "cleaningFee": 95,
+      "total": 1578
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez",
+      "imgUrl": "https://picsum.photos/id/1084/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 11884,
+    "checkIn": "2025-10-20T16:32:31.497Z",
+    "checkOut": "2025-11-03T17:32:31.497Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a4",
+      "name": "City Center Villa in Eilat 65",
+      "imgUrl": "https://picsum.photos/seed/64a/800/600"
+    },
+    "nights": 14,
+    "priceBreakdown": {
+      "pricePerNight": 766,
+      "subtotal": 10724,
+      "serviceFee": 965,
+      "cleaningFee": 195,
+      "total": 11884
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 7258,
+    "checkIn": "2025-10-30T00:10:05.954Z",
+    "checkOut": "2025-11-06T00:10:05.954Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f129f",
+      "name": "Desert View Villa in Jerusalem 60",
+      "imgUrl": "https://picsum.photos/seed/59a/800/600"
+    },
+    "nights": 7,
+    "priceBreakdown": {
+      "pricePerNight": 924,
+      "subtotal": 6468,
+      "serviceFee": 647,
+      "cleaningFee": 143,
+      "total": 7258
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez",
+      "imgUrl": "https://picsum.photos/id/1084/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 19279,
+    "checkIn": "2025-08-26T01:37:19.483Z",
+    "checkOut": "2025-09-08T01:37:19.483Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1296",
+      "name": "Desert View Cabin in Tel Aviv-Yafo 51",
+      "imgUrl": "https://picsum.photos/seed/50a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 1293,
+      "subtotal": 16809,
+      "serviceFee": 2353,
+      "cleaningFee": 117,
+      "total": 19279
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan",
+      "imgUrl": "https://picsum.photos/id/1077/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 7689,
+    "checkIn": "2025-06-04T23:43:59.659Z",
+    "checkOut": "2025-06-13T23:43:59.659Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1266",
+      "name": "Luxury Cabin in Eilat 3",
+      "imgUrl": "https://picsum.photos/seed/2a/800/600"
+    },
+    "nights": 9,
+    "priceBreakdown": {
+      "pricePerNight": 729,
+      "subtotal": 6561,
+      "serviceFee": 984,
+      "cleaningFee": 144,
+      "total": 7689
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan",
+      "imgUrl": "https://picsum.photos/id/1077/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 10728,
+    "checkIn": "2025-07-18T16:50:41.529Z",
+    "checkOut": "2025-07-30T16:50:41.529Z",
+    "guests": {
+      "adults": 1,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f127a",
+      "name": "Artsy Villa in Eilat 23",
+      "imgUrl": "https://picsum.photos/seed/22a/800/600"
+    },
+    "nights": 12,
+    "priceBreakdown": {
+      "pricePerNight": 786,
+      "subtotal": 9432,
+      "serviceFee": 1132,
+      "cleaningFee": 164,
+      "total": 10728
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz",
+      "imgUrl": "https://picsum.photos/id/1085/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 661,
+    "checkIn": "2025-10-23T06:45:28.721Z",
+    "checkOut": "2025-10-24T06:45:28.721Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f128a",
+      "name": "Luxury House in Jerusalem 39",
+      "imgUrl": "https://picsum.photos/seed/38a/800/600"
+    },
+    "nights": 1,
+    "priceBreakdown": {
+      "pricePerNight": 500,
+      "subtotal": 500,
+      "serviceFee": 50,
+      "cleaningFee": 111,
+      "total": 661
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz",
+      "imgUrl": "https://picsum.photos/id/1085/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 3070,
+    "checkIn": "2025-03-24T15:02:13.551Z",
+    "checkOut": "2025-03-27T15:02:13.551Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b1",
+      "name": "Beachfront Loft in Jerusalem 78",
+      "imgUrl": "https://picsum.photos/seed/77a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 893,
+      "subtotal": 2679,
+      "serviceFee": 321,
+      "cleaningFee": 70,
+      "total": 3070
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 2295,
+    "checkIn": "2025-08-12T09:35:17.088Z",
+    "checkOut": "2025-08-16T09:35:17.088Z",
+    "guests": {
+      "adults": 2,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f127f",
+      "name": "Unique Apartment in Mitzpe Ramon 28",
+      "imgUrl": "https://picsum.photos/seed/27a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 507,
+      "subtotal": 2028,
+      "serviceFee": 162,
+      "cleaningFee": 105,
+      "total": 2295
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz",
+      "imgUrl": "https://picsum.photos/id/1085/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis"
+    },
+    "totalPrice": 5615,
+    "checkIn": "2025-07-06T06:39:46.788Z",
+    "checkOut": "2025-07-14T06:39:46.788Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f126e",
+      "name": "Beachfront House in Tel Aviv-Yafo 11",
+      "imgUrl": "https://picsum.photos/seed/10a/800/600"
+    },
+    "nights": 8,
+    "priceBreakdown": {
+      "pricePerNight": 618,
+      "subtotal": 4944,
+      "serviceFee": 593,
+      "cleaningFee": 78,
+      "total": 5615
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 11790,
+    "checkIn": "2025-08-14T08:27:13.754Z",
+    "checkOut": "2025-08-22T08:27:13.754Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b6",
+      "name": "City Center House in Haifa 83",
+      "imgUrl": "https://picsum.photos/seed/82a/800/600"
+    },
+    "nights": 8,
+    "priceBreakdown": {
+      "pricePerNight": 1307,
+      "subtotal": 10456,
+      "serviceFee": 1255,
+      "cleaningFee": 79,
+      "total": 11790
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 15987,
+    "checkIn": "2025-01-27T10:10:22.985Z",
+    "checkOut": "2025-02-07T10:10:22.985Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12ab",
+      "name": "City Center Villa in Zichron Yaakov 72",
+      "imgUrl": "https://picsum.photos/seed/71a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 1329,
+      "subtotal": 14619,
+      "serviceFee": 1170,
+      "cleaningFee": 198,
+      "total": 15987
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi",
+      "imgUrl": "https://picsum.photos/id/1011/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 7924,
+    "checkIn": "2025-06-24T16:36:07.768Z",
+    "checkOut": "2025-07-07T16:36:07.768Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1273",
+      "name": "Artsy Villa in Eilat 16",
+      "imgUrl": "https://picsum.photos/seed/15a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 536,
+      "subtotal": 6968,
+      "serviceFee": 836,
+      "cleaningFee": 120,
+      "total": 7924
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez",
+      "imgUrl": "https://picsum.photos/id/1084/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 7040,
+    "checkIn": "2025-11-12T14:39:53.933Z",
+    "checkOut": "2025-11-21T14:39:53.933Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1284",
+      "name": "Luxury Cabin in Jerusalem 33",
+      "imgUrl": "https://picsum.photos/seed/32a/800/600"
+    },
+    "nights": 9,
+    "priceBreakdown": {
+      "pricePerNight": 706,
+      "subtotal": 6354,
+      "serviceFee": 635,
+      "cleaningFee": 51,
+      "total": 7040
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 2131,
+    "checkIn": "2025-06-16T09:07:43.877Z",
+    "checkOut": "2025-06-21T09:07:43.877Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12be",
+      "name": "Luxury Apartment in Zichron Yaakov 91",
+      "imgUrl": "https://picsum.photos/seed/90a/800/600"
+    },
+    "nights": 5,
+    "priceBreakdown": {
+      "pricePerNight": 372,
+      "subtotal": 1860,
+      "serviceFee": 186,
+      "cleaningFee": 85,
+      "total": 2131
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis",
+      "imgUrl": "https://picsum.photos/id/1005/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 6055,
+    "checkIn": "2025-08-20T07:27:27.928Z",
+    "checkOut": "2025-08-28T07:27:27.928Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 0,
+      "pets": 1
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1265",
+      "name": "Artsy Apartment in Eilat 2",
+      "imgUrl": "https://picsum.photos/seed/1a/800/600"
+    },
+    "nights": 8,
+    "priceBreakdown": {
+      "pricePerNight": 657,
+      "subtotal": 5256,
+      "serviceFee": 683,
+      "cleaningFee": 116,
+      "total": 6055
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 2370,
+    "checkIn": "2025-12-24T00:20:14.300Z",
+    "checkOut": "2025-12-27T00:20:14.300Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12af",
+      "name": "Luxury House in Eilat 76",
+      "imgUrl": "https://picsum.photos/seed/75a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 653,
+      "subtotal": 1959,
+      "serviceFee": 215,
+      "cleaningFee": 196,
+      "total": 2370
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi",
+      "imgUrl": "https://picsum.photos/id/1011/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 3215,
+    "checkIn": "2025-11-21T11:10:34.028Z",
+    "checkOut": "2025-11-24T11:10:34.028Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 1
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a3",
+      "name": "Desert View Villa in Mitzpe Ramon 64",
+      "imgUrl": "https://picsum.photos/seed/63a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 926,
+      "subtotal": 2778,
+      "serviceFee": 361,
+      "cleaningFee": 76,
+      "total": 3215
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 9501,
+    "checkIn": "2025-10-19T16:33:37.211Z",
+    "checkOut": "2025-10-25T16:33:37.211Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a8",
+      "name": "Beachfront House in Haifa 69",
+      "imgUrl": "https://picsum.photos/seed/68a/800/600"
+    },
+    "nights": 6,
+    "priceBreakdown": {
+      "pricePerNight": 1445,
+      "subtotal": 8670,
+      "serviceFee": 780,
+      "cleaningFee": 51,
+      "total": 9501
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 3738,
+    "checkIn": "2025-09-16T13:21:52.372Z",
+    "checkOut": "2025-09-26T13:21:52.372Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c7",
+      "name": "Beachfront Apartment in Eilat 100",
+      "imgUrl": "https://picsum.photos/seed/99a/800/600"
+    },
+    "nights": 10,
+    "priceBreakdown": {
+      "pricePerNight": 334,
+      "subtotal": 3340,
+      "serviceFee": 334,
+      "cleaningFee": 64,
+      "total": 3738
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan",
+      "imgUrl": "https://picsum.photos/id/1077/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 6007,
+    "checkIn": "2025-03-02T14:11:33.645Z",
+    "checkOut": "2025-03-09T14:11:33.645Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1274",
+      "name": "Village Cabin in Eilat 17",
+      "imgUrl": "https://picsum.photos/seed/16a/800/600"
+    },
+    "nights": 7,
+    "priceBreakdown": {
+      "pricePerNight": 770,
+      "subtotal": 5390,
+      "serviceFee": 539,
+      "cleaningFee": 78,
+      "total": 6007
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi",
+      "imgUrl": "https://picsum.photos/id/1011/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 6041,
+    "checkIn": "2025-03-19T11:01:45.100Z",
+    "checkOut": "2025-03-23T11:01:45.100Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f127c",
+      "name": "Artsy Loft in Jerusalem 25",
+      "imgUrl": "https://picsum.photos/seed/24a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 1371,
+      "subtotal": 5484,
+      "serviceFee": 439,
+      "cleaningFee": 118,
+      "total": 6041
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 6377,
+    "checkIn": "2025-05-28T19:43:17.316Z",
+    "checkOut": "2025-06-09T19:43:17.316Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1298",
+      "name": "Desert View Loft in Zichron Yaakov 53",
+      "imgUrl": "https://picsum.photos/seed/52a/800/600"
+    },
+    "nights": 12,
+    "priceBreakdown": {
+      "pricePerNight": 481,
+      "subtotal": 5772,
+      "serviceFee": 462,
+      "cleaningFee": 143,
+      "total": 6377
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis"
+    },
+    "totalPrice": 12189,
+    "checkIn": "2025-12-26T08:11:51.263Z",
+    "checkOut": "2026-01-09T08:11:51.263Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a1",
+      "name": "Village Villa in Tel Aviv-Yafo 62",
+      "imgUrl": "https://picsum.photos/seed/61a/800/600"
+    },
+    "nights": 14,
+    "priceBreakdown": {
+      "pricePerNight": 758,
+      "subtotal": 10612,
+      "serviceFee": 1380,
+      "cleaningFee": 197,
+      "total": 12189
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis",
+      "imgUrl": "https://picsum.photos/id/1005/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 7051,
+    "checkIn": "2025-10-27T11:31:08.990Z",
+    "checkOut": "2025-11-04T11:31:08.990Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b9",
+      "name": "City Center Cabin in Tel Aviv-Yafo 86",
+      "imgUrl": "https://picsum.photos/seed/85a/800/600"
+    },
+    "nights": 8,
+    "priceBreakdown": {
+      "pricePerNight": 787,
+      "subtotal": 6296,
+      "serviceFee": 693,
+      "cleaningFee": 62,
+      "total": 7051
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 2378,
+    "checkIn": "2025-02-13T03:04:10.767Z",
+    "checkOut": "2025-02-15T03:04:10.767Z",
+    "guests": {
+      "adults": 3,
+      "children": 1,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f127d",
+      "name": "Village Villa in Mitzpe Ramon 26",
+      "imgUrl": "https://picsum.photos/seed/25a/800/600"
+    },
+    "nights": 2,
+    "priceBreakdown": {
+      "pricePerNight": 1044,
+      "subtotal": 2088,
+      "serviceFee": 209,
+      "cleaningFee": 81,
+      "total": 2378
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 10499,
+    "checkIn": "2025-07-07T23:23:35.158Z",
+    "checkOut": "2025-07-14T23:23:35.158Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a2",
+      "name": "Luxury Villa in Haifa 63",
+      "imgUrl": "https://picsum.photos/seed/62a/800/600"
+    },
+    "nights": 7,
+    "priceBreakdown": {
+      "pricePerNight": 1301,
+      "subtotal": 9107,
+      "serviceFee": 1275,
+      "cleaningFee": 117,
+      "total": 10499
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan",
+      "imgUrl": "https://picsum.photos/id/1077/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 2909,
+    "checkIn": "2025-04-11T05:54:54.916Z",
+    "checkOut": "2025-04-14T05:54:54.916Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1297",
+      "name": "Desert View House in Haifa 52",
+      "imgUrl": "https://picsum.photos/seed/51a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 805,
+      "subtotal": 2415,
+      "serviceFee": 362,
+      "cleaningFee": 132,
+      "total": 2909
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 11206,
+    "checkIn": "2025-02-17T22:59:22.206Z",
+    "checkOut": "2025-02-27T22:59:22.206Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1291",
+      "name": "Desert View House in Jerusalem 46",
+      "imgUrl": "https://picsum.photos/seed/45a/800/600"
+    },
+    "nights": 10,
+    "priceBreakdown": {
+      "pricePerNight": 965,
+      "subtotal": 9650,
+      "serviceFee": 1448,
+      "cleaningFee": 108,
+      "total": 11206
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 13273,
+    "checkIn": "2025-07-10T01:46:09.425Z",
+    "checkOut": "2025-07-19T01:46:09.425Z",
+    "guests": {
+      "adults": 7,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f126a",
+      "name": "Village Cabin in Tel Aviv-Yafo 7",
+      "imgUrl": "https://picsum.photos/seed/6a/800/600"
+    },
+    "nights": 9,
+    "priceBreakdown": {
+      "pricePerNight": 1322,
+      "subtotal": 11898,
+      "serviceFee": 1190,
+      "cleaningFee": 185,
+      "total": 13273
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 6331,
+    "checkIn": "2025-01-08T08:40:09.976Z",
+    "checkOut": "2025-01-12T08:40:09.976Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1281",
+      "name": "Beachfront Loft in Haifa 30",
+      "imgUrl": "https://picsum.photos/seed/29a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 1425,
+      "subtotal": 5700,
+      "serviceFee": 513,
+      "cleaningFee": 118,
+      "total": 6331
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan",
+      "imgUrl": "https://picsum.photos/id/1077/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 4476,
+    "checkIn": "2025-04-21T08:47:36.037Z",
+    "checkOut": "2025-04-24T08:47:36.037Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1294",
+      "name": "Unique House in Jerusalem 49",
+      "imgUrl": "https://picsum.photos/seed/48a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 1349,
+      "subtotal": 4047,
+      "serviceFee": 364,
+      "cleaningFee": 65,
+      "total": 4476
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett",
+      "imgUrl": "https://picsum.photos/id/1080/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 4327,
+    "checkIn": "2025-10-28T10:23:23.711Z",
+    "checkOut": "2025-11-03T10:23:23.711Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1280",
+      "name": "Village Loft in Haifa 29",
+      "imgUrl": "https://picsum.photos/seed/28a/800/600"
+    },
+    "nights": 6,
+    "priceBreakdown": {
+      "pricePerNight": 629,
+      "subtotal": 3774,
+      "serviceFee": 415,
+      "cleaningFee": 138,
+      "total": 4327
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 11391,
+    "checkIn": "2025-05-07T12:36:41.991Z",
+    "checkOut": "2025-05-16T12:36:41.991Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a7",
+      "name": "Village Cabin in Eilat 68",
+      "imgUrl": "https://picsum.photos/seed/67a/800/600"
+    },
+    "nights": 9,
+    "priceBreakdown": {
+      "pricePerNight": 1102,
+      "subtotal": 9918,
+      "serviceFee": 1289,
+      "cleaningFee": 184,
+      "total": 11391
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 8550,
+    "checkIn": "2025-06-20T22:54:11.544Z",
+    "checkOut": "2025-06-27T22:54:11.544Z",
+    "guests": {
+      "adults": 3,
+      "children": 1,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12bd",
+      "name": "Artsy Cabin in Haifa 90",
+      "imgUrl": "https://picsum.photos/seed/89a/800/600"
+    },
+    "nights": 7,
+    "priceBreakdown": {
+      "pricePerNight": 1058,
+      "subtotal": 7406,
+      "serviceFee": 963,
+      "cleaningFee": 181,
+      "total": 8550
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis",
+      "imgUrl": "https://picsum.photos/id/1005/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 7230,
+    "checkIn": "2025-09-03T02:43:58.375Z",
+    "checkOut": "2025-09-09T02:43:58.375Z",
+    "guests": {
+      "adults": 7,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f127e",
+      "name": "Unique Villa in Jerusalem 27",
+      "imgUrl": "https://picsum.photos/seed/26a/800/600"
+    },
+    "nights": 6,
+    "priceBreakdown": {
+      "pricePerNight": 1077,
+      "subtotal": 6462,
+      "serviceFee": 646,
+      "cleaningFee": 122,
+      "total": 7230
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz",
+      "imgUrl": "https://picsum.photos/id/1085/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 1914,
+    "checkIn": "2025-03-19T04:22:00.128Z",
+    "checkOut": "2025-03-24T04:22:00.128Z",
+    "guests": {
+      "adults": 1,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1269",
+      "name": "Desert View Cabin in Tel Aviv-Yafo 6",
+      "imgUrl": "https://picsum.photos/seed/5a/800/600"
+    },
+    "nights": 5,
+    "priceBreakdown": {
+      "pricePerNight": 308,
+      "subtotal": 1540,
+      "serviceFee": 185,
+      "cleaningFee": 189,
+      "total": 1914
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi"
+    },
+    "totalPrice": 5823,
+    "checkIn": "2025-10-06T18:54:46.116Z",
+    "checkOut": "2025-10-11T18:54:46.116Z",
+    "guests": {
+      "adults": 2,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f127d",
+      "name": "Village Villa in Mitzpe Ramon 26",
+      "imgUrl": "https://picsum.photos/seed/25a/800/600"
+    },
+    "nights": 5,
+    "priceBreakdown": {
+      "pricePerNight": 1044,
+      "subtotal": 5220,
+      "serviceFee": 522,
+      "cleaningFee": 81,
+      "total": 5823
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "69299745979c23123bfedb72",
+      "fullname": "tsoor hartov"
+    },
+    "totalPrice": 2561,
+    "checkIn": "2025-06-08T22:05:44.387Z",
+    "checkOut": "2025-06-10T22:05:44.387Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f128d",
+      "name": "Luxury Cabin in Jerusalem 42",
+      "imgUrl": "https://picsum.photos/seed/41a/800/600"
+    },
+    "nights": 2,
+    "priceBreakdown": {
+      "pricePerNight": 1068,
+      "subtotal": 2136,
+      "serviceFee": 299,
+      "cleaningFee": 126,
+      "total": 2561
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 9574,
+    "checkIn": "2025-01-08T03:56:30.162Z",
+    "checkOut": "2025-01-19T03:56:30.162Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a0",
+      "name": "Luxury Apartment in Zichron Yaakov 61",
+      "imgUrl": "https://picsum.photos/seed/60a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 748,
+      "subtotal": 8228,
+      "serviceFee": 1234,
+      "cleaningFee": 112,
+      "total": 9574
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 7656,
+    "checkIn": "2025-08-06T01:04:14.174Z",
+    "checkOut": "2025-08-12T01:04:14.174Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a7",
+      "name": "Village Cabin in Eilat 68",
+      "imgUrl": "https://picsum.photos/seed/67a/800/600"
+    },
+    "nights": 6,
+    "priceBreakdown": {
+      "pricePerNight": 1102,
+      "subtotal": 6612,
+      "serviceFee": 860,
+      "cleaningFee": 184,
+      "total": 7656
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 8810,
+    "checkIn": "2025-01-28T16:38:54.782Z",
+    "checkOut": "2025-02-03T16:38:54.782Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12ab",
+      "name": "City Center Villa in Zichron Yaakov 72",
+      "imgUrl": "https://picsum.photos/seed/71a/800/600"
+    },
+    "nights": 6,
+    "priceBreakdown": {
+      "pricePerNight": 1329,
+      "subtotal": 7974,
+      "serviceFee": 638,
+      "cleaningFee": 198,
+      "total": 8810
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett",
+      "imgUrl": "https://picsum.photos/id/1080/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 5724,
+    "checkIn": "2025-02-21T09:41:52.562Z",
+    "checkOut": "2025-03-01T09:41:52.562Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1280",
+      "name": "Village Loft in Haifa 29",
+      "imgUrl": "https://picsum.photos/seed/28a/800/600"
+    },
+    "nights": 8,
+    "priceBreakdown": {
+      "pricePerNight": 629,
+      "subtotal": 5032,
+      "serviceFee": 554,
+      "cleaningFee": 138,
+      "total": 5724
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "69299745979c23123bfedb72",
+      "fullname": "tsoor hartov"
+    },
+    "totalPrice": 5844,
+    "checkIn": "2025-12-26T23:01:42.465Z",
+    "checkOut": "2025-12-31T23:01:42.465Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f129a",
+      "name": "Beachfront Villa in Eilat 55",
+      "imgUrl": "https://picsum.photos/seed/54a/800/600"
+    },
+    "nights": 5,
+    "priceBreakdown": {
+      "pricePerNight": 1026,
+      "subtotal": 5130,
+      "serviceFee": 564,
+      "cleaningFee": 150,
+      "total": 5844
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis",
+      "imgUrl": "https://picsum.photos/id/1005/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 16020,
+    "checkIn": "2025-07-09T04:16:59.606Z",
+    "checkOut": "2025-07-19T04:16:59.606Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f126d",
+      "name": "City Center Cabin in Tel Aviv-Yafo 10",
+      "imgUrl": "https://picsum.photos/seed/9a/800/600"
+    },
+    "nights": 10,
+    "priceBreakdown": {
+      "pricePerNight": 1454,
+      "subtotal": 14540,
+      "serviceFee": 1309,
+      "cleaningFee": 171,
+      "total": 16020
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi",
+      "imgUrl": "https://picsum.photos/id/1011/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 20357,
+    "checkIn": "2025-12-29T17:10:25.963Z",
+    "checkOut": "2026-01-10T17:10:25.963Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b4",
+      "name": "Beachfront Loft in Eilat 81",
+      "imgUrl": "https://picsum.photos/seed/80a/800/600"
+    },
+    "nights": 12,
+    "priceBreakdown": {
+      "pricePerNight": 1494,
+      "subtotal": 17928,
+      "serviceFee": 2331,
+      "cleaningFee": 98,
+      "total": 20357
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 3369,
+    "checkIn": "2025-09-29T02:13:22.829Z",
+    "checkOut": "2025-10-02T02:13:22.829Z",
+    "guests": {
+      "adults": 2,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1272",
+      "name": "Beachfront Cabin in Tel Aviv-Yafo 15",
+      "imgUrl": "https://picsum.photos/seed/14a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 942,
+      "subtotal": 2826,
+      "serviceFee": 396,
+      "cleaningFee": 147,
+      "total": 3369
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 17097,
+    "checkIn": "2025-01-09T16:17:47.303Z",
+    "checkOut": "2025-01-23T16:17:47.303Z",
+    "guests": {
+      "adults": 1,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1270",
+      "name": "Desert View Apartment in Eilat 13",
+      "imgUrl": "https://picsum.photos/seed/12a/800/600"
+    },
+    "nights": 14,
+    "priceBreakdown": {
+      "pricePerNight": 1114,
+      "subtotal": 15596,
+      "serviceFee": 1404,
+      "cleaningFee": 97,
+      "total": 17097
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 3633,
+    "checkIn": "2025-01-10T09:44:34.863Z",
+    "checkOut": "2025-01-20T09:44:34.863Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c2",
+      "name": "Village Cabin in Jerusalem 95",
+      "imgUrl": "https://picsum.photos/seed/94a/800/600"
+    },
+    "nights": 10,
+    "priceBreakdown": {
+      "pricePerNight": 317,
+      "subtotal": 3170,
+      "serviceFee": 412,
+      "cleaningFee": 51,
+      "total": 3633
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 18601,
+    "checkIn": "2025-09-08T02:37:23.078Z",
+    "checkOut": "2025-09-21T02:37:23.078Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1276",
+      "name": "Unique Apartment in Zichron Yaakov 19",
+      "imgUrl": "https://picsum.photos/seed/18a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 1303,
+      "subtotal": 16939,
+      "serviceFee": 1525,
+      "cleaningFee": 137,
+      "total": 18601
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 4504,
+    "checkIn": "2025-03-17T01:16:33.985Z",
+    "checkOut": "2025-03-20T01:16:33.985Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12ab",
+      "name": "City Center Villa in Zichron Yaakov 72",
+      "imgUrl": "https://picsum.photos/seed/71a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 1329,
+      "subtotal": 3987,
+      "serviceFee": 319,
+      "cleaningFee": 198,
+      "total": 4504
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "69299745979c23123bfedb72",
+      "fullname": "tsoor hartov"
+    },
+    "totalPrice": 17204,
+    "checkIn": "2025-02-04T11:21:36.662Z",
+    "checkOut": "2025-02-15T11:21:36.662Z",
+    "guests": {
+      "adults": 4,
+      "children": 1,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1281",
+      "name": "Beachfront Loft in Haifa 30",
+      "imgUrl": "https://picsum.photos/seed/29a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 1425,
+      "subtotal": 15675,
+      "serviceFee": 1411,
+      "cleaningFee": 118,
+      "total": 17204
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan",
+      "imgUrl": "https://picsum.photos/id/1077/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren"
+    },
+    "totalPrice": 8887,
+    "checkIn": "2025-03-12T15:56:58.165Z",
+    "checkOut": "2025-03-18T15:56:58.165Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1294",
+      "name": "Unique House in Jerusalem 49",
+      "imgUrl": "https://picsum.photos/seed/48a/800/600"
+    },
+    "nights": 6,
+    "priceBreakdown": {
+      "pricePerNight": 1349,
+      "subtotal": 8094,
+      "serviceFee": 728,
+      "cleaningFee": 65,
+      "total": 8887
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi",
+      "imgUrl": "https://picsum.photos/id/1011/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 2169,
+    "checkIn": "2025-01-25T16:58:03.259Z",
+    "checkOut": "2025-01-27T16:58:03.259Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a3",
+      "name": "Desert View Villa in Mitzpe Ramon 64",
+      "imgUrl": "https://picsum.photos/seed/63a/800/600"
+    },
+    "nights": 2,
+    "priceBreakdown": {
+      "pricePerNight": 926,
+      "subtotal": 1852,
+      "serviceFee": 241,
+      "cleaningFee": 76,
+      "total": 2169
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 8655,
+    "checkIn": "2025-11-20T16:45:54.302Z",
+    "checkOut": "2025-11-27T16:45:54.302Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12aa",
+      "name": "Unique Loft in Tel Aviv-Yafo 71",
+      "imgUrl": "https://picsum.photos/seed/70a/800/600"
+    },
+    "nights": 7,
+    "priceBreakdown": {
+      "pricePerNight": 1099,
+      "subtotal": 7693,
+      "serviceFee": 846,
+      "cleaningFee": 116,
+      "total": 8655
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 17618,
+    "checkIn": "2025-12-19T03:19:15.952Z",
+    "checkOut": "2026-01-02T03:19:15.952Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a7",
+      "name": "Village Cabin in Eilat 68",
+      "imgUrl": "https://picsum.photos/seed/67a/800/600"
+    },
+    "nights": 14,
+    "priceBreakdown": {
+      "pricePerNight": 1102,
+      "subtotal": 15428,
+      "serviceFee": 2006,
+      "cleaningFee": 184,
+      "total": 17618
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez",
+      "imgUrl": "https://picsum.photos/id/1084/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 17805,
+    "checkIn": "2025-10-06T10:30:14.846Z",
+    "checkOut": "2025-10-18T10:30:14.846Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1296",
+      "name": "Desert View Cabin in Tel Aviv-Yafo 51",
+      "imgUrl": "https://picsum.photos/seed/50a/800/600"
+    },
+    "nights": 12,
+    "priceBreakdown": {
+      "pricePerNight": 1293,
+      "subtotal": 15516,
+      "serviceFee": 2172,
+      "cleaningFee": 117,
+      "total": 17805
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis"
+    },
+    "totalPrice": 3820,
+    "checkIn": "2025-04-21T10:12:29.578Z",
+    "checkOut": "2025-04-24T10:12:29.578Z",
+    "guests": {
+      "adults": 1,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1282",
+      "name": "Artsy Cabin in Mitzpe Ramon 31",
+      "imgUrl": "https://picsum.photos/seed/30a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 1115,
+      "subtotal": 3345,
+      "serviceFee": 401,
+      "cleaningFee": 74,
+      "total": 3820
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis",
+      "imgUrl": "https://picsum.photos/id/1005/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren"
+    },
+    "totalPrice": 2389,
+    "checkIn": "2025-09-19T09:35:38.451Z",
+    "checkOut": "2025-09-22T09:35:38.451Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f126f",
+      "name": "Luxury Loft in Tel Aviv-Yafo 12",
+      "imgUrl": "https://picsum.photos/seed/11a/800/600"
+    },
+    "nights": 3,
+    "priceBreakdown": {
+      "pricePerNight": 692,
+      "subtotal": 2076,
+      "serviceFee": 228,
+      "cleaningFee": 85,
+      "total": 2389
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez",
+      "imgUrl": "https://picsum.photos/id/1084/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 13679,
+    "checkIn": "2025-04-13T11:22:41.867Z",
+    "checkOut": "2025-04-26T11:22:41.867Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b2",
+      "name": "City Center Cabin in Tel Aviv-Yafo 79",
+      "imgUrl": "https://picsum.photos/seed/78a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 934,
+      "subtotal": 12142,
+      "serviceFee": 1457,
+      "cleaningFee": 80,
+      "total": 13679
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis"
+    },
+    "totalPrice": 16372,
+    "checkIn": "2025-05-23T00:17:32.899Z",
+    "checkOut": "2025-06-05T00:17:32.899Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12a7",
+      "name": "Village Cabin in Eilat 68",
+      "imgUrl": "https://picsum.photos/seed/67a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 1102,
+      "subtotal": 14326,
+      "serviceFee": 1862,
+      "cleaningFee": 184,
+      "total": 16372
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis"
+    },
+    "totalPrice": 6266,
+    "checkIn": "2025-12-20T05:48:58.765Z",
+    "checkOut": "2025-12-24T05:48:58.765Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b8",
+      "name": "Desert View Loft in Tel Aviv-Yafo 85",
+      "imgUrl": "https://picsum.photos/seed/84a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 1341,
+      "subtotal": 5364,
+      "serviceFee": 805,
+      "cleaningFee": 97,
+      "total": 6266
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz",
+      "imgUrl": "https://picsum.photos/id/1085/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 5298,
+    "checkIn": "2025-12-05T10:06:50.384Z",
+    "checkOut": "2025-12-10T10:06:50.384Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f128f",
+      "name": "Luxury Apartment in Mitzpe Ramon 44",
+      "imgUrl": "https://picsum.photos/seed/43a/800/600"
+    },
+    "nights": 5,
+    "priceBreakdown": {
+      "pricePerNight": 919,
+      "subtotal": 4595,
+      "serviceFee": 643,
+      "cleaningFee": 60,
+      "total": 5298
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis",
+      "imgUrl": "https://picsum.photos/id/1005/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 1325,
+    "checkIn": "2025-07-19T11:22:48.582Z",
+    "checkOut": "2025-07-20T11:22:48.582Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f129b",
+      "name": "City Center Cabin in Haifa 56",
+      "imgUrl": "https://picsum.photos/seed/55a/800/600"
+    },
+    "nights": 1,
+    "priceBreakdown": {
+      "pricePerNight": 1057,
+      "subtotal": 1057,
+      "serviceFee": 127,
+      "cleaningFee": 141,
+      "total": 1325
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 5720,
+    "checkIn": "2025-01-21T23:06:02.091Z",
+    "checkOut": "2025-01-25T23:06:02.091Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c1",
+      "name": "Luxury Apartment in Tel Aviv-Yafo 94",
+      "imgUrl": "https://picsum.photos/seed/93a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 1227,
+      "subtotal": 4908,
+      "serviceFee": 638,
+      "cleaningFee": 174,
+      "total": 5720
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett",
+      "imgUrl": "https://picsum.photos/id/1080/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi"
+    },
+    "totalPrice": 8472,
+    "checkIn": "2025-08-03T02:08:41.025Z",
+    "checkOut": "2025-08-11T02:08:41.025Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b0",
+      "name": "Desert View Loft in Haifa 77",
+      "imgUrl": "https://picsum.photos/seed/76a/800/600"
+    },
+    "nights": 8,
+    "priceBreakdown": {
+      "pricePerNight": 933,
+      "subtotal": 7464,
+      "serviceFee": 821,
+      "cleaningFee": 187,
+      "total": 8472
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett"
+    },
+    "totalPrice": 12229,
+    "checkIn": "2025-08-21T04:57:13.848Z",
+    "checkOut": "2025-09-03T04:57:13.848Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1275",
+      "name": "Unique Apartment in Tel Aviv-Yafo 18",
+      "imgUrl": "https://picsum.photos/seed/17a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 840,
+      "subtotal": 10920,
+      "serviceFee": 1201,
+      "cleaningFee": 108,
+      "total": 12229
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 1561,
+    "checkIn": "2025-10-01T21:28:41.545Z",
+    "checkOut": "2025-10-02T21:28:41.545Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 0,
+      "pets": 1
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c1",
+      "name": "Luxury Apartment in Tel Aviv-Yafo 94",
+      "imgUrl": "https://picsum.photos/seed/93a/800/600"
+    },
+    "nights": 1,
+    "priceBreakdown": {
+      "pricePerNight": 1227,
+      "subtotal": 1227,
+      "serviceFee": 160,
+      "cleaningFee": 174,
+      "total": 1561
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett",
+      "imgUrl": "https://picsum.photos/id/1080/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 3214,
+    "checkIn": "2025-11-26T04:40:59.850Z",
+    "checkOut": "2025-11-30T04:40:59.850Z",
+    "guests": {
+      "adults": 6,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f128c",
+      "name": "Desert View Apartment in Eilat 41",
+      "imgUrl": "https://picsum.photos/seed/40a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 691,
+      "subtotal": 2764,
+      "serviceFee": 332,
+      "cleaningFee": 118,
+      "total": 3214
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren"
+    },
+    "totalPrice": 5199,
+    "checkIn": "2025-04-15T22:09:11.778Z",
+    "checkOut": "2025-04-28T22:09:11.778Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1292",
+      "name": "Beachfront Villa in Jerusalem 47",
+      "imgUrl": "https://picsum.photos/seed/46a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 341,
+      "subtotal": 4433,
+      "serviceFee": 665,
+      "cleaningFee": 101,
+      "total": 5199
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett",
+      "imgUrl": "https://picsum.photos/id/1080/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57b",
+      "fullname": "Ronen Perez"
+    },
+    "totalPrice": 1830,
+    "checkIn": "2025-02-19T01:31:18.973Z",
+    "checkOut": "2025-02-21T01:31:18.973Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c4",
+      "name": "Desert View Apartment in Tel Aviv-Yafo 97",
+      "imgUrl": "https://picsum.photos/seed/96a/800/600"
+    },
+    "nights": 2,
+    "priceBreakdown": {
+      "pricePerNight": 823,
+      "subtotal": 1646,
+      "serviceFee": 132,
+      "cleaningFee": 52,
+      "total": 1830
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "69299745979c23123bfedb72",
+      "fullname": "tsoor hartov"
+    },
+    "totalPrice": 5575,
+    "checkIn": "2025-10-19T00:59:43.709Z",
+    "checkOut": "2025-11-02T01:59:43.709Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12ae",
+      "name": "Luxury Cabin in Tel Aviv-Yafo 75",
+      "imgUrl": "https://picsum.photos/seed/74a/800/600"
+    },
+    "nights": 14,
+    "priceBreakdown": {
+      "pricePerNight": 360,
+      "subtotal": 5040,
+      "serviceFee": 403,
+      "cleaningFee": 132,
+      "total": 5575
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis"
+    },
+    "totalPrice": 2268,
+    "checkIn": "2025-03-12T02:58:23.520Z",
+    "checkOut": "2025-03-17T02:58:23.520Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c3",
+      "name": "Unique Cabin in Mitzpe Ramon 96",
+      "imgUrl": "https://picsum.photos/seed/95a/800/600"
+    },
+    "nights": 5,
+    "priceBreakdown": {
+      "pricePerNight": 367,
+      "subtotal": 1835,
+      "serviceFee": 257,
+      "cleaningFee": 176,
+      "total": 2268
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi",
+      "imgUrl": "https://picsum.photos/id/1011/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren"
+    },
+    "totalPrice": 18668,
+    "checkIn": "2025-12-19T18:12:55.292Z",
+    "checkOut": "2025-12-30T18:12:55.292Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b4",
+      "name": "Beachfront Loft in Eilat 81",
+      "imgUrl": "https://picsum.photos/seed/80a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 1494,
+      "subtotal": 16434,
+      "serviceFee": 2136,
+      "cleaningFee": 98,
+      "total": 18668
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis",
+      "imgUrl": "https://picsum.photos/id/1005/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren"
+    },
+    "totalPrice": 11418,
+    "checkIn": "2025-06-11T19:07:54.849Z",
+    "checkOut": "2025-06-24T19:07:54.849Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b9",
+      "name": "City Center Cabin in Tel Aviv-Yafo 86",
+      "imgUrl": "https://picsum.photos/seed/85a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 787,
+      "subtotal": 10231,
+      "serviceFee": 1125,
+      "cleaningFee": 62,
+      "total": 11418
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 10099,
+    "checkIn": "2025-05-20T13:52:38.688Z",
+    "checkOut": "2025-05-29T13:52:38.688Z",
+    "guests": {
+      "adults": 2,
+      "children": 1,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1289",
+      "name": "Artsy Loft in Haifa 38",
+      "imgUrl": "https://picsum.photos/seed/37a/800/600"
+    },
+    "nights": 9,
+    "priceBreakdown": {
+      "pricePerNight": 988,
+      "subtotal": 8892,
+      "serviceFee": 1156,
+      "cleaningFee": 51,
+      "total": 10099
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe57a",
+      "fullname": "Shira Bennett",
+      "imgUrl": "https://picsum.photos/id/1080/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 766,
+    "checkIn": "2025-08-16T05:21:04.297Z",
+    "checkOut": "2025-08-17T05:21:04.297Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12b7",
+      "name": "Luxury House in Haifa 84",
+      "imgUrl": "https://picsum.photos/seed/83a/800/600"
+    },
+    "nights": 1,
+    "priceBreakdown": {
+      "pricePerNight": 616,
+      "subtotal": 616,
+      "serviceFee": 62,
+      "cleaningFee": 88,
+      "total": 766
+    }
+  },
+  {
+    "status": "on hold",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 17979,
+    "checkIn": "2025-06-08T20:29:58.513Z",
+    "checkOut": "2025-06-20T20:29:58.513Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f127b",
+      "name": "Desert View Apartment in Haifa 24",
+      "imgUrl": "https://picsum.photos/seed/23a/800/600"
+    },
+    "nights": 12,
+    "priceBreakdown": {
+      "pricePerNight": 1360,
+      "subtotal": 16320,
+      "serviceFee": 1469,
+      "cleaningFee": 190,
+      "total": 17979
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe574",
+      "fullname": "Dana Levi"
+    },
+    "totalPrice": 13535,
+    "checkIn": "2025-03-17T19:13:53.151Z",
+    "checkOut": "2025-03-28T18:13:53.151Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12aa",
+      "name": "Unique Loft in Tel Aviv-Yafo 71",
+      "imgUrl": "https://picsum.photos/seed/70a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 1099,
+      "subtotal": 12089,
+      "serviceFee": 1330,
+      "cleaningFee": 116,
+      "total": 13535
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 5857,
+    "checkIn": "2025-03-09T11:34:16.776Z",
+    "checkOut": "2025-03-20T11:34:16.776Z",
+    "guests": {
+      "adults": 4,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1298",
+      "name": "Desert View Loft in Zichron Yaakov 53",
+      "imgUrl": "https://picsum.photos/seed/52a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 481,
+      "subtotal": 5291,
+      "serviceFee": 423,
+      "cleaningFee": 143,
+      "total": 5857
+    }
+  },
+  {
+    "status": "passed",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe573",
+      "fullname": "adminos adminis",
+      "imgUrl": "https://picsum.photos/id/1005/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad"
+    },
+    "totalPrice": 10071,
+    "checkIn": "2025-07-07T18:44:17.123Z",
+    "checkOut": "2025-07-20T18:44:17.123Z",
+    "guests": {
+      "adults": 5,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f126f",
+      "name": "Luxury Loft in Tel Aviv-Yafo 12",
+      "imgUrl": "https://picsum.photos/seed/11a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 692,
+      "subtotal": 8996,
+      "serviceFee": 990,
+      "cleaningFee": 85,
+      "total": 10071
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan",
+      "imgUrl": "https://picsum.photos/id/1077/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli"
+    },
+    "totalPrice": 3054,
+    "checkIn": "2025-08-23T14:49:01.763Z",
+    "checkOut": "2025-08-27T14:49:01.763Z",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1268",
+      "name": "Unique Cabin in Zichron Yaakov 5",
+      "imgUrl": "https://picsum.photos/seed/4a/800/600"
+    },
+    "nights": 4,
+    "priceBreakdown": {
+      "pricePerNight": 651,
+      "subtotal": 2604,
+      "serviceFee": 286,
+      "cleaningFee": 164,
+      "total": 3054
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe576",
+      "fullname": "Maya Goren",
+      "imgUrl": "https://picsum.photos/id/1027/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 714,
+    "checkIn": "2025-06-22T10:44:31.719Z",
+    "checkOut": "2025-06-23T10:44:31.719Z",
+    "guests": {
+      "adults": 8,
+      "children": 1,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1285",
+      "name": "Village Cabin in Haifa 34",
+      "imgUrl": "https://picsum.photos/seed/33a/800/600"
+    },
+    "nights": 1,
+    "priceBreakdown": {
+      "pricePerNight": 528,
+      "subtotal": 528,
+      "serviceFee": 48,
+      "cleaningFee": 138,
+      "total": 714
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928386dbd5c05a58bfbe578",
+      "fullname": "Noa Hadad",
+      "imgUrl": "https://picsum.photos/id/1074/200/200"
+    },
+    "guest": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi"
+    },
+    "totalPrice": 3991,
+    "checkIn": "2025-04-17T07:03:14.223Z",
+    "checkOut": "2025-04-28T07:03:14.223Z",
+    "guests": {
+      "adults": 4,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12c2",
+      "name": "Village Cabin in Jerusalem 95",
+      "imgUrl": "https://picsum.photos/seed/94a/800/600"
+    },
+    "nights": 11,
+    "priceBreakdown": {
+      "pricePerNight": 317,
+      "subtotal": 3487,
+      "serviceFee": 453,
+      "cleaningFee": 51,
+      "total": 3991
+    }
+  },
+  {
+    "status": "approved",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe577",
+      "fullname": "Shai Davidi",
+      "imgUrl": "https://picsum.photos/id/1063/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe57c",
+      "fullname": "Adi Katz"
+    },
+    "totalPrice": 16970,
+    "checkIn": "2025-10-15T14:55:56.652Z",
+    "checkOut": "2025-10-28T15:55:56.652Z",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f1283",
+      "name": "Beachfront Villa in Jerusalem 32",
+      "imgUrl": "https://picsum.photos/seed/31a/800/600"
+    },
+    "nights": 13,
+    "priceBreakdown": {
+      "pricePerNight": 1158,
+      "subtotal": 15054,
+      "serviceFee": 1806,
+      "cleaningFee": 110,
+      "total": 16970
+    }
+  },
+  {
+    "status": "rejected",
+    "host": {
+      "_id": "6928382dbd5c05a58bfbe575",
+      "fullname": "Yossi Israeli",
+      "imgUrl": "https://picsum.photos/id/1025/200/200"
+    },
+    "guest": {
+      "_id": "6928386dbd5c05a58bfbe579",
+      "fullname": "Idan Golan"
+    },
+    "totalPrice": 521,
+    "checkIn": "2025-01-19T21:57:14.041Z",
+    "checkOut": "2025-01-20T21:57:14.041Z",
+    "guests": {
+      "adults": 3,
+      "children": 0,
+      "infants": 1,
+      "pets": 0
+    },
+    "stay": {
+      "_id": "692898cddb732476625f12ae",
+      "name": "Luxury Cabin in Tel Aviv-Yafo 75",
+      "imgUrl": "https://picsum.photos/seed/74a/800/600"
+    },
+    "nights": 1,
+    "priceBreakdown": {
+      "pricePerNight": 360,
+      "subtotal": 360,
+      "serviceFee": 29,
+      "cleaningFee": 132,
+      "total": 521
+    }
+  }
+]

@@ -58,7 +58,7 @@ async function add(stay) {
 
 async function update(stay) {
     const { loggedinUser } = asyncLocalStorage.getStore()
-    if (!(stay._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update');
+    if (!(stay.ownerId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update');
     try {
         const collection = await dbService.getCollection(COLLECTION)
         const { _id, ...nonIdStay } = stay;
@@ -81,12 +81,14 @@ async function update(stay) {
 
 async function remove(stayId) {
     const { loggedinUser } = asyncLocalStorage.getStore()
-    if (!(stayId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to remove');
+    // if (!(stayId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to remove');
     try {
         const collection = await dbService.getCollection(COLLECTION);
         const criteria = { _id: new ObjectId(stayId) }
         const stayExist = await collection.findOne(criteria)
         if (!stayExist) throw new Error("Couldn't find stay to remove")
+
+        if (!(stayExist.ownerId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to remove');
 
         const res = await collection.deleteOne(criteria);
         if (res.deletedCount === 0) throw new Error("Couldn't delete stay")
