@@ -1,7 +1,7 @@
 import { loggerService } from "../../services/logger.service.js";
 import { authService } from "./auth.service.js";
 
-const LOGIN_COOKIE_MAX_AGE = 1000 * 60 * 15;
+const LOGIN_COOKIE_MAX_AGE = 1000 * 60 * 15; // how to treat maxAge of loggedin user? 
 const COOKIE_OPTIONS = {
   secure: true,
   sameSite: "None",
