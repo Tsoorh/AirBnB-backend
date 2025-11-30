@@ -7,7 +7,7 @@ import { loggerService } from "../../services/logger.service.js";
 import { UserService } from "../user/user.service.js";
 import { randomInt } from "crypto";
 
-const cryptr = new Cryptr(process.env.SECRET1 || 'SecretBYtsoor');
+const cryptr = new Cryptr(process.env.SECRET_KEY || 'SecretBYtsoor');
 
 export const authService = {
   login,
