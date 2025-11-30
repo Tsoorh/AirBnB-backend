@@ -9,9 +9,14 @@ const COOKIE_OPTIONS = {
 };
 
 export async function login(req, res) {
+  console.log('login backend');
+  
   try {
     const { username, password } = req.body;
-
+    console.log('username:', username);
+    console.log('password:', password);
+    
+    
     const user = await authService.login(username, password);
     loggerService.info(`User login: ${JSON.stringify(user)}`);
 
