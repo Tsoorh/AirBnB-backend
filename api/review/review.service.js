@@ -1,5 +1,4 @@
 import { ObjectId } from "mongodb";
-import { asyncLocalStorage } from "../../services/als.service.js";
 import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js";
 

@@ -37,7 +37,6 @@ try{
         console.error('Error in writePDF:', err);
         throw err;
     }
-
 }
 
 export function makeId(length = 6) {

@@ -1,7 +1,7 @@
 import { asyncLocalStorage } from "../../services/als.service.js"
-import { loggerService } from "../../services/logger.service"
+import { loggerService } from "../../services/logger.service.js"
 import { makeId } from "../../services/utils.js"
-import { reviewService } from "./review.service"
+import { reviewService } from "./review.service.js"
 
 export async function addReview(req,res) {
     const {stayId}=req.params

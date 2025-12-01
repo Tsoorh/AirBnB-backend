@@ -1,7 +1,8 @@
 import { loggerService } from "../../services/logger.service.js";
 import { authService } from "./auth.service.js";
 
-const LOGIN_COOKIE_MAX_AGE = 1000 * 60 * 15; // how to treat maxAge of loggedin user? 
+const LOGIN_COOKIE_MAX_AGE = 1000 * 60 * 15; //15 minutes
+// const REFRESH_TOKEN_MAX_AGE = 1000 * 60 * 60 * 24 * 30; // 30 days
 const COOKIE_OPTIONS = {
   secure: true,
   sameSite: "None",
@@ -28,7 +29,7 @@ export async function login(req, res) {
 export async function signup(req, res) {
   const { credentials } = req.body;
   try {
-    
+
     const user = await authService.signup(credentials);
     loggerService.info("User signup - ", JSON.stringify(user));
 
@@ -51,7 +52,7 @@ export async function signup(req, res) {
 
 export async function logout(req, res) {
   try {
-    if(!req?.cookies?.loginToken) return res.send('No one logged in')
+    if (!req?.cookies?.loginToken) return res.send('No one logged in')
     res.clearCookie('loginToken');
     res.send('Logged out successfully')
   } catch (err) {
@@ -60,3 +61,4 @@ export async function logout(req, res) {
 
   }
 }
+
