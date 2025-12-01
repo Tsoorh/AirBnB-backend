@@ -47,7 +47,8 @@ async function login(username, password) {
     _id: userExist._id,
     fullname: userExist.fullname,
     score: userExist.score,
-    isAdmin: userExist.isAdmin
+    isAdmin: userExist.isAdmin,
+    liked: userExist.liked
   };
   return miniUser;
 }
