@@ -71,3 +71,6 @@
 1.12.2025, 12:23:02 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
 1.12.2025, 12:25:12 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
 1.12.2025, 12:26:27 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true,"liked":["692898cddb732476625f1266","692898cddb732476625f126c"]}
+1.12.2025, 12:44:31 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true,"liked":["692898cddb732476625f1266","692898cddb732476625f126c","692898cddb732476625f1289"]}
+2.12.2025, 10:54:16 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true,"liked":["692898cddb732476625f1266","692898cddb732476625f126c","692898cddb732476625f1289","692898cddb732476625f1270","692898cddb732476625f1273"]}
+2.12.2025, 12:17:35 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true,"liked":["692898cddb732476625f126c","692898cddb732476625f1289","692898cddb732476625f1270","692898cddb732476625f1273"]}

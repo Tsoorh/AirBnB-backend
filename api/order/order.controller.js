@@ -30,7 +30,7 @@ export async function getOrder(req, res) {
 }
 export async function saveOrder(req, res) {
     const order = req.body
-
+    console.log('order to save from controller:', order);
     try {
         let orderRes;
         if (order._id) {
