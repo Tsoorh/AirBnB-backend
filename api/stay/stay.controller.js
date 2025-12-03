@@ -68,6 +68,8 @@ export async function saveStay(req, res) {
 
     try {
         let stayRes;
+        console.log("🚀 ~ saveStay ~ _id:", Boolean(stay._id))
+        console.log("🚀 ~ saveStay ~ _id:", stay._id)
         if (stay._id) {
             stayRes = await stayService.update(stay)
         } else {

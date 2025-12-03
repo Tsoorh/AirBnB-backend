@@ -5,15 +5,10 @@ import { reviewService } from "./review.service.js"
 
 export async function addReview(req,res) {
     const {stayId}=req.params
-    const {review} = req.body
-    review._id = makeId(7);
-    const {loggenInUser} = asyncLocalStorage.getStore()
-    review.createdAt = new Date();
-    review.byUser = {
-        _id:loggenInUser._id,
-        fullname:loggenInUser.fullname,
-        imgUrl:loggenInUser.imgUrl
-    }
+    const review = req.body
+    console.log("🚀 ~ addReview ~ review:", review)
+    // review._id = makeId(7);
+    if(stayId.toString() === review.byUser._id.toString()) throw new Error("You cant rate your property!")
     try {
         const reviewRes = await reviewService.add(stayId,review)
         res.send(reviewRes)
