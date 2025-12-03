@@ -58,7 +58,7 @@ async function add(stay) {
 
 async function update(stay) {
     const { loggedinUser } = asyncLocalStorage.getStore()
-    if (!(stay.ownerId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update');
+    // if (!(stay.ownerId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update');
     try {
         const collection = await dbService.getCollection(COLLECTION)
         const { _id, ...nonIdStay } = stay;

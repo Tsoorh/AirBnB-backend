@@ -23,7 +23,7 @@ export async function getStay(req, res) {
     const { stayId } = req.params
     try {
         const stay = await stayService.getById(stayId)
-        console.log("🚀 ~ getStay ~ stay:", stay)
+        // console.log("🚀 ~ getStay ~ stay:", stay)
         res.send(stay)
     } catch (err) {
         loggerService.error(err)
@@ -32,6 +32,8 @@ export async function getStay(req, res) {
 }
 export async function saveStay(req, res) {
     const stay = req.body
+    console.log('update stay', stay);
+    
 
     try {
         let stayRes;

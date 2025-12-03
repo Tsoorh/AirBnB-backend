@@ -3,8 +3,10 @@
 # ---------------------------------------------------------------- #
 
 # יומני קריסה (Logs)
-log/
+logs/
+*.logs
 *.log
+backend.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

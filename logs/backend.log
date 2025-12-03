@@ -37,6 +37,46 @@
 28.11.2025, 14:39:18 - ERROR - couldn't login  | TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
 28.11.2025, 14:39:54 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
 28.11.2025, 14:40:05 - ERROR - couldn't login  | TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+30.11.2025, 18:53:14 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 18:53:30 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 18:53:30 - ERROR - couldn't login  | Unknown user
+30.11.2025, 18:53:31 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 18:54:11 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 19:12:37 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 19:13:55 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 19:15:29 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 19:15:40 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 19:15:40 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:15:41 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 19:16:42 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 19:16:42 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:16:43 - ERROR - couldnt validateToken: | Error: Unsupported state or unable to authenticate data
+30.11.2025, 19:20:24 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:27:50 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:29:25 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:29:56 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:32:51 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:33:10 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:38:20 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:43:45 - ERROR - couldn't login  | Unknown user
+30.11.2025, 19:51:50 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe574","fullname":"Dana Levi","score":50,"isAdmin":false}
+30.11.2025, 19:52:41 - ERROR - couldn't login  | Invalid username or password
+30.11.2025, 19:52:54 - ERROR - couldn't login  | Invalid username or password
+30.11.2025, 19:53:10 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+1.12.2025, 11:53:44 - ERROR - couldn't login  | Invalid username or password
+1.12.2025, 11:53:56 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+1.12.2025, 12:12:02 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+1.12.2025, 12:15:29 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+1.12.2025, 12:15:29 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+1.12.2025, 12:23:02 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+1.12.2025, 12:25:12 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true}
+1.12.2025, 12:26:27 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true,"liked":["692898cddb732476625f1266","692898cddb732476625f126c"]}
+1.12.2025, 12:44:31 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true,"liked":["692898cddb732476625f1266","692898cddb732476625f126c","692898cddb732476625f1289"]}
+2.12.2025, 10:54:16 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true,"liked":["692898cddb732476625f1266","692898cddb732476625f126c","692898cddb732476625f1289","692898cddb732476625f1270","692898cddb732476625f1273"]}
+2.12.2025, 12:17:35 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","score":50,"isAdmin":true,"liked":["692898cddb732476625f126c","692898cddb732476625f1289","692898cddb732476625f1270","692898cddb732476625f1273"]}
 1.12.2025, 14:27:18 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","imgUrl":"https://picsum.photos/id/1005/200/200","isAdmin":true,"liked":["692898cddb732476625f1266","692898cddb732476625f126c","692898cddb732476625f1289"],"score":50}
 1.12.2025, 14:33:48 - INFO - User signup -  | {"fullname":"zoro toro","imgUrl":"https://picsum.photos/id/67/200/200","username":"zoro","password":"$2b$10$/YysFlYvXl3KcpLHks867ulMfpplcJ4JkfBVkZgJ2uy.sAhHoGSFW","reviews":[],"liked":[],"score":50,"isAdmin":false,"_id":"692d8b2c2e186539fcdc99b6"}
 1.12.2025, 19:00:25 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe573","fullname":"adminos adminis","imgUrl":"https://picsum.photos/id/1005/200/200","isAdmin":true,"liked":["692898cddb732476625f1266","692898cddb732476625f126c","692898cddb732476625f1289","692898cddb732476625f1270"],"score":50}
+3.12.2025, 12:39:52 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe574","fullname":"Dana Levi","imgUrl":"https://picsum.photos/id/1011/200/200","isAdmin":false,"liked":[],"score":50}
+3.12.2025, 12:41:59 - ERROR - Error: No permission to update
+3.12.2025, 12:56:28 - INFO - User login: {"_id":"6928382dbd5c05a58bfbe574","fullname":"Dana Levi","imgUrl":"https://picsum.photos/id/1011/200/200","isAdmin":false,"liked":[],"score":50}

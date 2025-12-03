@@ -29,7 +29,7 @@ export async function getUser(req, res) {
 
 export async function saveUser(req, res) {
     const user = req.body
-    console.log("🚀 ~ saveUser ~ user:", user)
+    // console.log("🚀 ~ saveUser ~ user:", user)
     try {
         let userRes;
         if (user._id) {
