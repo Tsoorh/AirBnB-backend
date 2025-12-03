@@ -11,6 +11,9 @@ export const UserService = {
   add,
   update,
   remove,
+  saveRefreshToken,
+  isValidRefreshToken,
+  deleteRefreshToken
 };
 
 async function query(filterBy = {}) {
@@ -110,6 +113,70 @@ async function remove(userId) {
   }
 }
 
+
+async function saveRefreshToken(userId, refreshToken) {
+    try {
+        const collection = await dbService.getCollection(COLLECTION);
+        const criteria = { _id: new ObjectId(userId) };
+        
+        const res = await collection.updateOne(
+            criteria,
+            { $addToSet: { refreshTokens: refreshToken } }
+            // $addToSet מבטיח שהאסימון יישמר רק אם אינו קיים כבר
+        );
+        
+        if (res.modifiedCount === 0 && res.upsertedCount === 0) {
+            // אם המשתמש קיים והאסימון כבר שם (פחות קריטי), או אם לא נמצא משתמש.
+            // עבור מנגנון Rotation עדיף להחליף או לבדוק קודם.
+            loggerService.warn(`Could not save refresh token for user ${userId}`);
+        }
+        
+    } catch (err) {
+        loggerService.error(`Cannot save refresh token for user ${userId}`, err);
+        throw err;
+    }
+}
+
+async function isValidRefreshToken(userId, refreshToken) {
+    try {
+        const collection = await dbService.getCollection(COLLECTION);
+        const criteria = { 
+            _id: new ObjectId(userId), 
+            refreshTokens: refreshToken 
+        };
+        
+        const user = await collection.findOne(criteria);
+        
+        return !!user;
+        
+    } catch (err) {
+        loggerService.error(`Error checking refresh token validity for user ${userId}`, err);
+        return false;
+    }
+}
+
+/**
+ * 💡 מוחקת את אסימון הרענון (בשימוש בתהליך Rotation או Logout).
+ */
+async function deleteRefreshToken(refreshToken) {
+    try {
+        const collection = await dbService.getCollection(COLLECTION);
+        
+        // מוצאת את המשתמש שמכיל את האסימון ומוחקת אותו מהמערך
+        const res = await collection.updateOne(
+            { refreshTokens: refreshToken },
+            { $pull: { refreshTokens: refreshToken } }
+        );
+        
+        if (res.modifiedCount === 0) {
+            loggerService.warn(`Refresh token not found or already deleted: ${refreshToken}`);
+        }
+        
+    } catch (err) {
+        loggerService.error(`Cannot delete refresh token ${refreshToken}`, err);
+        throw err;
+    }
+}
 
 function _createCriteria(filterBy) {
   const criteria = {}

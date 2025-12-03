@@ -16,7 +16,6 @@ export async function add(stayId, review) {
         const criteria = { _id: new ObjectId(stayId) }
         const update = { $push: { reviews: review } }
         const res = collection.updateOne(criteria, update)
-
         if (res.matchedCount === 0) throw new Error("Couldn't find stay to add review")
         return review;
     } catch (err) {

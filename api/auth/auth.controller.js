@@ -2,12 +2,18 @@ import { loggerService } from "../../services/logger.service.js";
 import { authService } from "./auth.service.js";
 
 const LOGIN_COOKIE_MAX_AGE = 1000 * 60 * 15; //15 minutes
-// const REFRESH_TOKEN_MAX_AGE = 1000 * 60 * 60 * 24 * 30; // 30 days
-const COOKIE_OPTIONS = {
+const REFRESH_TOKEN_MAX_AGE = 1000 * 60 * 60 * 24 * 30; // 30 days
+const ACCESS_COOKIE_OPTIONS = {
   secure: true,
   sameSite: "None",
   maxAge: LOGIN_COOKIE_MAX_AGE,
 };
+const REFRESH_COOKIE_OPTIONS = {
+  secure: true,
+  sameSite: "None",
+  maxAge: REFRESH_TOKEN_MAX_AGE,
+  httpOnly: true
+}
 
 export async function login(req, res) {
   console.log('login backend');
@@ -21,9 +27,14 @@ export async function login(req, res) {
     const user = await authService.login(username, password);
     loggerService.info(`User login: ${JSON.stringify(user)}`);
 
-    // cookie
+    // loginToken
     const loginToken = authService.getLoginToken(user);
-    res.cookie("loginToken", loginToken, COOKIE_OPTIONS);
+    res.cookie("loginToken", loginToken, ACCESS_COOKIE_OPTIONS);
+
+    //refreshToken
+    const refreshToken = authService.getRefreshToken(user);
+    res.cookie("refreshToken", refreshToken, REFRESH_COOKIE_OPTIONS);
+
     res.json(user);
   } catch (err) {
     loggerService.error("couldn't login ", err);
@@ -67,3 +78,27 @@ export async function logout(req, res) {
   }
 }
 
+export async function refreshToken(req, res) {
+  const refreshToken = req.cookies.refreshToken;
+
+  if (!refreshToken) { 
+    res.clearCookie('loginToken');
+    res.clearCookie('refreshToken');
+    return res.status(401).send("No refresh token provided");
+  }
+  try {
+    //get new tokens for loggedin user (from token)
+    const { user, loginToken, refreshToken: newRefreshToken } = await authService.renewTokens(refreshToken);
+    loggerService.info(`Token refreshed for user: ${user._id}`);
+
+    res.cookie("loginToken", loginToken, ACCESS_COOKIE_OPTIONS);
+    res.cookie("refreshToken", newRefreshToken, REFRESH_COOKIE_OPTIONS); 
+    res.json(user); 
+
+  } catch (err) { // in case of error -> clear the cookies! 
+    loggerService.error("couldn't refresh token:", err);
+    res.clearCookie('loginToken');
+    res.clearCookie('refreshToken');
+    res.status(401).send("Failed to refresh token: " + err);
+  }
+}
