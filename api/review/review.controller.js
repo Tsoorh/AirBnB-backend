@@ -28,7 +28,7 @@ export async function removeReview(req,res) {
         const reviewRes = await reviewService.remove(stayId,reviewId)
         res.send(reviewRes)
     } catch (err) {
-        loggerService.error("Couldnt add review",err)
-        res.status(400).send("Couldnt add review")   
+        loggerService.error("Couldnt remove review",err)
+        res.status(400).send("Couldnt remove review")   
     }
 }
