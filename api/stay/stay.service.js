@@ -15,12 +15,16 @@ export const stayService = {
 }
 
 async function query(filterBy) {
+    console.log('filterBy from service:', filterBy);
+    
     try {
         const collection = await dbService.getCollection(COLLECTION);
         const criteria = _getCriteria(filterBy)
         const stayCursor = await collection.find(criteria);
 
         const stays = await stayCursor.toArray();
+        console.log("stays:", stays);
+        
         return stays
     } catch (err) {
         loggerService.error("Couldn't get stays in query")
@@ -103,32 +107,59 @@ async function remove(stayId) {
 
 function _getCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.ownerId) criteria.ownerId = filterBy.ownerId
-    if (filterBy.city) criteria.city = filterBy.city
-    if (filterBy.who) {
-        if (filterBy.who.pets) {
-            criteria.$or = [
-                { houseRules: "Pets allowed (with fee)" },
-                { amenities: "pet friendly" }
-            ]
+    
+    if (filterBy.ownerId) {
+        criteria.ownerId = filterBy.ownerId
+    }
+    
+    if (filterBy.city) {
+        criteria["loc.city"] = filterBy.city
+    }
+    
+    if (filterBy.txt) {
+        const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+        criteria.$or = [
+            { name: txtCriteria },
+            { summary: txtCriteria }
+        ]
+    }
+    
+    if (filterBy.labels && filterBy.labels.length > 0) {
+        criteria.labels = { $in: filterBy.labels }
+    }
+    
+    if (filterBy.minPrice || filterBy.maxPrice) {
+        criteria["price.base"] = {}
+        if (filterBy.minPrice) criteria["price.base"].$gte = filterBy.minPrice
+        if (filterBy.maxPrice) criteria["price.base"].$lte = filterBy.maxPrice
+    }
+    
+    if (filterBy.guests) {
+        if (filterBy.guests.pets > 0) {
+            criteria.$or = criteria.$or || []
+            criteria.$or.push(
+                { houseRules: { $regex: "Pets allowed", $options: 'i' } },
+                { amenities: { $regex: "pet", $options: 'i' } }
+            )
         }
-        if (filterBy.who.adults || filterBy.who.children) {
-            const adults = filterBy.who.adults || 0
-            const children = filterBy.who.children || 0
-            const guests = adults + children
-            criteria.capacity = { $gte: { guests } }
+        
+        const totalGuests = (filterBy.guests.adults || 0) + (filterBy.guests.children || 0)
+        if (totalGuests > 0) {
+            criteria["capacity.guests"] = { $gte: totalGuests }
         }
     }
-    if (filterBy.dates) {
+    
+    if (filterBy.dates && filterBy.dates.checkIn && filterBy.dates.checkOut) {
         criteria.unavailable = {
             $not: {
                 $elemMatch: {
-                    "startDate": { $lt: filterBy.dates.checkOut },
-                    "endDate": { $gt: filterBy.dates.checkIn },
+                    startDate: { $lte: new Date(filterBy.dates.checkOut) },
+                    endDate: { $gte: new Date(filterBy.dates.checkIn) }
                 }
             }
         }
     }
+    
     return criteria
 }
 
