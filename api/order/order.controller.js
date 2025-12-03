@@ -21,7 +21,6 @@ export async function getOrder(req, res) {
     const { orderId } = req.params
     try {
         const order = await orderService.getById(orderId)
-        console.log("🚀 ~ getOrder ~ order:", order)
         res.send(order)
     } catch (err) {
         loggerService.error(err)

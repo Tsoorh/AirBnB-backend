@@ -46,9 +46,10 @@ async function login(username, password) {
   const miniUser = {
     _id: userExist._id,
     fullname: userExist.fullname,
-    score: userExist.score,
+    imgUrl:userExist.imgUrl,
     isAdmin: userExist.isAdmin,
-    liked: userExist.liked
+    liked:userExist.liked,
+    score: userExist.score
   };
   return miniUser;
 }
@@ -66,7 +67,7 @@ async function signup(credentials) {
   const userToSave = {
     ...credentials,
     password: hash,
-    imgUrl:`https://picsum.photos/id/${random}/200/200`,
+    imgUrl: credentials?.imgUrl ||`https://picsum.photos/id/${random}/200/200`,
     liked:[],
     score:50
   };
