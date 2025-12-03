@@ -1,11 +1,11 @@
 import express from 'express'
-import { addReview, updateReview } from './review.controller.js'
+import { addReview, removeReview  } from './review.controller.js'
 
 const router = express.Router()
 
 
 router.post("/:stayId",addReview)
-router.put("/:stayId",updateReview)
+router.put("/:stayId/:reviewId",removeReview)
 
 
 export const reviewRoutes = router;

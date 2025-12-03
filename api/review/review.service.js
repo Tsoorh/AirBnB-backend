@@ -1,10 +1,11 @@
 import { ObjectId } from "mongodb";
 import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js";
+import { stayService } from "../stay/stay.service.js";
 
 export const reviewService = {
     add,
-    update
+    remove
 }
 
 const COLLECTION = 'stay'
@@ -24,20 +25,25 @@ export async function add(stayId, review) {
     }
 
 }
-export async function update(stayId, review) {
-    try {
-        const collection = await dbService.getCollection(COLLECTION);
-        const criteria = { _id: new ObjectId(stayId), "reviews._id": review._id }
-        const set = { $set: { "reviews.txt": review.txt, "review.rating": review.rating } }
-        const res = collection.updateOne(criteria, set)
 
-        if (res.matchedCount === 0) throw new Error("Couldn't find stay to update review")
+export async function remove(stayId,reviewId) {
+    const { loggedinUser } = asyncLocalStorage.getStore()
+    try {    
+    const stay = await stayService.getById(stayId);
+    if (!(stay.reviews.byUser._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to remove');
+    const collection = await dbService.getCollection(COLLECTION);
+    const criteria = {_id:new ObjectId(stayId)}
+    const remove =  {$pull :{"review._id": reviewId}}
+    const res = collection.updateOne(criteria, update)
+
+    if (res.matchedCount === 0) throw new Error("Couldn't find stay to add review")
+    return reviewId
     } catch (err) {
-        loggerService.error(`Couldn't update review at stay - ${stayId}`)
+         loggerService.error(`Couldn't remove review to stay - ${stayId}`)
         throw err
     }
-
 }
+
 
 
 

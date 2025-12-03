@@ -22,11 +22,10 @@ export async function addReview(req,res) {
         res.status(400).send("Couldnt add review")   
     }
 }
-export async function updateReview(req,res) {
-    const {stayId}=req.params
-    const {review} = req.body
-    try {
-        const reviewRes = await reviewService.add(stayId,review)
+export async function removeReview(req,res) {
+    const {stayId,reviewId}=req.params
+    try {       
+        const reviewRes = await reviewService.remove(stayId,reviewId)
         res.send(reviewRes)
     } catch (err) {
         loggerService.error("Couldnt add review",err)
