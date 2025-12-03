@@ -10,6 +10,9 @@ export function setupAsyncLocalStorage(req, res, next) {
         if (loggedinUser) {
             const alsStore = asyncLocalStorage.getStore()
             alsStore.loggedinUser = loggedinUser
+        } else {
+            // Invalid token - clear it
+            res.clearCookie('loginToken');
         }
         next();
     })

@@ -30,11 +30,13 @@ app.use(setupAsyncLocalStorage)
 import { stayRoutes } from "./api/stay/stay.routes.js";
 import { authRoutes } from "./api/auth/auth.routes.js";
 import { userRoutes } from "./api/user/user.routes.js";
+import { orderRoutes } from "./api/order/order.routes.js";
 import { reviewRoutes } from "./api/review/review.routes.js";
 
 app.use("/api/auth",authRoutes)
 app.use("/api/stay",stayRoutes)
 app.use("/api/user",userRoutes)
+app.use("/api/order",orderRoutes)
 app.use("/api/review",reviewRoutes)
 
 

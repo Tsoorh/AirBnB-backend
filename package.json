@@ -8,7 +8,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set PORT=3030 & nodemon --ignore \"./data\" server.js"
+    "start": "nodemon server.js",
+    "dev": "set PORT=3030 & nodemon --ignore \"./data\" server.js"
   },
   "keywords": [],
   "dependencies": {
@@ -19,8 +20,9 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mongodb": "^7.0.0",
-    "node": "^20.19.6",
-    "nodemon": "^3.1.11",
-    "pdfkit": "^0.17.2"
+    "node": "^20.19.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }

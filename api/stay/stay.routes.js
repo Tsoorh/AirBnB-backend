@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get("/",getStays)
 router.get("/:stayId",getStay)
-router.put("/",requireAuth,saveStay)
+router.put("/:stayId",requireAuth,saveStay)
 router.post("/",requireAuth,saveStay)
 router.delete("/:stayId",requireAuth,removeStay)
 

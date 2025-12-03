@@ -36,6 +36,8 @@ function validateToken(token) {
 
 async function login(username, password) {
   const userExist = await UserService.getByUser(username);
+  console.log('service', userExist);
+  
   if (!userExist) throw "Unknown user";
 
   const match = await bcrypt.compare(password, userExist.password);
