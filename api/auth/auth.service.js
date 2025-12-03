@@ -13,13 +13,21 @@ export const authService = {
   login,
   signup,
   getLoginToken,
-  validateToken
+  validateToken,
+  getRefreshToken,
+  renewTokens
 };
 
 function getLoginToken(user) {
   const jsonUser = JSON.stringify(user);
   const encUser = cryptr.encrypt(jsonUser);
   return encUser;
+}
+
+function getRefreshToken(user){
+  const refreshToken = cryptr.encrypt(JSON.stringify({_id:user._id}));
+  UserService.saveRefreshToken(user._id,refreshToken);
+  return refreshToken;
 }
 
 function validateToken(token) {
@@ -70,4 +78,25 @@ async function signup(credentials) {
     score:50
   };
   return await UserService.add(userToSave);
+}
+
+async function renewTokens(refreshToken) {
+    const miniUser = authService.validateToken(refreshToken);
+
+    if (!miniUser) throw 'Invalid refresh token format';
+
+    // Check if the user exist and got the refresh token.
+    const isValidDB = await UserService.isValidRefreshToken(miniUser._id, refreshToken);
+    if (!isValidDB) throw 'Refresh token revoked or expired';
+
+    const user = await UserService.getById(miniUser._id);
+    
+    // Renew the Tokens - create new
+    const newLoginToken = getLoginToken(user); 
+    const newRefreshToken = getRefreshToken(user); 
+    
+    // Delete old token
+    UserService.deleteRefreshToken(refreshToken); 
+
+    return { user: user, loginToken: newLoginToken, refreshToken: newRefreshToken };
 }
