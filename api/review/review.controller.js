@@ -6,7 +6,6 @@ import { reviewService } from "./review.service.js"
 export async function addReview(req,res) {
     const {stayId}=req.params
     const review = req.body
-    console.log("🚀 ~ addReview ~ review:", review)
     // review._id = makeId(7);
     if(stayId.toString() === review.byUser._id.toString()) throw new Error("You cant rate your property!")
     try {

@@ -15,7 +15,7 @@ export const stayService = {
 }
 
 async function query(filterBy) {
-    console.log('filterBy from service:', filterBy);
+    // console.log('filterBy from service:', filterBy);
     
     try {
         const collection = await dbService.getCollection(COLLECTION);
@@ -59,7 +59,7 @@ async function add(stay) {
 }
 
 async function update(stay) {
-    const { loggedinUser } = asyncLocalStorage.getStore()
+    // const { loggedinUser } = asyncLocalStorage.getStore()
     // if (!(stay.ownerId.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update');
     try {
         const collection = await dbService.getCollection(COLLECTION)
