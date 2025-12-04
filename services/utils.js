@@ -1,5 +1,5 @@
 import fs from "fs";
-import PDFDocument from "pdfkit";
+// import PDFDocument from "pdfkit";
 
 export function readJsonFile(path) {
   const json = fs.readFileSync(path, "utf8");
@@ -17,27 +17,27 @@ export function writeJsonFile(path, data) {
   });
 }
 
-export function writePDF(table, res) {
-try{
-    const doc = new PDFDocument({ margin: 30, size: "A4" });
-    res.setHeader("Content-Type", "application/pdf");
-    res.setHeader("Content-Disposition", "attachment; filename=bugsPDF.pdf");
-    doc.pipe(fs.createWriteStream("./bugsPDF.pdf"));
-    doc.pipe(res);
+// export function writePDF(table, res) {
+// try{
+//     const doc = new PDFDocument({ margin: 30, size: "A4" });
+//     res.setHeader("Content-Type", "application/pdf");
+//     res.setHeader("Content-Disposition", "attachment; filename=bugsPDF.pdf");
+//     doc.pipe(fs.createWriteStream("./bugsPDF.pdf"));
+//     doc.pipe(res);
     
-    doc.text("Bugs data");
-    if (table) {
-    const dataTable = [table.headers,...table.rows]
-    console.log("🚀 ~ writePDF ~ dataTable:", dataTable)
-    doc.table({data:[...dataTable]});
-}
-  else {doc.table("No bugs were found!")}
-  doc.end();
-    } catch (err) {
-        console.error('Error in writePDF:', err);
-        throw err;
-    }
-}
+//     doc.text("Bugs data");
+//     if (table) {
+//     const dataTable = [table.headers,...table.rows]
+//     console.log("🚀 ~ writePDF ~ dataTable:", dataTable)
+//     doc.table({data:[...dataTable]});
+// }
+//   else {doc.table("No bugs were found!")}
+//   doc.end();
+//     } catch (err) {
+//         console.error('Error in writePDF:', err);
+//         throw err;
+//     }
+// }
 
 export function makeId(length = 6) {
   var txt = "";
