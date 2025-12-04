@@ -23,8 +23,6 @@ async function query(filterBy) {
         const stayCursor = await collection.find(criteria);
 
         const stays = await stayCursor.toArray();
-        console.log("stays:", stays);
-        
         return stays
     } catch (err) {
         loggerService.error("Couldn't get stays in query")

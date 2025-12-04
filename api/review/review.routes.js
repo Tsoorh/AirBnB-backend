@@ -5,7 +5,7 @@ const router = express.Router()
 
 
 router.post("/:stayId",addReview)
-router.put("/:stayId/:reviewId",removeReview)
+router.delete("/:stayId/:reviewId",removeReview)
 
 
 export const reviewRoutes = router;

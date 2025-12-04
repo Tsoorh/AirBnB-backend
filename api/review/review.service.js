@@ -26,14 +26,14 @@ export async function add(stayId, review) {
 }
 
 export async function remove(stayId,reviewId) {
-    const { loggedinUser } = asyncLocalStorage.getStore()
+    // const { loggedinUser } = asyncLocalStorage.getStore()
     try {    
     const stay = await stayService.getById(stayId);
-    if (!(stay.reviews.byUser._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to remove');
+    // if (!(stay.reviews.byUser._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to remove');
     const collection = await dbService.getCollection(COLLECTION);
     const criteria = {_id:new ObjectId(stayId)}
-    const remove =  {$pull :{"review._id": reviewId}}
-    const res = collection.updateOne(criteria, update)
+    const remove =  {$pull :{reviews:{_id: reviewId}}}
+    const res = collection.updateOne(criteria, remove)
 
     if (res.matchedCount === 0) throw new Error("Couldn't find stay to add review")
     return reviewId
