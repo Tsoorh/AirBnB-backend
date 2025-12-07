@@ -1,6 +1,7 @@
 import { loggerService } from "../../services/logger.service.js";
 import { authService } from "./auth.service.js";
-
+import { UserService } from "../user/user.service.js";
+import axios from 'axios'
 const LOGIN_COOKIE_MAX_AGE = 1000 * 60 * 15; //15 minutes
 const REFRESH_TOKEN_MAX_AGE = 1000 * 60 * 60 * 24 * 30; // 30 days
 const ACCESS_COOKIE_OPTIONS = {
@@ -103,3 +104,59 @@ export async function refreshToken(req, res) {
     res.status(401).send("Failed to refresh token: " + err);
   }
 }
+
+export async function googleLogin(req, res) {
+    try {
+      const { googleToken } = req.body;
+
+      // Get user info from Google using the access token
+      const googleResponse = await axios.get(
+        `https://www.googleapis.com/oauth2/v1/userinfo?access_token=${googleToken}`
+      );
+
+      const { email, name, picture, id: googleId } = googleResponse.data;
+      console.log('Google user info:', googleResponse.data);
+
+      // Check if user exists by email
+      let user = await UserService.query({ email });
+      user = user[0]; // query returns array
+
+      if (!user) {
+        // Create new user
+        const newUser = {
+          username: email, // Use email as username
+          fullname: name,
+          imgUrl: picture,
+          googleId,
+          email,
+          password: null, // No password for Google users
+          liked: [],
+          score: 50
+        };
+        user = await UserService.add(newUser);
+        loggerService.info(`New Google user created: ${email}`);
+      }
+
+      // Create mini user object
+      const miniUser = {
+        _id: user._id,
+        fullname: user.fullname,
+        imgUrl: user.imgUrl,
+        isAdmin: user.isAdmin || false,
+        liked: user.liked || [],
+        score: user.score || 50
+      };
+
+      // Create tokens
+      const loginToken = authService.getLoginToken(miniUser);
+      res.cookie("loginToken", loginToken, ACCESS_COOKIE_OPTIONS);
+
+      const refreshToken = authService.getRefreshToken(miniUser);
+      res.cookie("refreshToken", refreshToken, REFRESH_COOKIE_OPTIONS);
+
+      res.json(miniUser);
+    } catch (err) {
+      loggerService.error('Google login failed:', err);
+      res.status(401).send('Invalid Google token: ' + err.message);
+    }
+  }

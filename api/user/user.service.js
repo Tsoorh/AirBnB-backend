@@ -188,6 +188,9 @@ function _createCriteria(filterBy) {
       fullname: txtCriteria
     }]
   }
+  if (filterBy.email) {
+    criteria.email = filterBy.email
+  }
   if (filterBy.isAdmin !== undefined) criteria["isAdmin"] = filterBy.isAdmin
   return criteria;
 }
