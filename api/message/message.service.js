@@ -1,3 +1,6 @@
+import { dbService } from "../../services/db.service.js";
+import { loggerService } from "../../services/logger.service.js";
+
 export const messageService = {
   query,
   addMsg

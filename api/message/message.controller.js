@@ -39,9 +39,9 @@ export async function addMessage(req, res) {
                 participants: [{
                     userId: message.senderId,
                     joinedAt: message.createdAt
-                }, message.receiverId.map(participant => {
+                }, message.receiverId.map(participantId => {
                     return {
-                        userId: participant.userId,
+                        userId: participantId,
                         joinedAt: message.createdAt
                     }
                 })

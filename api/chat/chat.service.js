@@ -1,5 +1,7 @@
 import { ObjectId } from "mongodb";
 import { type } from "os";
+import { loggerService } from "../../services/logger.service.js";
+import { dbService } from "../../services/db.service.js";
 
 export const chatService = {
   query,
@@ -45,7 +47,7 @@ async function create(chatFormat) {
     const res = await collection.insertOne(chatFormat)
     if (!res.acknowledged) throw new Error('Couldnt insert new chat')
     chatFormat["_id"] = res.insertedId
-  
+
     return chatFormat;
   } catch (err) {
     loggerService.error("Cannot save chat ", err);
