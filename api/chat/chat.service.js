@@ -16,11 +16,12 @@ async function query(filterBy = {}) {
   try {
     const criteria = _createCriteria(filterBy)
     const collection = await dbService.getCollection(COLLECTION);
-    const chatCurser = await collection.find(filterBy);
+    const chatCurser = await collection.find(criteria);
 
     const chats = await chatCurser.toArray();
     return chats;
   } catch (err) {
+    console.log("🚀 ~ query ~ err:", err)
     loggerService.error("Cannot get chats: ", err);
     throw err;
   }
@@ -78,14 +79,14 @@ async function update(message) {
   }
 }
 
-
 function _createCriteria(filterBy) {
-  const criteria = {}
+  console.log("🚀 ~ _createCriteria ~ filterBy:", filterBy)
+  var criteria = {}
   if (filterBy.userId) {
     criteria = { "participants.userId": filterBy.userId }
   }
   if (filterBy.participants) {
-    criteria = { "participants.userId": { $all: filterBy.participants } }
+    criteria.participants = { $all: filterBy.participants }
   }
   if (filterBy.type) {
     criteria.type = filterBy.type

@@ -1,7 +1,8 @@
 
 import { Server } from 'socket.io'
+// import { setupSocketHandlers } from '../socket/index.socket.js'
 
-let gIo = null 
+let gIo = null
 
 export const socketService = {
     setupSocketAPI,
@@ -26,12 +27,13 @@ function setupSocketAPI(httpServer, corsOptions) {
             console.log(`User disconnected: ${socket.id}`)
         })
 
+        // setupSocketHandlers(gIo,socket)
         // join room by user id to send privte notification
-        socket.on('set-user-socket', (userId) => {
-            console.log(`Setting socket.userId = ${userId} for socket [${socket.id}]`)
-            socket.userId = userId
-            socket.join(userId) // the room name is userId
-        })
+        // socket.on('set-user-socket', (userId) => {
+        //     console.log(`Setting socket.userId = ${userId} for socket [${socket.id}]`)
+        //     socket.userId = userId
+        //     socket.join(userId) // the room name is userId
+        // })
 
         //join specific room
         socket.on('chat-set-topic', (topic) => {
@@ -42,7 +44,7 @@ function setupSocketAPI(httpServer, corsOptions) {
             socket.join(topic)
             socket.myTopic = topic
         })
-        
+
         socket.on('chat-send-msg', (msg) => {
             console.log('New chat msg', msg)
             //send to all except myself
@@ -56,10 +58,10 @@ function setupSocketAPI(httpServer, corsOptions) {
 //send to all but except socket
 function broadcast({ type, data, room = null, userId }) {
     userId = userId?.toString()
-    
+
     console.log(`Broadcasting event: ${type}`)
     const excludedSocket = _getUserSocket(userId)
-    
+
     if (room && excludedSocket) {
         console.log(`Broadcasting to room ${room} excluding user: ${userId}`)
         excludedSocket.broadcast.to(room).emit(type, data)
