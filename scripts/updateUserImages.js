@@ -3,12 +3,12 @@ import { MongoClient } from "mongodb";
 import dotenv from 'dotenv';
 dotenv.config();
 
-// 🔹 חיבור ל-DB
+// 🔹 Database connection
 const uri = process.env.MONGO_URL || "mongodb://127.0.0.1:27017";
 const dbName = process.env.DB_NAME || "airbnb_db";
 const collectionName = "user";
 
-// 🔹 פונקציה ליצירת URL אוטומטי לאווטאר
+// 🔹 Function to generate automatic avatar URL
 function buildAvatarUrl(user) {
   return `https://i.pravatar.cc/150?u=${user._id.toString()}`;
 }

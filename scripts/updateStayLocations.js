@@ -3,12 +3,12 @@ import { MongoClient } from "mongodb";
 import dotenv from 'dotenv';
 dotenv.config();
 
-// 🔹 חיבור ל-DB
+// 🔹 Database connection
 const uri = process.env.MONGO_URL || "mongodb://127.0.0.1:27017";
 const dbName = process.env.DB_NAME || "airbnb_db";
 const collectionName = "stay";
 
-// 🔹 קואורדינטות בסיס לכל עיר
+// 🔹 Base coordinates for each city
 const cityBaseCoords = {
   "Eilat":          { lat: 29.5577, lng: 34.9519 },
   "Haifa":          { lat: 32.7940, lng: 34.9896 },
@@ -18,7 +18,7 @@ const cityBaseCoords = {
   "Mitzpe Ramon":   { lat: 30.6094, lng: 34.8011 },
 };
 
-// 🔹 מחזיר קואורדינטה רנדומלית קרובה לעיר (סטייה קטנה באזור ~2–3 ק״מ)
+// 🔹 Returns random coordinates close to the city (small deviation around ~2-3 km)
 function getRandomCoordAround(base, maxOffsetDegrees = 0.02) {
   const latOffset = (Math.random() - 0.5) * 2 * maxOffsetDegrees;
   const lngOffset = (Math.random() - 0.5) * 2 * maxOffsetDegrees;
@@ -39,7 +39,7 @@ async function run() {
     const db = client.db(dbName);
     const staysCol = db.collection(collectionName);
 
-    // אפשר פשוט לעבור על כל ה-stays
+    // Iterate through all stays
     const stays = await staysCol.find({}).toArray();
     console.log("Found", stays.length, "stays");
 

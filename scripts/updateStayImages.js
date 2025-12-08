@@ -3,12 +3,12 @@ import { MongoClient } from "mongodb";
 import dotenv from 'dotenv';
 dotenv.config();
 
-// 🔹 1. חיבור ל-DB
+// 🔹 1. Database connection
 const uri = process.env.MONGO_URL || "mongodb://127.0.0.1:27017";
 const dbName = process.env.DB_NAME || "airbnb_db";
 const collectionName = "stay";
 
-// 🔹 2. רשימת תמונות של דירות (direct Unsplash image URLs)
+// 🔹 2. List of apartment images (direct Unsplash image URLs)
 const apartmentImages = [
     "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
     "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",

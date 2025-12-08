@@ -24,7 +24,7 @@ yarn-error.log*
 .env.*.local
 
 .vscode/*
-!.vscode/settings.json  # אם אתה רוצה לשמור הגדרות פרויקט ספציפיות
+!.vscode/settings.json  # If you want to save project-specific settings
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json

@@ -122,12 +122,12 @@ async function saveRefreshToken(userId, refreshToken) {
         const res = await collection.updateOne(
             criteria,
             { $addToSet: { refreshTokens: refreshToken } }
-            // $addToSet מבטיח שהאסימון יישמר רק אם אינו קיים כבר
+            // $addToSet ensures the token is only saved if it doesn't already exist
         );
-        
+
         if (res.modifiedCount === 0 && res.upsertedCount === 0) {
-            // אם המשתמש קיים והאסימון כבר שם (פחות קריטי), או אם לא נמצא משתמש.
-            // עבור מנגנון Rotation עדיף להחליף או לבדוק קודם.
+            // If the user exists and the token is already there (less critical), or if user not found.
+            // For Rotation mechanism, it's better to replace or check first.
             loggerService.warn(`Could not save refresh token for user ${userId}`);
         }
         
@@ -156,13 +156,13 @@ async function isValidRefreshToken(userId, refreshToken) {
 }
 
 /**
- * 💡 מוחקת את אסימון הרענון (בשימוש בתהליך Rotation או Logout).
+ * 💡 Deletes the refresh token (used in Rotation process or Logout).
  */
 async function deleteRefreshToken(refreshToken) {
     try {
         const collection = await dbService.getCollection(COLLECTION);
-        
-        // מוצאת את המשתמש שמכיל את האסימון ומוחקת אותו מהמערך
+
+        // Finds the user containing the token and removes it from the array
         const res = await collection.updateOne(
             { refreshTokens: refreshToken },
             { $pull: { refreshTokens: refreshToken } }
