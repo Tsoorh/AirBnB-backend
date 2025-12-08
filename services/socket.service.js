@@ -1,5 +1,9 @@
 
 import { Server } from 'socket.io'
+import { messageService } from '../api/message/message.service.js'
+import { ObjectId } from 'mongodb'
+
+
 // import { setupSocketHandlers } from '../socket/index.socket.js'
 
 let gIo = null
@@ -45,10 +49,17 @@ function setupSocketAPI(httpServer, corsOptions) {
             socket.myTopic = topic
         })
 
-        socket.on('chat-send-msg', (msg) => {
+        socket.on('chat-send-msg',async (msg) => {
             console.log('New chat msg', msg)
+            const msgFormat = {
+                ...msg,
+                senderId : new ObjectId(msg.senderId)
+            }
+            const msgRes = await messageService.addMsg(msgFormat)
+            const msgToEmit = await messageService.getById(msgRes._id)
             //send to all except myself
-            socket.broadcast.to(socket.myTopic).emit('chat-add-msg', msg)
+            const room = msg.chatId || socket.myTopic
+            socket.broadcast.to(room).emit('chat-add-msg', msgToEmit)
             //send to all include me
             // gIo.to(socket.myTopic).emit('chat-add-msg', msg)
         })

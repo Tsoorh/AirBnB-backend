@@ -80,7 +80,6 @@ async function update(message) {
 }
 
 function _createCriteria(filterBy) {
-  console.log("🚀 ~ _createCriteria ~ filterBy:", filterBy)
   var criteria = {}
   if (filterBy.userId) {
     criteria = { "participants.userId": filterBy.userId }

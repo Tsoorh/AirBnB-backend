@@ -4,7 +4,7 @@ import { addMessage, getMessages } from './message.controller.js'
 const router = express.Router()
 
 router.get("/:chatId", getMessages)
-router.post("/", addMessage)
+// router.post("/", addMessage)
 
 
 export const messageRoutes = router
