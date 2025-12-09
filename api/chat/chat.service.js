@@ -15,12 +15,15 @@ const COLLECTION = 'chat'
 async function query(filterBy = {}) {
   try {
     const criteria = _createCriteria(filterBy)
+    console.log("🚀 ~ query ~ criteria:", criteria)
     const collection = await dbService.getCollection(COLLECTION);
-    const chatCurser = await collection.find(filterBy);
+    const chatCurser = await collection.find(criteria);
 
     const chats = await chatCurser.toArray();
+
     return chats;
   } catch (err) {
+    console.log("🚀 ~ query ~ err:", err)
     loggerService.error("Cannot get chats: ", err);
     throw err;
   }
@@ -32,7 +35,7 @@ async function getById(chatId) {
     const collection = await dbService.getCollection(COLLECTION);
     const chat = await collection.findOne(criteria)
     if (!chat) throw new Error("Cannot find chat by Id");
-
+    
     return chat;
   } catch (err) {
     loggerService.error(`cannot find chat id : ${chatId}`, err);
@@ -78,14 +81,13 @@ async function update(message) {
   }
 }
 
-
 function _createCriteria(filterBy) {
-  const criteria = {}
+  var criteria = {}
   if (filterBy.userId) {
     criteria = { "participants.userId": filterBy.userId }
   }
   if (filterBy.participants) {
-    criteria = { "participants.userId": { $all: filterBy.participants } }
+    criteria.participants = { $all: filterBy.participants }
   }
   if (filterBy.type) {
     criteria.type = filterBy.type

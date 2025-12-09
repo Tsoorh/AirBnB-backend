@@ -6,8 +6,9 @@ import { messageService } from "./message.service.js";
 
 
 export async function getMessages(req, res) {
+    const { chatId } = req.params
     const filterBy = {
-        chatId: req.query.chatId || ''
+        chatId: chatId || ''
     }
     try {
         const messages = await messageService.query(filterBy)
@@ -54,7 +55,7 @@ export async function addMessage(req, res) {
                 updatedAt: message.updatedAt
             }
             const newChat = await chatService.create(chatFormat)
-            message.chatId= newChat._id
+            message.chatId = newChat._id
             res.send({ chat: newChat, message: message })
         }
     } catch (err) {

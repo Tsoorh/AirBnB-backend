@@ -56,7 +56,13 @@ app.use("/api/message", messageRoutes)
 // socketService.setupSocketAPI(httpServer,corsOptions)
 
 // * For SPA (Single Page Application) - catch all routes and send to the index.html
-app.get('/*all', (req, res) => {
+// Only serve index.html for routes that don't start with /api/ and don't have file extensions
+app.use((req, res, next) => {
+  // Skip API routes and files with extensions (already handled by express.static)
+  if (req.path.startsWith('/api/') || req.path.match(/\.[a-zA-Z0-9]+$/)) {
+    return next()
+  }
+  // Otherwise serve the SPA
   res.sendFile(path.resolve('public/index.html'))
 })
 

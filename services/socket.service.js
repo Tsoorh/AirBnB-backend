@@ -1,7 +1,12 @@
 
 import { Server } from 'socket.io'
+import { messageService } from '../api/message/message.service.js'
+import { ObjectId } from 'mongodb'
 
-let gIo = null 
+
+// import { setupSocketHandlers } from '../socket/index.socket.js'
+
+let gIo = null
 
 export const socketService = {
     setupSocketAPI,
@@ -26,12 +31,13 @@ function setupSocketAPI(httpServer, corsOptions) {
             console.log(`User disconnected: ${socket.id}`)
         })
 
+        // setupSocketHandlers(gIo,socket)
         // join room by user id to send privte notification
-        socket.on('set-user-socket', (userId) => {
-            console.log(`Setting socket.userId = ${userId} for socket [${socket.id}]`)
-            socket.userId = userId
-            socket.join(userId) // the room name is userId
-        })
+        // socket.on('set-user-socket', (userId) => {
+        //     console.log(`Setting socket.userId = ${userId} for socket [${socket.id}]`)
+        //     socket.userId = userId
+        //     socket.join(userId) // the room name is userId
+        // })
 
         //join specific room
         socket.on('chat-set-topic', (topic) => {
@@ -42,11 +48,18 @@ function setupSocketAPI(httpServer, corsOptions) {
             socket.join(topic)
             socket.myTopic = topic
         })
-        
-        socket.on('chat-send-msg', (msg) => {
+
+        socket.on('chat-send-msg',async (msg) => {
             console.log('New chat msg', msg)
+            const msgFormat = {
+                ...msg,
+                senderId : new ObjectId(msg.senderId)
+            }
+            const msgRes = await messageService.addMsg(msgFormat)
+            const msgToEmit = await messageService.getById(msgRes._id)
             //send to all except myself
-            socket.broadcast.to(socket.myTopic).emit('chat-add-msg', msg)
+            const room = msg.chatId || socket.myTopic
+            socket.broadcast.to(room).emit('chat-add-msg', msgToEmit)
             //send to all include me
             // gIo.to(socket.myTopic).emit('chat-add-msg', msg)
         })
@@ -56,10 +69,10 @@ function setupSocketAPI(httpServer, corsOptions) {
 //send to all but except socket
 function broadcast({ type, data, room = null, userId }) {
     userId = userId?.toString()
-    
+
     console.log(`Broadcasting event: ${type}`)
     const excludedSocket = _getUserSocket(userId)
-    
+
     if (room && excludedSocket) {
         console.log(`Broadcasting to room ${room} excluding user: ${userId}`)
         excludedSocket.broadcast.to(room).emit(type, data)
