@@ -3,9 +3,10 @@ import { chatService } from "./chat.service.js";
 
 
 export async function getChats(req, res) {
+    
     const filterBy = {
         userId: req.body.userId || '',
-        participants: req.body.participants || [],
+        participants: req.body.participants || '',
         type: req.body.type || ''
     }
     try {
@@ -33,6 +34,7 @@ export async function getChatById(req, res) {
 
 export async function getChatId(req, res) {
     const participants = req.body
+    console.log("🚀 ~ getChatId ~ participants:", participants)
     const filterBy = {
         participants: participants
     }

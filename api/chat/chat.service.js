@@ -15,10 +15,12 @@ const COLLECTION = 'chat'
 async function query(filterBy = {}) {
   try {
     const criteria = _createCriteria(filterBy)
+    console.log("🚀 ~ query ~ criteria:", criteria)
     const collection = await dbService.getCollection(COLLECTION);
     const chatCurser = await collection.find(criteria);
 
     const chats = await chatCurser.toArray();
+
     return chats;
   } catch (err) {
     console.log("🚀 ~ query ~ err:", err)
@@ -33,7 +35,7 @@ async function getById(chatId) {
     const collection = await dbService.getCollection(COLLECTION);
     const chat = await collection.findOne(criteria)
     if (!chat) throw new Error("Cannot find chat by Id");
-
+    
     return chat;
   } catch (err) {
     loggerService.error(`cannot find chat id : ${chatId}`, err);
