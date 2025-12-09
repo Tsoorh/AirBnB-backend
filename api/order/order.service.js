@@ -57,7 +57,9 @@ async function add(order) {
 
 async function update(order) {
     const { loggedinUser } = asyncLocalStorage.getStore()
-    if (!(order.host._id.toString() === loggedinUser._id.toString() || loggedinUser.isAdmin)) throw new Error('No permission to update');
+    const isHost = order.host._id.toString() === loggedinUser._id.toString()
+    const isGuest = order.guest._id.toString() === loggedinUser._id.toString()
+    if (!(isHost || isGuest || loggedinUser.isAdmin)) throw new Error('No permission to update');
     try {
         const collection = await dbService.getCollection(COLLECTION)
         const { _id, ...nonIdOrder } = order;
@@ -103,10 +105,10 @@ async function remove(orderId) {
 
 function _getCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.hostId) criteria.hostId = filterBy.hostId
-    if (filterBy.guestId) criteria.guestId = filterBy.guestId
+    if (filterBy.hostId) criteria['host._id'] = filterBy.hostId
+    if (filterBy.guestId) criteria['guest._id'] = filterBy.guestId
     if(filterBy.status) criteria.status = filterBy.status
-    if(filterBy.stayId) criteria.stayId = filterBy.stayId   
+    if(filterBy.stayId) criteria['stay._id'] = filterBy.stayId   
     return criteria
 }
 
