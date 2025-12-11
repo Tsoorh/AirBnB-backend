@@ -9,6 +9,7 @@ import { setupAsyncLocalStorage } from "./middlewares/setupAls.middleware.js";
 import path from 'path';
 import { createServer } from "http";
 import { socketService } from "./services/socket.service.js";
+import { orderStatusService } from "./services/order-status.service.js";
 
 
 const app = express();
@@ -67,6 +68,9 @@ app.use((req, res, next) => {
 })
 
 socketService.setupSocketAPI(httpServer,corsOptions);
+
+// Start automatic order status updater
+orderStatusService.startStatusUpdater();
 
 const port = process.env.PORT || 3030
 httpServer.listen(port, () => console.log(`Server ready at port ${port}`));

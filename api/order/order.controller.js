@@ -37,6 +37,7 @@ export async function saveOrder(req, res) {
         } else {
             orderRes = await orderService.add(order)
         }
+        console.log('order that saved:', order);
         res.send(orderRes)
     } catch (err) {
         loggerService.error(err)

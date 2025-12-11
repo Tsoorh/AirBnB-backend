@@ -43,7 +43,6 @@ async function getById(orderId) {
 
 async function add(order) {
     try {
-        console.log('order to save: ', order);
         const collection = await dbService.getCollection(COLLECTION)
         const res = await collection.insertOne(order)
         if (!res.acknowledged) throw new Error("Couldn't add order")
