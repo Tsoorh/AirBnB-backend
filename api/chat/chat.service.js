@@ -1,5 +1,4 @@
 import { ObjectId } from "mongodb";
-import { type } from "os";
 import { loggerService } from "../../services/logger.service.js";
 import { dbService } from "../../services/db.service.js";
 
@@ -16,9 +15,47 @@ async function query(filterBy = {}) {
   try {
     const criteria = _createCriteria(filterBy)
     const collection = await dbService.getCollection(COLLECTION);
-    const chatCurser = await collection.find(criteria);
+    
+    const pipeline = [
+      { $match: criteria },
+      {
+        $lookup: {
+          from: 'user',
+          let: {
+            participantIds: '$participants',
+            currentUserId: filterBy.userId
+          },
+          pipeline: [
+            {
+              $match: {
+                $expr: {
+                  $and: [
+                    {
+                      $or: [
+                        { $in: ['$_id', '$$participantIds'] },
+                        { $in: [{ $toString: '$_id' }, '$$participantIds'] }
+                      ]
+                    },
+                    { $ne: ['$_id', '$$currentUserId'] },
+                    { $ne: [{ $toString: '$_id' }, '$$currentUserId'] }
+                  ]
+                }
+              }
+            },
+            {
+              $project: {
+                _id: 1,
+                fullname: 1,
+                imgUrl: 1
+              }
+            }
+          ],
+          as: 'participantsData'
+        }
+      }
+    ];
 
-    const chats = await chatCurser.toArray();
+    const chats = await collection.aggregate(pipeline).toArray();
 
     return chats;
   } catch (err) {
