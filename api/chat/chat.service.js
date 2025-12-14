@@ -15,7 +15,6 @@ const COLLECTION = 'chat'
 async function query(filterBy = {}) {
   try {
     const criteria = _createCriteria(filterBy)
-    console.log("🚀 ~ query ~ criteria:", criteria)
     const collection = await dbService.getCollection(COLLECTION);
     const chatCurser = await collection.find(criteria);
 
@@ -84,7 +83,7 @@ async function update(message) {
 function _createCriteria(filterBy) {
   var criteria = {}
   if (filterBy.userId) {
-    criteria = { "participants.userId": filterBy.userId }
+    criteria = { "participants": filterBy.userId }
   }
   if (filterBy.participants) {
     criteria.participants = { $all: filterBy.participants }
